@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7EF1CD35-8C4D-4069-8180-3E40AC5092B9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PokeWeakness</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F14FF195-BC4D-4CB4-8AF4-931D010DA87E</key>
+		<string>https://github.com/ltsuda/PokeWeakness.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PokeWeakness.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F14FF195-BC4D-4CB4-8AF4-931D010DA87E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ltsuda/PokeWeakness.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F14FF195-BC4D-4CB4-8AF4-931D010DA87E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F14FF195-BC4D-4CB4-8AF4-931D010DA87E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PokeWeakness</string>
+		</dict>
+	</array>
+</dict>
+</plist>
