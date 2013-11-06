@@ -20,10 +20,15 @@
 		99EA66A2181A9CEA0009259B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6681181A9CEA0009259B /* Foundation.framework */; };
 		99EA66A3181A9CEA0009259B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6685181A9CEA0009259B /* UIKit.framework */; };
 		99EA66AB181A9CEA0009259B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99EA66A9181A9CEA0009259B /* InfoPlist.strings */; };
-		99EA66AD181A9CEA0009259B /* PokeWeaknessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EA66AC181A9CEA0009259B /* PokeWeaknessTests.m */; };
 		AA34C153181D612E00C2EAE1 /* pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = AA34C152181D612E00C2EAE1 /* pokedex.json */; };
 		AA34C157181D616900C2EAE1 /* PokemonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34C156181D616900C2EAE1 /* PokemonCache.m */; };
 		AA34C158181D616900C2EAE1 /* PokemonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34C156181D616900C2EAE1 /* PokemonCache.m */; };
+		AADDFFF41829A05000A02825 /* PokemonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF31829A05000A02825 /* PokemonObject.m */; };
+		AADDFFF51829A05000A02825 /* PokemonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF31829A05000A02825 /* PokemonObject.m */; };
+		AADDFFF81829A9F700A02825 /* PokemonSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF71829A9F700A02825 /* PokemonSkill.m */; };
+		AADDFFF91829A9F700A02825 /* PokemonSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF71829A9F700A02825 /* PokemonSkill.m */; };
+		AADDFFFB1829AB3400A02825 /* PokemonObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFFA1829AB3400A02825 /* PokemonObjectTests.m */; };
+		AADDFFFD1829AB4500A02825 /* PokemonSkillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFFC1829AB4500A02825 /* PokemonSkillTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +60,15 @@
 		99EA66A0181A9CEA0009259B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		99EA66A8181A9CEA0009259B /* PokeWeaknessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokeWeaknessTests-Info.plist"; sourceTree = "<group>"; };
 		99EA66AA181A9CEA0009259B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		99EA66AC181A9CEA0009259B /* PokeWeaknessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeWeaknessTests.m; sourceTree = "<group>"; };
 		AA34C152181D612E00C2EAE1 /* pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokedex.json; path = Resources/pokedex.json; sourceTree = "<group>"; };
 		AA34C155181D616900C2EAE1 /* PokemonCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonCache.h; sourceTree = "<group>"; };
 		AA34C156181D616900C2EAE1 /* PokemonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonCache.m; sourceTree = "<group>"; };
+		AADDFFF21829A05000A02825 /* PokemonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonObject.h; sourceTree = "<group>"; };
+		AADDFFF31829A05000A02825 /* PokemonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonObject.m; sourceTree = "<group>"; };
+		AADDFFF61829A9F700A02825 /* PokemonSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonSkill.h; sourceTree = "<group>"; };
+		AADDFFF71829A9F700A02825 /* PokemonSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonSkill.m; sourceTree = "<group>"; };
+		AADDFFFA1829AB3400A02825 /* PokemonObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonObjectTests.m; sourceTree = "<group>"; };
+		AADDFFFC1829AB4500A02825 /* PokemonSkillTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonSkillTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,7 @@
 		99EA6687181A9CEA0009259B /* PokeWeakness */ = {
 			isa = PBXGroup;
 			children = (
+				AADDFFF11829A03200A02825 /* Model */,
 				AA34C154181D615300C2EAE1 /* Parser */,
 				AA34C151181D60B000C2EAE1 /* Resources */,
 				99EA6690181A9CEA0009259B /* AppDelegate.h */,
@@ -145,8 +156,9 @@
 		99EA66A6181A9CEA0009259B /* PokeWeaknessTests */ = {
 			isa = PBXGroup;
 			children = (
-				99EA66AC181A9CEA0009259B /* PokeWeaknessTests.m */,
 				99EA66A7181A9CEA0009259B /* Supporting Files */,
+				AADDFFFA1829AB3400A02825 /* PokemonObjectTests.m */,
+				AADDFFFC1829AB4500A02825 /* PokemonSkillTests.m */,
 			);
 			path = PokeWeaknessTests;
 			sourceTree = "<group>";
@@ -175,6 +187,17 @@
 				AA34C156181D616900C2EAE1 /* PokemonCache.m */,
 			);
 			name = Parser;
+			sourceTree = "<group>";
+		};
+		AADDFFF11829A03200A02825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AADDFFF21829A05000A02825 /* PokemonObject.h */,
+				AADDFFF31829A05000A02825 /* PokemonObject.m */,
+				AADDFFF61829A9F700A02825 /* PokemonSkill.h */,
+				AADDFFF71829A9F700A02825 /* PokemonSkill.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADDFFF41829A05000A02825 /* PokemonObject.m in Sources */,
 				AA34C157181D616900C2EAE1 /* PokemonCache.m in Sources */,
 				99EA6698181A9CEA0009259B /* ViewController.m in Sources */,
+				AADDFFF81829A9F700A02825 /* PokemonSkill.m in Sources */,
 				99EA6692181A9CEA0009259B /* AppDelegate.m in Sources */,
 				99EA668E181A9CEA0009259B /* main.m in Sources */,
 			);
@@ -289,8 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADDFFFD1829AB4500A02825 /* PokemonSkillTests.m in Sources */,
+				AADDFFF51829A05000A02825 /* PokemonObject.m in Sources */,
+				AADDFFF91829A9F700A02825 /* PokemonSkill.m in Sources */,
+				AADDFFFB1829AB3400A02825 /* PokemonObjectTests.m in Sources */,
 				AA34C158181D616900C2EAE1 /* PokemonCache.m in Sources */,
-				99EA66AD181A9CEA0009259B /* PokeWeaknessTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
