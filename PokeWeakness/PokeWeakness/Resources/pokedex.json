@@ -11161,7 +11161,7 @@
   },
   {
   "No":439,
-  "Name":"Mime Jr.",
+  "Name":"Mime Jr",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -12193,7 +12193,7 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Flying",
+  "Name":"Rotom-Fan",
   "Type 1":"Flying",
   "Type 2":"Electric",
   "Normal":1,
@@ -12217,7 +12217,7 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Ice",
+  "Name":"Rotom-Frost",
   "Type 1":"Ice",
   "Type 2":"Electric",
   "Normal":1,
@@ -12241,7 +12241,7 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Fire",
+  "Name":"Rotom-Heat",
   "Type 1":"Fire",
   "Type 2":"Electric",
   "Normal":1,
@@ -12265,7 +12265,7 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Grass",
+  "Name":"Rotom-Mow",
   "Type 1":"Grass",
   "Type 2":"Electric",
   "Normal":1,
@@ -12289,7 +12289,7 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Water",
+  "Name":"Rotom-Wash",
   "Type 1":"Water",
   "Type 2":"Electric",
   "Normal":1,
@@ -12313,7 +12313,7 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Ghost",
+  "Name":"Rotom",
   "Type 1":"Ghost",
   "Type 2":"Electric",
   "Normal":"x",
@@ -12649,7 +12649,7 @@
   },
   {
   "No":492,
-  "Name":"Shaymin-Flyng",
+  "Name":"Shaymin-Sky",
   "Type 1":"Grass",
   "Type 2":"Flying",
   "Normal":1,
@@ -14185,7 +14185,7 @@
   },
   {
   "No":555,
-  "Name":"Darmanitan-Psychic",
+  "Name":"Darmanitan-Zen",
   "Type 1":"Fire",
   "Type 2":"Psychic",
   "Normal":1,
@@ -16417,7 +16417,7 @@
   },
   {
   "No":648,
-  "Name":"Meloetta-Psychic",
+  "Name":"Meloetta-Aria",
   "Type 1":"Normal",
   "Type 2":"Psychic",
   "Normal":1,
@@ -16441,7 +16441,7 @@
   },
   {
   "No":648,
-  "Name":"Meloetta-Fighting",
+  "Name":"Meloetta-Pirouette",
   "Type 1":"Normal",
   "Type 2":"Fighting",
   "Normal":1,
