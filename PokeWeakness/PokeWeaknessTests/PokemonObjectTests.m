@@ -29,31 +29,31 @@
 
 - (void)testParseJSONDictionary
 {
-    NSDictionary *JSON = @{ @"No": @"52",
+    NSDictionary *JSON = @{ @"No": @52,
                             @"Name": @"Meowth",
                             @"Type 1": @"Normal",
                             @"Type 2": @"",
                             
                             @"Attacker": @"",
                             
-                            @"Normal": @"1",
-                            @"Fire": @"2",
-                            @"Water": @"3",
-                            @"Electric": @"4",
-                            @"Grass": @"5",
-                            @"Ice": @"6",
-                            @"Fighting": @"7",
-                            @"Poison": @"8.5",
-                            @"Ground": @"9",
-                            @"Flying": @"10",
-                            @"Psychic": @"11",
-                            @"Bug": @"12",
-                            @"Rock": @"11",
+                            @"Normal": @1,
+                            @"Fire": @2,
+                            @"Water": @3,
+                            @"Electric": @4,
+                            @"Grass": @5,
+                            @"Ice": @6,
+                            @"Fighting": @7,
+                            @"Poison": @8.5,
+                            @"Ground": @9,
+                            @"Flying": @10,
+                            @"Psychic": @11,
+                            @"Bug": @12,
+                            @"Rock": @11,
                             @"Ghost": @"x",
-                            @"Dragon": @"1",
-                            @"Dark": @"1",
-                            @"Steel": @"66",
-                            @"Fairy": @"1"};
+                            @"Dragon": @1,
+                            @"Dark": @1,
+                            @"Steel": @66,
+                            @"Fairy": @1};
     
     PokemonObject *pokemon = [PokemonObject parseFromJSONDictionary:JSON];
     XCTAssertEqual(pokemon.objectID, 52);

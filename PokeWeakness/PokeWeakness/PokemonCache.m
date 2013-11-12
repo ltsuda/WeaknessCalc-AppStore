@@ -7,10 +7,11 @@
 //
 
 #import "PokemonCache.h"
+#import "PokemonObject.h"
 
 @interface PokemonCache ()
 
-@property (nonatomic, strong) NSArray *pokemons;
+@property (nonatomic, strong, readwrite) NSArray *pokemons;
 
 @end
 
@@ -41,8 +42,13 @@
     id pokemons = [NSJSONSerialization JSONObjectWithData:pokemonsData
                                                   options:kNilOptions
                                                     error:nil];
+    NSMutableArray *entities = [NSMutableArray array];
+    [pokemons enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        PokemonObject *entity = [PokemonObject parseFromJSONDictionary:obj];
+        [entities addObject:entity];
+    }];
     
-    return pokemons;
+    return entities;
 }
 
 @end

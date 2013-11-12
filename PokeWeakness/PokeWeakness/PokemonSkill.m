@@ -96,8 +96,15 @@
         NSString *key = obj;
         PokemonSkill *skill = [PokemonSkill new];
         skill.skill = [PokemonSkill typeFromString:key];
-        NSString *value = JSON[key];
-        skill.value = [value isEqualToString:@"x"] ? 0.0f : [value doubleValue];
+        id value = JSON[key];
+        if ([value isKindOfClass:[NSNumber class]])
+        {
+            skill.value = [value doubleValue];
+        }
+        else
+        {
+            skill.value = 0.0f;
+        }
         [skills addObject:skill];
     }];
     return [skills copy];

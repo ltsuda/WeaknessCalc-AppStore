@@ -10,6 +10,8 @@
 
 @interface PokemonCache : NSObject
 
+@property (nonatomic, strong, readonly) NSArray *pokemons;
+
 + (PokemonCache *)sharedCache;
 
 @end
