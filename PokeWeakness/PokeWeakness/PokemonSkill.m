@@ -89,6 +89,54 @@
     return type;
 }
 
++ (NSString *)locallizeStringFromSkillType:(PokemonSkillType)type
+{
+    NSString *skillString = nil;
+    switch (type)
+    {
+        case PokemonTypeNormal:
+            skillString = NSLocalizedString(@"Normal", @"");
+            break;
+            
+        case PokemonTypeFire:
+            skillString = NSLocalizedString(@"Fire", @"");
+            break;
+            
+        case PokemonTypeWater:
+            skillString = NSLocalizedString(@"Water", @"");
+            break;
+            
+        case PokemonTypeElectric:
+            skillString = NSLocalizedString(@"Electric", @"");
+            break;
+            
+        case PokemonTypeGrass:
+            skillString = NSLocalizedString(@"Grass", @"");
+            break;
+            
+        case PokemonTypeIce:
+            skillString = NSLocalizedString(@"Ice", @"");
+            break;
+            
+        case PokemonTypeFighting:
+            skillString = NSLocalizedString(@"Fighting", @"");
+            break;
+            
+        case PokemonTypePoison:
+            skillString = NSLocalizedString(@"Poison", @"");
+            break;
+            
+        case PokemonTypeGround:
+            skillString = NSLocalizedString(@"Ground", @"");
+            break;
+            
+        case PokemonTypeFlying:
+            skillString = NSLocalizedString(@"Flying", @"");
+            break;
+    }
+    return skillString;
+}
+
 + (NSArray *)skillsFromJSON:(NSDictionary *)JSON
 {
     NSMutableArray *skills = [NSMutableArray array];

@@ -40,5 +40,6 @@ typedef NS_ENUM(NSInteger, PokemonSkillType)
 + (NSArray *)skillsFromJSON:(NSDictionary *)JSON;
 
 + (PokemonSkillType)typeFromString:(NSString *)string;
++ (NSString *)locallizeStringFromSkillType:(PokemonSkillType)type;
 
 @end
