@@ -133,6 +133,20 @@
         case PokemonTypeFlying:
             skillString = NSLocalizedString(@"Flying", @"");
             break;
+            
+        case PokemonTypePsychic:
+            skillString = NSLocalizedString(@"Psychic", @"");
+            break;
+            
+        case PokemonTypeBug:
+            skillString = NSLocalizedString(@"Bug", @"");
+            break;
+            
+        case PokemonTypeRock:
+            skillString = NSLocalizedString(@"Rock", @"");
+            break;
+            
+            
     }
     return skillString;
 }
