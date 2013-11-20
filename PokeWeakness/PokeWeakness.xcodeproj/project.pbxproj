@@ -28,6 +28,8 @@
 		AA396FB31831D3FB00B0A34D /* PokemonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA396FB21831D3FB00B0A34D /* PokemonDetailsViewController.m */; };
 		AA9D86D2183D4FC300DBC14C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9D86D5183D4FC300DBC14C /* Localizable.strings */; };
 		AA9D86D3183D4FC300DBC14C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9D86D5183D4FC300DBC14C /* Localizable.strings */; };
+		AA9D86DA183D665C00DBC14C /* SectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9D86D9183D665C00DBC14C /* SectionDataSource.m */; };
+		AA9D86DB183D665C00DBC14C /* SectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9D86D9183D665C00DBC14C /* SectionDataSource.m */; };
 		AADDFFF41829A05000A02825 /* PokemonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF31829A05000A02825 /* PokemonObject.m */; };
 		AADDFFF51829A05000A02825 /* PokemonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF31829A05000A02825 /* PokemonObject.m */; };
 		AADDFFF81829A9F700A02825 /* PokemonSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF71829A9F700A02825 /* PokemonSkill.m */; };
@@ -79,6 +81,8 @@
 		AA9D86D4183D4FC300DBC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA9D86D6183D4FCA00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = file; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA9D86D7183D4FCF00DBC14C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA9D86D8183D665C00DBC14C /* SectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDataSource.h; sourceTree = "<group>"; };
+		AA9D86D9183D665C00DBC14C /* SectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDataSource.m; sourceTree = "<group>"; };
 		AADDFFF21829A05000A02825 /* PokemonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonObject.h; sourceTree = "<group>"; };
 		AADDFFF31829A05000A02825 /* PokemonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonObject.m; sourceTree = "<group>"; };
 		AADDFFF61829A9F700A02825 /* PokemonSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonSkill.h; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 			children = (
 				AA396FAE1831CC8800B0A34D /* BlockDataSource.h */,
 				AA396FAF1831CC8800B0A34D /* BlockDataSource.m */,
+				AA9D86D8183D665C00DBC14C /* SectionDataSource.h */,
+				AA9D86D9183D665C00DBC14C /* SectionDataSource.m */,
 			);
 			name = DataSource;
 			sourceTree = "<group>";
@@ -357,6 +363,7 @@
 				AA396FAC1831CBD400B0A34D /* PokemonSearchViewController.m in Sources */,
 				99EA6698181A9CEA0009259B /* ViewController.m in Sources */,
 				AADDFFF81829A9F700A02825 /* PokemonSkill.m in Sources */,
+				AA9D86DA183D665C00DBC14C /* SectionDataSource.m in Sources */,
 				AA396FB31831D3FB00B0A34D /* PokemonDetailsViewController.m in Sources */,
 				99EA6692181A9CEA0009259B /* AppDelegate.m in Sources */,
 				99EA668E181A9CEA0009259B /* main.m in Sources */,
@@ -369,6 +376,7 @@
 			files = (
 				AADDFFFD1829AB4500A02825 /* PokemonSkillTests.m in Sources */,
 				AADDFFF51829A05000A02825 /* PokemonObject.m in Sources */,
+				AA9D86DB183D665C00DBC14C /* SectionDataSource.m in Sources */,
 				AADDFFF91829A9F700A02825 /* PokemonSkill.m in Sources */,
 				AADDFFFB1829AB3400A02825 /* PokemonObjectTests.m in Sources */,
 				AA34C158181D616900C2EAE1 /* PokemonCache.m in Sources */,

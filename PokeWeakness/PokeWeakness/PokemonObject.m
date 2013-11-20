@@ -41,6 +41,27 @@
     return name;
 }
 
+- (NSArray *)weakness
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"value >= 2"];
+    NSArray *skillss = [self.skills filteredArrayUsingPredicate:predicate];
+    return skillss;
+}
+
+- (NSArray *)resistances
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"value < 1 && value > 0"];
+    NSArray *skillss = [self.skills filteredArrayUsingPredicate:predicate];
+    return skillss;
+}
+
+- (NSArray *)neutrals
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"value = 0"];
+    NSArray *skillss = [self.skills filteredArrayUsingPredicate:predicate];
+    return skillss;
+}
+
 - (CGFloat)valueForSkillType:(PokemonSkillType)skillType
 {
     NSPredicate *filterSkill = [NSPredicate predicateWithFormat:@"skill = %d", skillType];

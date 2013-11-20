@@ -30,7 +30,8 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
 {
     
 }
-- (IBAction)tappedView:(id)sender {
+- (IBAction)tappedView:(id)sender
+{
     [self.view endEditing:YES];
 }
 

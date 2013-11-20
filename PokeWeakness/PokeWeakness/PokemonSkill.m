@@ -178,21 +178,30 @@
     NSMutableArray *skills = [NSMutableArray array];
     [[JSON allKeys] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         NSString *key = obj;
-        PokemonSkill *skill = [PokemonSkill new];
-        skill.skill = [PokemonSkill typeFromString:key];
-        id value = JSON[key];
-        if ([value isKindOfClass:[NSNumber class]])
+        PokemonSkillType type = [PokemonSkill typeFromString:key];
+        if (type != PokemonTypeNone)
         {
-            skill.value = [value doubleValue];
+            PokemonSkill *skill = [PokemonSkill new];
+            skill.skill = type;
+            id value = JSON[key];
+            if ([value isKindOfClass:[NSNumber class]])
+            {
+                skill.value = [value doubleValue];
+            }
+            else
+            {
+                skill.value = 0.0f;
+            }
+            [skills addObject:skill];
         }
-        else
-        {
-            skill.value = 0.0f;
-        }
-        [skills addObject:skill];
     }];
     return [skills copy];
 }
 
+- (NSString *)localizedName
+{
+    NSString *name = [PokemonSkill localizedStringFromSkillType:self.skill];
+    return name;
+}
 
 @end

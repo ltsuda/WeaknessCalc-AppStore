@@ -37,8 +37,8 @@ typedef NS_ENUM(NSInteger, PokemonSkillType)
 @property (nonatomic, assign) PokemonSkillType skill;
 @property (nonatomic, assign) double value;
 
+- (NSString *)localizedName;
 + (NSArray *)skillsFromJSON:(NSDictionary *)JSON;
-
 + (PokemonSkillType)typeFromString:(NSString *)string;
 + (NSString *)localizedStringFromSkillType:(PokemonSkillType)type;
 

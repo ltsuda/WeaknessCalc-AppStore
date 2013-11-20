@@ -18,6 +18,9 @@
 @property (nonatomic, assign) PokemonSkillType firstType;
 @property (nonatomic, assign) PokemonSkillType secondType;
 @property (nonatomic, copy) NSArray *skills;
+@property (nonatomic, readonly) NSArray *weakness;
+@property (nonatomic, readonly) NSArray *resistances;
+@property (nonatomic, readonly) NSArray *neutrals;
 
 - (CGFloat)valueForSkillType:(PokemonSkillType)skillType;
 
