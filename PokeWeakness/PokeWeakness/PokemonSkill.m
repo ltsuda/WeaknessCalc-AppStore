@@ -94,6 +94,10 @@
     NSString *skillString = nil;
     switch (type)
     {
+        case PokemonTypeNone:
+            skillString = NSLocalizedString(@"Unknown", @"");
+            break;
+            
         case PokemonTypeNormal:
             skillString = NSLocalizedString(@"Normal", @"");
             break;
@@ -146,7 +150,25 @@
             skillString = NSLocalizedString(@"Rock", @"");
             break;
             
+        case PokemonTypeGhost:
+            skillString = NSLocalizedString(@"Ghost", @"");
+            break;
             
+        case PokemonTypeDark:
+            skillString = NSLocalizedString(@"Dark", @"");
+            break;
+            
+        case PokemonTypeSteel:
+            skillString = NSLocalizedString(@"Steel", @"");
+            break;
+            
+        case PokemonTypeFairy:
+            skillString = NSLocalizedString(@"Fairy", @"");
+            break;
+            
+        case PokemonTypeDragon:
+            skillString = NSLocalizedString(@"Dragon", @"");
+            break;
     }
     return skillString;
 }
