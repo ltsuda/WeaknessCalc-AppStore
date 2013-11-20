@@ -14,7 +14,8 @@
 {
     PokemonObject *pokemon = [PokemonObject new];
     pokemon.objectID = [dictionary[@"No"] integerValue];
-    pokemon.name = dictionary[@"Name"];
+    pokemon.nameEN = dictionary[@"NameEN"];
+    pokemon.nameJP = dictionary[@"NameJP"];
     
     NSString *firstSkillString = dictionary[@"Type 1"];
     NSString *secondSkillString = dictionary[@"Type 2"];
@@ -23,6 +24,21 @@
     pokemon.skills = [PokemonSkill skillsFromJSON:dictionary];
     
     return pokemon;
+}
+
+- (NSString *)name
+{
+    NSString *language = [[[NSLocale preferredLanguages] firstObject] lowercaseString];
+    NSString *name = nil;
+    if ([language rangeOfString:@"ja"].location != NSNotFound)
+    {
+        name = self.nameJP;
+    }
+    else
+    {
+        name = self.nameEN;
+    }
+    return name;
 }
 
 - (CGFloat)valueForSkillType:(PokemonSkillType)skillType

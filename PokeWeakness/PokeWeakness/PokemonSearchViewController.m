@@ -54,7 +54,9 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     NSString *searchString = [textField.text stringByReplacingCharactersInRange:range
                                                                      withString:string];
     
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name contains[cd] %@", searchString];
+    NSPredicate *firstPredicate = [NSPredicate predicateWithFormat:@"nameEN contains[cd] %@", searchString];
+    NSPredicate *secondPredicate = [NSPredicate predicateWithFormat:@"nameJP contains[cd] %@", searchString];
+    NSPredicate *predicate = [NSCompoundPredicate orPredicateWithSubpredicates:@[firstPredicate, secondPredicate]];
     NSArray *cache = [[PokemonCache sharedCache] pokemons];
     NSArray *matchItems = [cache filteredArrayUsingPredicate:predicate];
     self.dataSource.items = matchItems;

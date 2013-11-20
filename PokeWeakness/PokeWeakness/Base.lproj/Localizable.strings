@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  PokeWeakness
+
+  Created by Christian Sampaio on 11/20/13.
+  Copyright (c) 2013 Leonardo Tsuda. All rights reserved.
+*/
+
+/* No comment provided by engineer. */
+"Bug" = "Bug";
+
+/* No comment provided by engineer. */
+"Dark" = "Dark";
+
+/* No comment provided by engineer. */
+"Dragon" = "Dragon";
+
+/* No comment provided by engineer. */
+"Electric" = "Electric";
+
+/* No comment provided by engineer. */
+"Fairy" = "Fairy";
+
+/* No comment provided by engineer. */
+"Fighting" = "Fighting";
+
+/* No comment provided by engineer. */
+"Fire" = "Fire";
+
+/* No comment provided by engineer. */
+"Flying" = "Flying";
+
+/* No comment provided by engineer. */
+"Ghost" = "Ghost";
+
+/* No comment provided by engineer. */
+"Grass" = "Grass";
+
+/* No comment provided by engineer. */
+"Ground" = "Ground";
+
+/* No comment provided by engineer. */
+"Ice" = "Ice";
+
+/* No comment provided by engineer. */
+"Normal" = "Normal";
+
+/* No comment provided by engineer. */
+"Poison" = "Poison";
+
+/* No comment provided by engineer. */
+"Psychic" = "Psychic";
+
+/* No comment provided by engineer. */
+"Rock" = "Rock";
+
+/* No comment provided by engineer. */
+"Steel" = "Steel";
+
+/* No comment provided by engineer. */
+"Unknown" = "Unknown";
+
+/* No comment provided by engineer. */
+"Water" = "Water";
+

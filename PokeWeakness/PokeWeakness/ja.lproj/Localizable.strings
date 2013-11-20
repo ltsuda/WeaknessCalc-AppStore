@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  PokeWeakness
+
+  Created by Christian Sampaio on 11/20/13.
+  Copyright (c) 2013 Leonardo Tsuda. All rights reserved.
+ 
+ 
+ Steel - はがね - Hagane
+ 
+*/
+
+/* No comment provided by engineer. */
+"Bug" = "むし";
+
+/* No comment provided by engineer. */
+"Dark" = "あく";
+
+/* No comment provided by engineer. */
+"Dragon" = "ドラゴン";
+
+/* No comment provided by engineer. */
+"Electric" = "でんき";
+
+/* No comment provided by engineer. */
+"Fairy" = "フェアリー";
+
+/* No comment provided by engineer. */
+"Fighting" = "かくとう";
+
+/* No comment provided by engineer. */
+"Fire" = "ほのお";
+
+/* No comment provided by engineer. */
+"Flying" = "ひこう";
+
+/* No comment provided by engineer. */
+"Ghost" = "ゴースト";
+
+/* No comment provided by engineer. */
+"Grass" = "くさ";
+
+/* No comment provided by engineer. */
+"Ground" = "じめん";
+
+/* No comment provided by engineer. */
+"Ice" = "こおり";
+
+/* No comment provided by engineer. */
+"Normal" = "ノーマル";
+
+/* No comment provided by engineer. */
+"Poison" = "どく";
+
+/* No comment provided by engineer. */
+"Psychic" = "エスパー";
+
+/* No comment provided by engineer. */
+"Rock" = "いわ";
+
+/* No comment provided by engineer. */
+"Steel" = "はがね";
+
+/* No comment provided by engineer. */
+"Unknown" = "不明";
+
+/* No comment provided by engineer. */
+"Water" = "みず";
+

@@ -8,6 +8,7 @@
 
 #import "PokemonDetailsViewController.h"
 #import "PokemonObject.h"
+#import "PokemonSkill.h"
 
 @interface PokemonDetailsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *thumbImageView;
@@ -24,9 +25,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    self.numberLabel.text = [@"#" stringByAppendingFormat:@"%d", self.pokemon.objectID];
-    self.firstTypeLabel.text = @"";
-    self.secondTypeLabel.text = @"";
+    self.numberLabel.text = [NSString stringWithFormat:@"#%ld", (long)self.pokemon.objectID];
+    self.firstTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.firstType];
+    self.secondTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.secondType];
     self.title = self.pokemon.name;
 }
 

@@ -12,7 +12,9 @@
 @interface PokemonObject : NSObject
 
 @property (nonatomic, assign) NSInteger objectID;
-@property (nonatomic, copy) NSString *name;
+@property (nonatomic, readonly) NSString *name;
+@property (nonatomic, copy) NSString *nameEN;
+@property (nonatomic, copy) NSString *nameJP;
 @property (nonatomic, assign) PokemonSkillType firstType;
 @property (nonatomic, assign) PokemonSkillType secondType;
 @property (nonatomic, copy) NSArray *skills;

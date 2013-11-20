@@ -26,6 +26,8 @@
 		AA396FAC1831CBD400B0A34D /* PokemonSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA396FAB1831CBD400B0A34D /* PokemonSearchViewController.m */; };
 		AA396FB01831CC8800B0A34D /* BlockDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA396FAF1831CC8800B0A34D /* BlockDataSource.m */; };
 		AA396FB31831D3FB00B0A34D /* PokemonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA396FB21831D3FB00B0A34D /* PokemonDetailsViewController.m */; };
+		AA9D86D2183D4FC300DBC14C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9D86D5183D4FC300DBC14C /* Localizable.strings */; };
+		AA9D86D3183D4FC300DBC14C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9D86D5183D4FC300DBC14C /* Localizable.strings */; };
 		AADDFFF41829A05000A02825 /* PokemonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF31829A05000A02825 /* PokemonObject.m */; };
 		AADDFFF51829A05000A02825 /* PokemonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF31829A05000A02825 /* PokemonObject.m */; };
 		AADDFFF81829A9F700A02825 /* PokemonSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = AADDFFF71829A9F700A02825 /* PokemonSkill.m */; };
@@ -72,6 +74,11 @@
 		AA396FAF1831CC8800B0A34D /* BlockDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockDataSource.m; sourceTree = "<group>"; };
 		AA396FB11831D3FB00B0A34D /* PokemonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonDetailsViewController.h; sourceTree = "<group>"; };
 		AA396FB21831D3FB00B0A34D /* PokemonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonDetailsViewController.m; sourceTree = "<group>"; };
+		AA9D86CC183D4B4B00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA9D86CD183D4B4B00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA9D86D4183D4FC300DBC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA9D86D6183D4FCA00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = file; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA9D86D7183D4FCF00DBC14C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AADDFFF21829A05000A02825 /* PokemonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonObject.h; sourceTree = "<group>"; };
 		AADDFFF31829A05000A02825 /* PokemonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonObject.m; sourceTree = "<group>"; };
 		AADDFFF61829A9F700A02825 /* PokemonSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonSkill.h; sourceTree = "<group>"; };
@@ -160,6 +167,7 @@
 				99EA668A181A9CEA0009259B /* InfoPlist.strings */,
 				99EA668D181A9CEA0009259B /* main.m */,
 				99EA668F181A9CEA0009259B /* PokeWeakness-Prefix.pch */,
+				AA9D86D5183D4FC300DBC14C /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 		AA34C151181D60B000C2EAE1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA9D86CE183D4C1A00DBC14C /* Strings */,
 				AA34C152181D612E00C2EAE1 /* pokedex.json */,
 			);
 			name = Resources;
@@ -218,6 +227,13 @@
 				AA396FAF1831CC8800B0A34D /* BlockDataSource.m */,
 			);
 			name = DataSource;
+			sourceTree = "<group>";
+		};
+		AA9D86CE183D4C1A00DBC14C /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Strings;
 			sourceTree = "<group>";
 		};
 		AADDFFF11829A03200A02825 /* Model */ = {
@@ -293,6 +309,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 99EA6675181A9CEA0009259B;
 			productRefGroup = 99EA667F181A9CEA0009259B /* Products */;
@@ -310,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9D86D2183D4FC300DBC14C /* Localizable.strings in Resources */,
 				AA34C153181D612E00C2EAE1 /* pokedex.json in Resources */,
 				99EA669A181A9CEA0009259B /* Images.xcassets in Resources */,
 				99EA668C181A9CEA0009259B /* InfoPlist.strings in Resources */,
@@ -322,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99EA66AB181A9CEA0009259B /* InfoPlist.strings in Resources */,
+				AA9D86D3183D4FC300DBC14C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +390,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				99EA668B181A9CEA0009259B /* en */,
+				AA9D86CC183D4B4B00DBC14C /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -387,8 +407,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				99EA66AA181A9CEA0009259B /* en */,
+				AA9D86CD183D4B4B00DBC14C /* ja */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA9D86D5183D4FC300DBC14C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9D86D4183D4FC300DBC14C /* Base */,
+				AA9D86D6183D4FCA00DBC14C /* ja */,
+				AA9D86D7183D4FCF00DBC14C /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

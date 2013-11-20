@@ -89,13 +89,13 @@
     return type;
 }
 
-+ (NSString *)locallizeStringFromSkillType:(PokemonSkillType)type
++ (NSString *)localizedStringFromSkillType:(PokemonSkillType)type
 {
     NSString *skillString = nil;
     switch (type)
     {
         case PokemonTypeNone:
-            skillString = NSLocalizedString(@"Unknown", @"");
+            skillString = NSLocalizedString(@"", @"");
             break;
             
         case PokemonTypeNormal:
