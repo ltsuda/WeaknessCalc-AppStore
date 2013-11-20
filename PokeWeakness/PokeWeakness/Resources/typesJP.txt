@@ -1,0 +1,22 @@
+
+
+Type - タイプ
+
+Normal - ノーマル - Noomaru
+Fire - ほのお - Honoo
+Fighting - かくとう - Kakutou
+Water - みず - Mizu
+Flying - ひこう - Hikou
+Grass - くさ - Kusa
+Poison - どく - Doku
+Electric - でんき - Denki
+Ground - じめん - Jimen
+Psychic - エスパー - Esupaa
+Rock - いわ - Iwa
+Ice - こおり - Koori
+Bug - むし - Mushi
+Dragon - ドラゴン - Doragon
+Ghost - ゴースト - Goosuto
+Dark - あく - Aku
+Steel - はがね - Hagane
+Fairy - フェアリー - Feari

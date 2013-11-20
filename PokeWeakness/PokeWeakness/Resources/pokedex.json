@@ -1,7 +1,8 @@
  [
   {
   "No":1,
-  "Name":"Bulbasaur",
+  "NameEN":"Bulbasaur",
+  "NameJP":"フシギダネ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -25,7 +26,8 @@
   },
   {
   "No":2,
-  "Name":"Ivysaur",
+  "NameEN":"Ivysaur",
+  "NameJP":"フシギソウ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -49,7 +51,8 @@
   },
   {
   "No":3,
-  "Name":"Venusaur",
+  "NameEN":"Venusaur",
+  "NameJP":"フシギバナ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -73,7 +76,8 @@
   },
   {
   "No":3,
-  "Name":"Mega Venusaur",
+  "NameEN":"Mega Venusaur",
+  "NameJP":"メガフシギバナ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -97,7 +101,8 @@
   },
   {
   "No":4,
-  "Name":"Charmander",
+  "NameEN":"Charmander",
+  "NameJP":"ヒトカゲ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -121,7 +126,8 @@
   },
   {
   "No":5,
-  "Name":"Charmeleon",
+  "NameEN":"Charmeleon",
+  "NameJP":"リザード",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -145,7 +151,8 @@
   },
   {
   "No":6,
-  "Name":"Charizard",
+  "NameEN":"Charizard",
+  "NameJP":"リザードン",
   "Type 1":"Fire",
   "Type 2":"Flying",
   "Normal":1,
@@ -169,7 +176,8 @@
   },
   {
   "No":6,
-  "Name":"Mega Charizard Y",
+  "NameEN":"Mega Charizard Y",
+  "NameJP":"メガリザードンY",
   "Type 1":"Fire",
   "Type 2":"Flying",
   "Normal":1,
@@ -193,7 +201,8 @@
   },
   {
   "No":6,
-  "Name":"Mega Charizard X",
+  "NameEN":"Mega Charizard X",
+  "NameJP":"メガリザードンX",
   "Type 1":"Fire",
   "Type 2":"Dragon",
   "Normal":1,
@@ -217,7 +226,8 @@
   },
   {
   "No":7,
-  "Name":"Squirtle",
+  "NameEN":"Squirtle",
+  "NameJP":"ゼニガメ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -241,7 +251,8 @@
   },
   {
   "No":8,
-  "Name":"Wartortle",
+  "NameEN":"Wartortle",
+  "NameJP":"カメール",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -265,7 +276,8 @@
   },
   {
   "No":9,
-  "Name":"Blastoise",
+  "NameEN":"Blastoise",
+  "NameJP":"カメックス",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -289,7 +301,7 @@
   },
   {
   "No":9,
-  "Name":"Mega Blastoise",
+  "NameJP":"メガカメックス",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -313,7 +325,8 @@
   },
   {
   "No":10,
-  "Name":"Caterpie",
+  "NameEN":"Caterpie",
+  "NameJP":"キャタピー",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -337,7 +350,8 @@
   },
   {
   "No":11,
-  "Name":"Metapod",
+  "NameEN":"Metapod",
+  "NameJP":"トランセル",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -361,7 +375,8 @@
   },
   {
   "No":12,
-  "Name":"Butterfree",
+  "NameEN":"Butterfree",
+  "NameJP":"バタフリー",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -385,7 +400,8 @@
   },
   {
   "No":13,
-  "Name":"Weedle",
+  "NameEN":"Weedle",
+  "NameJP":"ビードル",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -409,7 +425,8 @@
   },
   {
   "No":14,
-  "Name":"Kakuna",
+  "NameEN":"Kakuna",
+  "NameJP":"コクーン",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -433,7 +450,8 @@
   },
   {
   "No":15,
-  "Name":"Beedrill",
+  "NameEN":"Beedrill",
+  "NameJP":"スピアー",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -457,7 +475,8 @@
   },
   {
   "No":16,
-  "Name":"Pidgey",
+  "NameEN":"Pidgey",
+  "NameJP":"ポッポ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -481,7 +500,8 @@
   },
   {
   "No":17,
-  "Name":"Pidgeotto",
+  "NameEN":"Pidgeotto",
+  "NameJP":"ピジョン",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -505,7 +525,8 @@
   },
   {
   "No":18,
-  "Name":"Pidgeot",
+  "NameEN":"Pidgeot",
+  "NameJP":"ピジョット",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -529,7 +550,8 @@
   },
   {
   "No":19,
-  "Name":"Rattata",
+  "NameEN":"Rattata",
+  "NameJP":"コラッタ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -553,7 +575,8 @@
   },
   {
   "No":20,
-  "Name":"Raticate",
+  "NameEN":"Raticate",
+  "NameJP":"ラッタ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -577,7 +600,8 @@
   },
   {
   "No":21,
-  "Name":"Spearow",
+  "NameEN":"Spearow",
+  "NameJP":"オニスズメ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -601,7 +625,8 @@
   },
   {
   "No":22,
-  "Name":"Fearow",
+  "NameEN":"Fearow",
+  "NameJP":"オニドリル",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -625,7 +650,8 @@
   },
   {
   "No":23,
-  "Name":"Ekans",
+  "NameEN":"Ekans",
+  "NameJP":"アーボ",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -649,7 +675,8 @@
   },
   {
   "No":24,
-  "Name":"Arbok",
+  "NameEN":"Arbok",
+  "NameJP":"アーボック",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -673,7 +700,8 @@
   },
   {
   "No":25,
-  "Name":"Pikachu",
+  "NameEN":"Pikachu",
+  "NameJP":"ピカチュウ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -697,7 +725,8 @@
   },
   {
   "No":26,
-  "Name":"Raichu",
+  "NameEN":"Raichu",
+  "NameJP":"ライチュウ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -721,7 +750,8 @@
   },
   {
   "No":27,
-  "Name":"Sandshrew",
+  "NameEN":"Sandshrew",
+  "NameJP":"サンド",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -745,7 +775,8 @@
   },
   {
   "No":28,
-  "Name":"Sandslash",
+  "NameEN":"Sandslash",
+  "NameJP":"サンドパン",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -769,7 +800,8 @@
   },
   {
   "No":29,
-  "Name":"NidoranF",
+  "NameEN":"NidoranF",
+  "NameJP":"ニドラン♀",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -793,7 +825,8 @@
   },
   {
   "No":30,
-  "Name":"Nidorina",
+  "NameEN":"Nidorina",
+  "NameJP":"ニドリーナ",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -817,7 +850,8 @@
   },
   {
   "No":31,
-  "Name":"Nidoqueen",
+  "NameEN":"Nidoqueen",
+  "NameJP":"ニドクイン",
   "Type 1":"Poison",
   "Type 2":"Ground",
   "Normal":1,
@@ -841,7 +875,8 @@
   },
   {
   "No":32,
-  "Name":"NidoranM",
+  "NameEN":"NidoranM",
+  "NameJP":"ニドラン♂",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -865,7 +900,8 @@
   },
   {
   "No":33,
-  "Name":"Nidorino",
+  "NameEN":"Nidorino",
+  "NameJP":"ニドリーノ",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -889,7 +925,8 @@
   },
   {
   "No":34,
-  "Name":"Nidoking",
+  "NameEN":"Nidoking",
+  "NameJP":"ニドキング",
   "Type 1":"Poison",
   "Type 2":"Ground",
   "Normal":1,
@@ -913,7 +950,8 @@
   },
   {
   "No":35,
-  "Name":"Clefairy",
+  "NameEN":"Clefairy",
+  "NameJP":"ピッピ",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -937,7 +975,8 @@
   },
   {
   "No":36,
-  "Name":"Clefable",
+  "NameEN":"Clefable",
+  "NameJP":"ピクシー",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -961,7 +1000,8 @@
   },
   {
   "No":37,
-  "Name":"Vulpix",
+  "NameEN":"Vulpix",
+  "NameJP":"ロコン",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -985,7 +1025,8 @@
   },
   {
   "No":38,
-  "Name":"Ninetales",
+  "NameEN":"Ninetales",
+  "NameJP":"キュウコン",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -1009,7 +1050,8 @@
   },
   {
   "No":39,
-  "Name":"Jigglypuff",
+  "NameEN":"Jigglypuff",
+  "NameJP":"プリン",
   "Type 1":"Normal",
   "Type 2":"Fairy",
   "Normal":1,
@@ -1033,7 +1075,8 @@
   },
   {
   "No":40,
-  "Name":"Wigglytuff",
+  "NameEN":"Wigglytuff",
+  "NameJP":"プクリン",
   "Type 1":"Normal",
   "Type 2":"Fairy",
   "Normal":1,
@@ -1057,7 +1100,8 @@
   },
   {
   "No":41,
-  "Name":"Zubat",
+  "NameEN":"Zubat",
+  "NameJP":"ズバット",
   "Type 1":"Poison",
   "Type 2":"Flying",
   "Normal":1,
@@ -1081,7 +1125,8 @@
   },
   {
   "No":42,
-  "Name":"Golbat",
+  "NameEN":"Golbat",
+  "NameJP":"ゴルバット",
   "Type 1":"Poison",
   "Type 2":"Flying",
   "Normal":1,
@@ -1105,7 +1150,8 @@
   },
   {
   "No":43,
-  "Name":"Oddish",
+  "NameEN":"Oddish",
+  "NameJP":"ナゾノクサ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -1129,7 +1175,8 @@
   },
   {
   "No":44,
-  "Name":"Gloom",
+  "NameEN":"Gloom",
+  "NameJP":"クサイハナ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -1153,7 +1200,8 @@
   },
   {
   "No":45,
-  "Name":"Vileplume",
+  "NameEN":"Vileplume",
+  "NameJP":"ラフレシア",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -1177,7 +1225,8 @@
   },
   {
   "No":46,
-  "Name":"Paras",
+  "NameEN":"Paras",
+  "NameJP":"パラス",
   "Type 1":"Bug",
   "Type 2":"Grass",
   "Normal":1,
@@ -1201,7 +1250,8 @@
   },
   {
   "No":47,
-  "Name":"Parasect",
+  "NameEN":"Parasect",
+  "NameJP":"パラセクト",
   "Type 1":"Bug",
   "Type 2":"Grass",
   "Normal":1,
@@ -1225,7 +1275,8 @@
   },
   {
   "No":48,
-  "Name":"Venonat",
+  "NameEN":"Venonat",
+  "NameJP":"コンパン",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -1249,7 +1300,8 @@
   },
   {
   "No":49,
-  "Name":"Venomoth",
+  "NameEN":"Venomoth",
+  "NameJP":"モルフォン",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -1273,7 +1325,8 @@
   },
   {
   "No":50,
-  "Name":"Diglett",
+  "NameEN":"Diglett",
+  "NameJP":"ディグダ",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -1297,7 +1350,8 @@
   },
   {
   "No":51,
-  "Name":"Dugtrio",
+  "NameEN":"Dugtrio",
+  "NameJP":"ダグトリオ",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -1321,7 +1375,8 @@
   },
   {
   "No":52,
-  "Name":"Meowth",
+  "NameEN":"Meowth",
+  "NameJP":"ニャース",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -1345,7 +1400,8 @@
   },
   {
   "No":53,
-  "Name":"Persian",
+  "NameEN":"Persian",
+  "NameJP":"ペルシアン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -1369,7 +1425,8 @@
   },
   {
   "No":54,
-  "Name":"Psyduck",
+  "NameEN":"Psyduck",
+  "NameJP":"コダック",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -1393,7 +1450,8 @@
   },
   {
   "No":55,
-  "Name":"Golduck",
+  "NameEN":"Golduck",
+  "NameJP":"ゴルダック",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -1417,7 +1475,8 @@
   },
   {
   "No":56,
-  "Name":"Mankey",
+  "NameEN":"Mankey",
+  "NameJP":"マンキー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -1441,7 +1500,8 @@
   },
   {
   "No":57,
-  "Name":"Primeape",
+  "NameEN":"Primeape",
+  "NameJP":"オコリザル",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -1465,7 +1525,8 @@
   },
   {
   "No":58,
-  "Name":"Growlithe",
+  "NameEN":"Growlithe",
+  "NameJP":"ガーディ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -1489,7 +1550,8 @@
   },
   {
   "No":59,
-  "Name":"Arcanine",
+  "NameEN":"Arcanine",
+  "NameJP":"ウインディ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -1513,7 +1575,8 @@
   },
   {
   "No":60,
-  "Name":"Poliwag",
+  "NameEN":"Poliwag",
+  "NameJP":"ニョロモ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -1537,7 +1600,8 @@
   },
   {
   "No":61,
-  "Name":"Poliwhirl",
+  "NameEN":"Poliwhirl",
+  "NameJP":"ニョロゾ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -1561,7 +1625,8 @@
   },
   {
   "No":62,
-  "Name":"Poliwrath",
+  "NameEN":"Poliwrath",
+  "NameJP":"ニョロボン",
   "Type 1":"Water",
   "Type 2":"Fighting",
   "Normal":1,
@@ -1585,7 +1650,8 @@
   },
   {
   "No":63,
-  "Name":"Abra",
+  "NameEN":"Abra",
+  "NameJP":"ケーシィ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -1609,7 +1675,8 @@
   },
   {
   "No":64,
-  "Name":"Kadabra",
+  "NameEN":"Kadabra",
+  "NameJP":"ユンゲラー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -1633,7 +1700,8 @@
   },
   {
   "No":65,
-  "Name":"Alakazam",
+  "NameEN":"Alakazam",
+  "NameJP":"フーディン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -1657,7 +1725,8 @@
   },
   {
   "No":65,
-  "Name":"Mega Alakazam",
+  "NameEN":"Mega Alakazam",
+  "NameJP":"メガフーディン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -1681,7 +1750,8 @@
   },
   {
   "No":66,
-  "Name":"Machop",
+  "NameEN":"Machop",
+  "NameJP":"ワンリキー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -1705,7 +1775,7 @@
   },
   {
   "No":67,
-  "Name":"Machoke",
+  "NameJP":"ゴーリキー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -1729,7 +1799,8 @@
   },
   {
   "No":68,
-  "Name":"Machamp",
+  "NameEN":"Machamp",
+  "NameJP":"カイリキー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -1753,7 +1824,8 @@
   },
   {
   "No":69,
-  "Name":"Bellsprout",
+  "NameEN":"Bellsprout",
+  "NameJP":"マダツボミ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -1777,7 +1849,8 @@
   },
   {
   "No":70,
-  "Name":"Weepinbell",
+  "NameEN":"Weepinbell",
+  "NameJP":"ウツドン",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -1801,7 +1874,8 @@
   },
   {
   "No":71,
-  "Name":"Victreebel",
+  "NameEN":"Victreebel",
+  "NameJP":"ウツボット",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -1825,7 +1899,8 @@
   },
   {
   "No":72,
-  "Name":"Tentacool",
+  "NameEN":"Tentacool",
+  "NameJP":"メノクラゲ",
   "Type 1":"Water",
   "Type 2":"Poison",
   "Normal":1,
@@ -1849,7 +1924,8 @@
   },
   {
   "No":73,
-  "Name":"Tentacruel",
+  "NameEN":"Tentacruel",
+  "NameJP":"ドククラゲ",
   "Type 1":"Water",
   "Type 2":"Poison",
   "Normal":1,
@@ -1873,7 +1949,8 @@
   },
   {
   "No":74,
-  "Name":"Geodude",
+  "NameEN":"Geodude",
+  "NameJP":"イシツブテ",
   "Type 1":"Rock",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -1897,7 +1974,8 @@
   },
   {
   "No":75,
-  "Name":"Graveler",
+  "NameEN":"Graveler",
+  "NameJP":"ゴローン",
   "Type 1":"Rock",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -1921,7 +1999,8 @@
   },
   {
   "No":76,
-  "Name":"Golem",
+  "NameEN":"Golem",
+  "NameJP":"ゴローニャ",
   "Type 1":"Rock",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -1945,7 +2024,8 @@
   },
   {
   "No":77,
-  "Name":"Ponyta",
+  "NameEN":"Ponyta",
+  "NameJP":"ポニータ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -1969,7 +2049,8 @@
   },
   {
   "No":78,
-  "Name":"Rapidash",
+  "NameEN":"Rapidash",
+  "NameJP":"ギャロップ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -1993,7 +2074,8 @@
   },
   {
   "No":79,
-  "Name":"Slowpoke",
+  "NameEN":"Slowpoke",
+  "NameJP":"ヤドン",
   "Type 1":"Water",
   "Type 2":"Psychic",
   "Normal":1,
@@ -2017,7 +2099,8 @@
   },
   {
   "No":80,
-  "Name":"Slowbro",
+  "NameEN":"Slowbro",
+  "NameJP":"ヤドラン",
   "Type 1":"Water",
   "Type 2":"Psychic",
   "Normal":1,
@@ -2041,7 +2124,8 @@
   },
   {
   "No":81,
-  "Name":"Magnemite",
+  "NameEN":"Magnemite",
+  "NameJP":"コイル",
   "Type 1":"Electric",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -2065,7 +2149,8 @@
   },
   {
   "No":82,
-  "Name":"Magneton",
+  "NameEN":"Magneton",
+  "NameJP":"レアコイル",
   "Type 1":"Electric",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -2089,7 +2174,8 @@
   },
   {
   "No":83,
-  "Name":"Farfetch'd",
+  "NameEN":"Farfetch'd",
+  "NameJP":"カモネギ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -2113,7 +2199,8 @@
   },
   {
   "No":84,
-  "Name":"Doduo",
+  "NameEN":"Doduo",
+  "NameJP":"ドードー",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -2137,7 +2224,8 @@
   },
   {
   "No":85,
-  "Name":"Dodrio",
+  "NameEN":"Dodrio",
+  "NameJP":"ドードリオ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -2161,7 +2249,8 @@
   },
   {
   "No":86,
-  "Name":"Seel",
+  "NameEN":"Seel",
+  "NameJP":"パウワウ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -2185,7 +2274,8 @@
   },
   {
   "No":87,
-  "Name":"Dewgong",
+  "NameEN":"Dewgong",
+  "NameJP":"ジュゴン",
   "Type 1":"Water",
   "Type 2":"Ice",
   "Normal":1,
@@ -2209,7 +2299,8 @@
   },
   {
   "No":88,
-  "Name":"Grimer",
+  "NameEN":"Grimer",
+  "NameJP":"ベトベター",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -2233,7 +2324,8 @@
   },
   {
   "No":89,
-  "Name":"Muk",
+  "NameEN":"Muk",
+  "NameJP":"ベトベトン",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -2257,7 +2349,8 @@
   },
   {
   "No":90,
-  "Name":"Shellder",
+  "NameEN":"Shellder",
+  "NameJP":"シェルダー",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -2281,7 +2374,8 @@
   },
   {
   "No":91,
-  "Name":"Cloyster",
+  "NameEN":"Cloyster",
+  "NameJP":"パルシェン",
   "Type 1":"Water",
   "Type 2":"Ice",
   "Normal":1,
@@ -2305,7 +2399,8 @@
   },
   {
   "No":92,
-  "Name":"Gastly",
+  "NameEN":"Gastly",
+  "NameJP":"ゴース",
   "Type 1":"Ghost",
   "Type 2":"Poison",
   "Normal":"x",
@@ -2329,7 +2424,8 @@
   },
   {
   "No":93,
-  "Name":"Haunter",
+  "NameEN":"Haunter",
+  "NameJP":"ゴースト",
   "Type 1":"Ghost",
   "Type 2":"Poison",
   "Normal":"x",
@@ -2353,7 +2449,8 @@
   },
   {
   "No":94,
-  "Name":"Gengar",
+  "NameEN":"Gengar",
+  "NameJP":"ゲンガー",
   "Type 1":"Ghost",
   "Type 2":"Poison",
   "Normal":"x",
@@ -2377,7 +2474,8 @@
   },
   {
   "No":94,
-  "Name":"Mega Gengar",
+  "NameEN":"Mega Gengar",
+  "NameJP":"メガゲンガー",
   "Type 1":"Ghost",
   "Type 2":"Poison",
   "Normal":"x",
@@ -2401,7 +2499,8 @@
   },
   {
   "No":95,
-  "Name":"Onix",
+  "NameEN":"Onix",
+  "NameJP":"イワーク",
   "Type 1":"Rock",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -2425,7 +2524,8 @@
   },
   {
   "No":96,
-  "Name":"Drowzee",
+  "NameEN":"Drowzee",
+  "NameJP":"スリープ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -2449,7 +2549,8 @@
   },
   {
   "No":97,
-  "Name":"Hypno",
+  "NameEN":"Hypno",
+  "NameJP":"スリーパー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -2473,7 +2574,8 @@
   },
   {
   "No":98,
-  "Name":"Krabby",
+  "NameEN":"Krabby",
+  "NameJP":"クラブ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -2497,7 +2599,8 @@
   },
   {
   "No":99,
-  "Name":"Kingler",
+  "NameEN":"Kingler",
+  "NameJP":"キングラー",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -2521,7 +2624,8 @@
   },
   {
   "No":100,
-  "Name":"Voltorb",
+  "NameEN":"Voltorb",
+  "NameJP":"ビリリダマ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -2545,7 +2649,8 @@
   },
   {
   "No":101,
-  "Name":"Electrode",
+  "NameEN":"Electrode",
+  "NameJP":"マルマイン",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -2569,7 +2674,8 @@
   },
   {
   "No":102,
-  "Name":"Exeggcute",
+  "NameEN":"Exeggcute",
+  "NameJP":"タマタマ",
   "Type 1":"Grass",
   "Type 2":"Psychic",
   "Normal":1,
@@ -2593,7 +2699,8 @@
   },
   {
   "No":103,
-  "Name":"Exeggutor",
+  "NameEN":"Exeggutor",
+  "NameJP":"ナッシー",
   "Type 1":"Grass",
   "Type 2":"Psychic",
   "Normal":1,
@@ -2617,7 +2724,8 @@
   },
   {
   "No":104,
-  "Name":"Cubone",
+  "NameEN":"Cubone",
+  "NameJP":"カラカラ",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -2641,7 +2749,8 @@
   },
   {
   "No":105,
-  "Name":"Marowak",
+  "NameEN":"Marowak",
+  "NameJP":"ガラガラ",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -2665,7 +2774,8 @@
   },
   {
   "No":106,
-  "Name":"Hitmonlee",
+  "NameEN":"Hitmonlee",
+  "NameJP":"サワムラー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -2689,7 +2799,8 @@
   },
   {
   "No":107,
-  "Name":"Hitmonchan",
+  "NameEN":"Hitmonchan",
+  "NameJP":"エビワラー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -2713,7 +2824,8 @@
   },
   {
   "No":108,
-  "Name":"Lickitung",
+  "NameEN":"Lickitung",
+  "NameJP":"ベロリンガ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -2737,7 +2849,8 @@
   },
   {
   "No":109,
-  "Name":"Koffing",
+  "NameEN":"Koffing",
+  "NameJP":"ドガース",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -2761,7 +2874,8 @@
   },
   {
   "No":110,
-  "Name":"Weezing",
+  "NameEN":"Weezing",
+  "NameJP":"マタドガス",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -2785,7 +2899,8 @@
   },
   {
   "No":111,
-  "Name":"Rhyhorn",
+  "NameEN":"Rhyhorn",
+  "NameJP":"サイホーン",
   "Type 1":"Ground",
   "Type 2":"Rock",
   "Normal":0.5,
@@ -2809,7 +2924,8 @@
   },
   {
   "No":112,
-  "Name":"Rhydon",
+  "NameEN":"Rhydon",
+  "NameJP":"サイドン",
   "Type 1":"Ground",
   "Type 2":"Rock",
   "Normal":0.5,
@@ -2833,7 +2949,8 @@
   },
   {
   "No":113,
-  "Name":"Chansey",
+  "NameEN":"Chansey",
+  "NameJP":"ラッキー",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -2857,7 +2974,8 @@
   },
   {
   "No":114,
-  "Name":"Tangela",
+  "NameEN":"Tangela",
+  "NameJP":"モンジャラ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -2881,7 +2999,8 @@
   },
   {
   "No":115,
-  "Name":"Kangaskhan",
+  "NameEN":"Kangaskhan",
+  "NameJP":"ガルーラ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -2905,7 +3024,8 @@
   },
   {
   "No":115,
-  "Name":"Mega Kangaskhan",
+  "NameEN":"Mega Kangaskhan",
+  "NameJP":"メガガルーラ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -2929,7 +3049,8 @@
   },
   {
   "No":116,
-  "Name":"Horsea",
+  "NameEN":"Horsea",
+  "NameJP":"タッツー",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -2953,7 +3074,8 @@
   },
   {
   "No":117,
-  "Name":"Seadra",
+  "NameEN":"Seadra",
+  "NameJP":"シードラ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -2977,7 +3099,8 @@
   },
   {
   "No":118,
-  "Name":"Goldeen",
+  "NameEN":"Goldeen",
+  "NameJP":"トサキント",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -3001,7 +3124,8 @@
   },
   {
   "No":119,
-  "Name":"Seaking",
+  "NameEN":"Seaking",
+  "NameJP":"アズマオウ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -3025,7 +3149,8 @@
   },
   {
   "No":120,
-  "Name":"Staryu",
+  "NameEN":"Staryu",
+  "NameJP":"ヒトデマン",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -3049,7 +3174,8 @@
   },
   {
   "No":121,
-  "Name":"Starmie",
+  "NameEN":"Starmie",
+  "NameJP":"スターミー",
   "Type 1":"Water",
   "Type 2":"Psychic",
   "Normal":1,
@@ -3073,7 +3199,8 @@
   },
   {
   "No":122,
-  "Name":"Mr.Mime",
+  "NameEN":"Mr.Mime",
+  "NameJP":"バリヤード",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -3097,7 +3224,8 @@
   },
   {
   "No":123,
-  "Name":"Scyther",
+  "NameEN":"Scyther",
+  "NameJP":"ストライク",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -3121,7 +3249,8 @@
   },
   {
   "No":124,
-  "Name":"Jynx",
+  "NameEN":"Jynx",
+  "NameJP":"ルージュラ",
   "Type 1":"Ice",
   "Type 2":"Psychic",
   "Normal":1,
@@ -3145,7 +3274,8 @@
   },
   {
   "No":125,
-  "Name":"Electabuzz",
+  "NameEN":"Electabuzz",
+  "NameJP":"エレブー",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -3169,7 +3299,8 @@
   },
   {
   "No":126,
-  "Name":"Magmar",
+  "NameEN":"Magmar",
+  "NameJP":"ブーバー",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -3193,7 +3324,8 @@
   },
   {
   "No":127,
-  "Name":"Pinsir",
+  "NameEN":"Pinsir",
+  "NameJP":"カイロス",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -3217,7 +3349,8 @@
   },
   {
   "No":127,
-  "Name":"Mega Pinsir",
+  "NameEN":"Mega Pinsir",
+  "NameJP":"メガカイロス",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -3241,7 +3374,8 @@
   },
   {
   "No":128,
-  "Name":"Tauros",
+  "NameEN":"Tauros",
+  "NameJP":"ケンタロス",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -3265,7 +3399,8 @@
   },
   {
   "No":129,
-  "Name":"Magikarp",
+  "NameEN":"Magikarp",
+  "NameJP":"コイキング",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -3289,7 +3424,8 @@
   },
   {
   "No":130,
-  "Name":"Gyarados",
+  "NameEN":"Gyarados",
+  "NameJP":"ギャラドス",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -3313,7 +3449,8 @@
   },
   {
   "No":130,
-  "Name":"Mega Gyarados",
+  "NameEN":"Mega Gyarados",
+  "NameJP":"メガギャラドス",
   "Type 1":"Water",
   "Type 2":"Dark",
   "Normal":1,
@@ -3337,7 +3474,8 @@
   },
   {
   "No":131,
-  "Name":"Lapras",
+  "NameEN":"Lapras",
+  "NameJP":"ラプラス",
   "Type 1":"Water",
   "Type 2":"Ice",
   "Normal":1,
@@ -3361,7 +3499,8 @@
   },
   {
   "No":132,
-  "Name":"Ditto",
+  "NameEN":"Ditto",
+  "NameJP":"メタモン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -3385,7 +3524,8 @@
   },
   {
   "No":133,
-  "Name":"Eevee",
+  "NameEN":"Eevee",
+  "NameJP":"イーブイ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -3409,7 +3549,8 @@
   },
   {
   "No":134,
-  "Name":"Vaporeon",
+  "NameEN":"Vaporeon",
+  "NameJP":"シャワーズ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -3433,7 +3574,8 @@
   },
   {
   "No":135,
-  "Name":"Jolteon",
+  "NameEN":"Jolteon",
+  "NameJP":"サンダース",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -3457,7 +3599,8 @@
   },
   {
   "No":136,
-  "Name":"Flareon",
+  "NameEN":"Flareon",
+  "NameJP":"ブースター",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -3481,7 +3624,8 @@
   },
   {
   "No":137,
-  "Name":"Porygon",
+  "NameEN":"Porygon",
+  "NameJP":"ポリゴン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -3505,7 +3649,8 @@
   },
   {
   "No":138,
-  "Name":"Omanyte",
+  "NameEN":"Omanyte",
+  "NameJP":"オムナイト",
   "Type 1":"Rock",
   "Type 2":"Water",
   "Normal":0.5,
@@ -3529,7 +3674,8 @@
   },
   {
   "No":139,
-  "Name":"Omastar",
+  "NameEN":"Omastar",
+  "NameJP":"オムスター",
   "Type 1":"Rock",
   "Type 2":"Water",
   "Normal":0.5,
@@ -3553,7 +3699,8 @@
   },
   {
   "No":140,
-  "Name":"Kabuto",
+  "NameEN":"Kabuto",
+  "NameJP":"カブト",
   "Type 1":"Rock",
   "Type 2":"Water",
   "Normal":0.5,
@@ -3577,7 +3724,8 @@
   },
   {
   "No":141,
-  "Name":"Kabutops",
+  "NameEN":"Kabutops",
+  "NameJP":"カブトプス",
   "Type 1":"Rock",
   "Type 2":"Water",
   "Normal":0.5,
@@ -3601,7 +3749,8 @@
   },
   {
   "No":142,
-  "Name":"Aerodactyl",
+  "NameEN":"Aerodactyl",
+  "NameJP":"プテラ",
   "Type 1":"Rock",
   "Type 2":"Flying",
   "Normal":0.5,
@@ -3625,7 +3774,8 @@
   },
   {
   "No":142,
-  "Name":"Mega Aerodactyl",
+  "NameEN":"Mega Aerodactyl",
+  "NameJP":"メガプテラ",
   "Type 1":"Rock",
   "Type 2":"Flying",
   "Normal":0.5,
@@ -3649,7 +3799,8 @@
   },
   {
   "No":143,
-  "Name":"Snorlax",
+  "NameEN":"Snorlax",
+  "NameJP":"カビゴン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -3673,7 +3824,8 @@
   },
   {
   "No":144,
-  "Name":"Articuno",
+  "NameEN":"Articuno",
+  "NameJP":"フリーザー",
   "Type 1":"Ice",
   "Type 2":"Flying",
   "Normal":1,
@@ -3697,7 +3849,8 @@
   },
   {
   "No":145,
-  "Name":"Zapdos",
+  "NameEN":"Zapdos",
+  "NameJP":"サンダー",
   "Type 1":"Electric",
   "Type 2":"Flying",
   "Normal":1,
@@ -3721,7 +3874,8 @@
   },
   {
   "No":146,
-  "Name":"Moltres",
+  "NameEN":"Moltres",
+  "NameJP":"ファイヤー",
   "Type 1":"Fire",
   "Type 2":"Flying",
   "Normal":1,
@@ -3745,7 +3899,8 @@
   },
   {
   "No":147,
-  "Name":"Dratini",
+  "NameEN":"Dratini",
+  "NameJP":"ミニリュウ",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -3769,7 +3924,8 @@
   },
   {
   "No":148,
-  "Name":"Dragonair",
+  "NameEN":"Dragonair",
+  "NameJP":"ハクリュー",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -3793,7 +3949,8 @@
   },
   {
   "No":149,
-  "Name":"Dragonite",
+  "NameEN":"Dragonite",
+  "NameJP":"ミュウツー",
   "Type 1":"Dragon",
   "Type 2":"Flying",
   "Normal":1,
@@ -3817,7 +3974,8 @@
   },
   {
   "No":150,
-  "Name":"Mewtwo",
+  "NameEN":"Mewtwo",
+  "NameJP":"ミュウツー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -3841,7 +3999,7 @@
   },
   {
   "No":150,
-  "Name":"Mega Mewtwo X",
+  "NameJP":"メガミュウツーX",
   "Type 1":"Psychic",
   "Type 2":"Fighting",
   "Normal":1,
@@ -3865,7 +4023,7 @@
   },
   {
   "No":150,
-  "Name":"Mega Mewtwo Y",
+  "NameJP":"メガミュウツーY",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -3889,7 +4047,8 @@
   },
   {
   "No":151,
-  "Name":"Mew",
+  "NameEN":"Mew",
+  "NameJP":"ミュウ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -3913,7 +4072,8 @@
   },
   {
   "No":152,
-  "Name":"Chikorita",
+  "NameEN":"Chikorita",
+  "NameJP":"チコリータ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -3937,7 +4097,8 @@
   },
   {
   "No":153,
-  "Name":"Bayleef",
+  "NameEN":"Bayleef",
+  "NameJP":"ベイリーフ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -3961,7 +4122,8 @@
   },
   {
   "No":154,
-  "Name":"Meganium",
+  "NameEN":"Meganium",
+  "NameJP":"メガニウム",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -3985,7 +4147,8 @@
   },
   {
   "No":155,
-  "Name":"Cyndaquil",
+  "NameEN":"Cyndaquil",
+  "NameJP":"ヒノアラシ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -4009,7 +4172,8 @@
   },
   {
   "No":156,
-  "Name":"Quilava",
+  "NameEN":"Quilava",
+  "NameJP":"マグマラシ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -4033,7 +4197,8 @@
   },
   {
   "No":157,
-  "Name":"Typhlosion",
+  "NameEN":"Typhlosion",
+  "NameJP":"バクフーン",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -4057,7 +4222,8 @@
   },
   {
   "No":158,
-  "Name":"Totodile",
+  "NameEN":"Totodile",
+  "NameJP":"ワニノコ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -4081,7 +4247,8 @@
   },
   {
   "No":159,
-  "Name":"Croconaw",
+  "NameEN":"Croconaw",
+  "NameJP":"アリゲイツ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -4105,7 +4272,8 @@
   },
   {
   "No":160,
-  "Name":"Feraligatr",
+  "NameEN":"Feraligatr",
+  "NameJP":"オーダイル",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -4129,7 +4297,8 @@
   },
   {
   "No":161,
-  "Name":"Sentret",
+  "NameEN":"Sentret",
+  "NameJP":"オタチ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -4153,7 +4322,8 @@
   },
   {
   "No":162,
-  "Name":"Furret",
+  "NameEN":"Furret",
+  "NameJP":"オオタチ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -4177,7 +4347,8 @@
   },
   {
   "No":163,
-  "Name":"Hoothoot",
+  "NameEN":"Hoothoot",
+  "NameJP":"ホーホー",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -4201,7 +4372,8 @@
   },
   {
   "No":164,
-  "Name":"Noctowl",
+  "NameEN":"Noctowl",
+  "NameJP":"ヨルノズク",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -4225,7 +4397,8 @@
   },
   {
   "No":165,
-  "Name":"Ledyba",
+  "NameEN":"Ledyba",
+  "NameJP":"レディバ",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -4249,7 +4422,8 @@
   },
   {
   "No":166,
-  "Name":"Ledian",
+  "NameEN":"Ledian",
+  "NameJP":"レディアン",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -4273,7 +4447,8 @@
   },
   {
   "No":167,
-  "Name":"Spinarak",
+  "NameEN":"Spinarak",
+  "NameJP":"イトマル",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -4297,7 +4472,8 @@
   },
   {
   "No":168,
-  "Name":"Ariados",
+  "NameEN":"Ariados",
+  "NameJP":"アリアドス",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -4321,7 +4497,8 @@
   },
   {
   "No":169,
-  "Name":"Crobat",
+  "NameEN":"Crobat",
+  "NameJP":"クロバット",
   "Type 1":"Poison",
   "Type 2":"Flying",
   "Normal":1,
@@ -4345,7 +4522,8 @@
   },
   {
   "No":170,
-  "Name":"Chinchou",
+  "NameEN":"Chinchou",
+  "NameJP":"チョンチー",
   "Type 1":"Water",
   "Type 2":"Electric",
   "Normal":1,
@@ -4369,7 +4547,8 @@
   },
   {
   "No":171,
-  "Name":"Lanturn",
+  "NameEN":"Lanturn",
+  "NameJP":"ランターン",
   "Type 1":"Water",
   "Type 2":"Electric",
   "Normal":1,
@@ -4393,7 +4572,8 @@
   },
   {
   "No":172,
-  "Name":"Pichu",
+  "NameEN":"Pichu",
+  "NameJP":"ピチュー",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -4417,7 +4597,8 @@
   },
   {
   "No":173,
-  "Name":"Cleffa",
+  "NameEN":"Cleffa",
+  "NameJP":"ピィ",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -4441,7 +4622,8 @@
   },
   {
   "No":174,
-  "Name":"Igglybuff",
+  "NameEN":"Igglybuff",
+  "NameJP":"ププリン",
   "Type 1":"Normal",
   "Type 2":"Fairy",
   "Normal":1,
@@ -4465,7 +4647,8 @@
   },
   {
   "No":175,
-  "Name":"Togepi",
+  "NameEN":"Togepi",
+  "NameJP":"トゲピー",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -4489,7 +4672,8 @@
   },
   {
   "No":176,
-  "Name":"Togetic",
+  "NameEN":"Togetic",
+  "NameJP":"トゲチック",
   "Type 1":"Fairy",
   "Type 2":"Flying",
   "Normal":1,
@@ -4513,7 +4697,8 @@
   },
   {
   "No":177,
-  "Name":"Natu",
+  "NameEN":"Natu",
+  "NameJP":"ネイティ",
   "Type 1":"Psychic",
   "Type 2":"Flying",
   "Normal":1,
@@ -4537,7 +4722,8 @@
   },
   {
   "No":178,
-  "Name":"Xatu",
+  "NameEN":"Xatu",
+  "NameJP":"ネイティオ",
   "Type 1":"Psychic",
   "Type 2":"Flying",
   "Normal":1,
@@ -4561,7 +4747,8 @@
   },
   {
   "No":179,
-  "Name":"Mareep",
+  "NameEN":"Mareep",
+  "NameJP":"メリープ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -4585,7 +4772,8 @@
   },
   {
   "No":180,
-  "Name":"Flaaffy",
+  "NameEN":"Flaaffy",
+  "NameJP":"モココ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -4609,8 +4797,9 @@
   },
   {
   "No":181,
-  "Name":"Ampharos",
+  "NameEN":"Ampharos",
   "Type 1":"Electric",
+  "NameJP":"デンリュウ",
   "Type 2":"NULL",
   "Normal":1,
   "Fire":1,
@@ -4633,7 +4822,8 @@
   },
   {
   "No":181,
-  "Name":"Mega Ampharos",
+  "NameEN":"Mega Ampharos",
+  "NameJP":"メガデンリュウ",
   "Type 1":"Electric",
   "Type 2":"Dragon",
   "Normal":1,
@@ -4657,7 +4847,8 @@
   },
   {
   "No":182,
-  "Name":"Bellossom",
+  "NameEN":"Bellossom",
+  "NameJP":"キレイハナ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -4681,7 +4872,8 @@
   },
   {
   "No":183,
-  "Name":"Marill",
+  "NameEN":"Marill",
+  "NameJP":"マリル",
   "Type 1":"Water",
   "Type 2":"Fairy",
   "Normal":1,
@@ -4705,7 +4897,8 @@
   },
   {
   "No":184,
-  "Name":"Azumarill",
+  "NameEN":"Azumarill",
+  "NameJP":"マリルリ",
   "Type 1":"Water",
   "Type 2":"Fairy",
   "Normal":1,
@@ -4729,7 +4922,8 @@
   },
   {
   "No":185,
-  "Name":"Sudowoodo",
+  "NameEN":"Sudowoodo",
+  "NameJP":"ウソッキー",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -4753,7 +4947,8 @@
   },
   {
   "No":186,
-  "Name":"Politoed",
+  "NameEN":"Politoed",
+  "NameJP":"ニョロトノ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -4777,7 +4972,8 @@
   },
   {
   "No":187,
-  "Name":"Hoppip",
+  "NameEN":"Hoppip",
+  "NameJP":"ハネッコ",
   "Type 1":"Grass",
   "Type 2":"Flying",
   "Normal":1,
@@ -4801,7 +4997,8 @@
   },
   {
   "No":188,
-  "Name":"Skiploom",
+  "NameEN":"Skiploom",
+  "NameJP":"ポポッコ",
   "Type 1":"Grass",
   "Type 2":"Flying",
   "Normal":1,
@@ -4825,7 +5022,8 @@
   },
   {
   "No":189,
-  "Name":"Jumpluff",
+  "NameEN":"Jumpluff",
+  "NameJP":"ワタッコ",
   "Type 1":"Grass",
   "Type 2":"Flying",
   "Normal":1,
@@ -4849,7 +5047,8 @@
   },
   {
   "No":190,
-  "Name":"Aipom",
+  "NameEN":"Aipom",
+  "NameJP":"エイパム",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -4873,7 +5072,8 @@
   },
   {
   "No":191,
-  "Name":"Sunkern",
+  "NameEN":"Sunkern",
+  "NameJP":"ヒマナッツ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -4897,7 +5097,8 @@
   },
   {
   "No":192,
-  "Name":"Sunflora",
+  "NameEN":"Sunflora",
+  "NameJP":"キマワリ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -4921,7 +5122,8 @@
   },
   {
   "No":193,
-  "Name":"Yanma",
+  "NameEN":"Yanma",
+  "NameJP":"ヤンヤンマ",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -4945,7 +5147,8 @@
   },
   {
   "No":194,
-  "Name":"Wooper",
+  "NameEN":"Wooper",
+  "NameJP":"ウパー",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -4969,7 +5172,8 @@
   },
   {
   "No":195,
-  "Name":"Quagsire",
+  "NameEN":"Quagsire",
+  "NameJP":"ヌオー",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -4993,7 +5197,8 @@
   },
   {
   "No":196,
-  "Name":"Espeon",
+  "NameEN":"Espeon",
+  "NameJP":"エーフィ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -5017,7 +5222,8 @@
   },
   {
   "No":197,
-  "Name":"Umbreon",
+  "NameEN":"Umbreon",
+  "NameJP":"ブラッキー",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -5041,7 +5247,8 @@
   },
   {
   "No":198,
-  "Name":"Murkrow",
+  "NameEN":"Murkrow",
+  "NameJP":"ヤミカラス",
   "Type 1":"Dark",
   "Type 2":"Flying",
   "Normal":1,
@@ -5065,7 +5272,8 @@
   },
   {
   "No":199,
-  "Name":"Slowking",
+  "NameEN":"Slowking",
+  "NameJP":"ヤドキング",
   "Type 1":"Water",
   "Type 2":"Psychic",
   "Normal":1,
@@ -5089,7 +5297,8 @@
   },
   {
   "No":200,
-  "Name":"Misdreavus",
+  "NameEN":"Misdreavus",
+  "NameJP":"ムウマ",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -5113,7 +5322,8 @@
   },
   {
   "No":201,
-  "Name":"Unown",
+  "NameEN":"Unown",
+  "NameJP":"アンノーン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -5137,7 +5347,8 @@
   },
   {
   "No":202,
-  "Name":"Wobbuffet",
+  "NameEN":"Wobbuffet",
+  "NameJP":"ソーナンス",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -5161,7 +5372,8 @@
   },
   {
   "No":203,
-  "Name":"Girafarig",
+  "NameEN":"Girafarig",
+  "NameJP":"キリンリキ",
   "Type 1":"Normal",
   "Type 2":"Psychic",
   "Normal":1,
@@ -5185,7 +5397,8 @@
   },
   {
   "No":204,
-  "Name":"Pineco",
+  "NameEN":"Pineco",
+  "NameJP":"クヌギダマ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -5209,7 +5422,8 @@
   },
   {
   "No":205,
-  "Name":"Forretress",
+  "NameEN":"Forretress",
+  "NameJP":"フォレトス",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -5233,7 +5447,8 @@
   },
   {
   "No":206,
-  "Name":"Dunsparce",
+  "NameEN":"Dunsparce",
+  "NameJP":"アルセウス",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -5257,7 +5472,8 @@
   },
   {
   "No":207,
-  "Name":"Gligar",
+  "NameEN":"Gligar",
+  "NameJP":"グライガー",
   "Type 1":"Ground",
   "Type 2":"Flying",
   "Normal":1,
@@ -5281,7 +5497,8 @@
   },
   {
   "No":208,
-  "Name":"Steelix",
+  "NameEN":"Steelix",
+  "NameJP":"ハガネール",
   "Type 1":"Steel",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -5305,7 +5522,8 @@
   },
   {
   "No":209,
-  "Name":"Snubbull",
+  "NameEN":"Snubbull",
+  "NameJP":"ブルー",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -5329,7 +5547,8 @@
   },
   {
   "No":210,
-  "Name":"Granbull",
+  "NameEN":"Granbull",
+  "NameJP":"グランブル",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -5353,7 +5572,8 @@
   },
   {
   "No":211,
-  "Name":"Qwilfish",
+  "NameEN":"Qwilfish",
+  "NameJP":"ハリーセン",
   "Type 1":"Water",
   "Type 2":"Poison",
   "Normal":1,
@@ -5377,7 +5597,8 @@
   },
   {
   "No":212,
-  "Name":"Scizor",
+  "NameEN":"Scizor",
+  "NameJP":"ハッサム",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -5401,7 +5622,8 @@
   },
   {
   "No":212,
-  "Name":"Mega Scizor",
+  "NameEN":"Mega Scizor",
+  "NameJP":"メガハッサム",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -5425,7 +5647,8 @@
   },
   {
   "No":213,
-  "Name":"Shuckle",
+  "NameEN":"Shuckle",
+  "NameJP":"ツボツボ",
   "Type 1":"Bug",
   "Type 2":"Rock",
   "Normal":0.5,
@@ -5449,7 +5672,8 @@
   },
   {
   "No":214,
-  "Name":"Heracross",
+  "NameEN":"Heracross",
+  "NameJP":"ヘラクロス",
   "Type 1":"Bug",
   "Type 2":"Fighting",
   "Normal":1,
@@ -5473,7 +5697,8 @@
   },
   {
   "No":214,
-  "Name":"Mega Heracross",
+  "NameEN":"Mega Heracross",
+  "NameJP":"メガヘラクロス",
   "Type 1":"Bug",
   "Type 2":"Fighting",
   "Normal":1,
@@ -5497,7 +5722,8 @@
   },
   {
   "No":215,
-  "Name":"Sneasel",
+  "NameEN":"Sneasel",
+  "NameJP":"ニューラ",
   "Type 1":"Dark",
   "Type 2":"Ice",
   "Normal":1,
@@ -5521,7 +5747,8 @@
   },
   {
   "No":216,
-  "Name":"Teddiursa",
+  "NameEN":"Teddiursa",
+  "NameJP":"ヒメグマ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -5545,7 +5772,8 @@
   },
   {
   "No":217,
-  "Name":"Ursaring",
+  "NameEN":"Ursaring",
+  "NameJP":"リングマ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -5569,7 +5797,8 @@
   },
   {
   "No":218,
-  "Name":"Slugma",
+  "NameEN":"Slugma",
+  "NameJP":"マグマッグ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -5593,7 +5822,8 @@
   },
   {
   "No":219,
-  "Name":"Magcargo",
+  "NameEN":"Magcargo",
+  "NameJP":"マグカルゴ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -5617,7 +5847,8 @@
   },
   {
   "No":220,
-  "Name":"Swinub",
+  "NameEN":"Swinub",
+  "NameJP":"ウリムー",
   "Type 1":"Ice",
   "Type 2":"Ground",
   "Normal":1,
@@ -5641,7 +5872,8 @@
   },
   {
   "No":221,
-  "Name":"Piloswine",
+  "NameEN":"Piloswine",
+  "NameJP":"イノムー",
   "Type 1":"Ice",
   "Type 2":"Ground",
   "Normal":1,
@@ -5665,7 +5897,8 @@
   },
   {
   "No":222,
-  "Name":"Corsola",
+  "NameEN":"Corsola",
+  "NameJP":"サニーゴ",
   "Type 1":"Water",
   "Type 2":"Rock",
   "Normal":0.5,
@@ -5689,7 +5922,8 @@
   },
   {
   "No":223,
-  "Name":"Remoraid",
+  "NameEN":"Remoraid",
+  "NameJP":"テッポウオ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -5713,7 +5947,8 @@
   },
   {
   "No":224,
-  "Name":"Octillery",
+  "NameEN":"Octillery",
+  "NameJP":"オクタン",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -5737,7 +5972,8 @@
   },
   {
   "No":225,
-  "Name":"Delibird",
+  "NameEN":"Delibird",
+  "NameJP":"デリバード",
   "Type 1":"Ice",
   "Type 2":"Flying",
   "Normal":1,
@@ -5761,7 +5997,8 @@
   },
   {
   "No":226,
-  "Name":"Mantine",
+  "NameEN":"Mantine",
+  "NameJP":"マンタイン",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -5785,7 +6022,8 @@
   },
   {
   "No":227,
-  "Name":"Skarmory",
+  "NameEN":"Skarmory",
+  "NameJP":"エアームド",
   "Type 1":"Steel",
   "Type 2":"Flying",
   "Normal":0.5,
@@ -5809,7 +6047,8 @@
   },
   {
   "No":228,
-  "Name":"Houndour",
+  "NameEN":"Houndour",
+  "NameJP":"デルビル",
   "Type 1":"Dark",
   "Type 2":"Fire",
   "Normal":1,
@@ -5833,7 +6072,8 @@
   },
   {
   "No":229,
-  "Name":"Houndoom",
+  "NameEN":"Houndoom",
+  "NameJP":"ヘルガー",
   "Type 1":"Dark",
   "Type 2":"Fire",
   "Normal":1,
@@ -5857,7 +6097,8 @@
   },
   {
   "No":229,
-  "Name":"Mega Houndoom",
+  "NameEN":"Mega Houndoom",
+  "NameJP":"メガヘルガー",
   "Type 1":"Dark",
   "Type 2":"Fire",
   "Normal":1,
@@ -5881,7 +6122,8 @@
   },
   {
   "No":230,
-  "Name":"Kingdra",
+  "NameEN":"Kingdra",
+  "NameJP":"キングドラ",
   "Type 1":"Water",
   "Type 2":"Dragon",
   "Normal":1,
@@ -5905,7 +6147,8 @@
   },
   {
   "No":231,
-  "Name":"Phanpy",
+  "NameEN":"Phanpy",
+  "NameJP":"ゴマゾウ",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -5929,7 +6172,8 @@
   },
   {
   "No":232,
-  "Name":"Donphan",
+  "NameEN":"Donphan",
+  "NameJP":"ドンファン",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -5953,7 +6197,8 @@
   },
   {
   "No":233,
-  "Name":"Porygon2",
+  "NameEN":"Porygon2",
+  "NameJP":"ポリゴン２",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -5977,7 +6222,8 @@
   },
   {
   "No":234,
-  "Name":"Stantler",
+  "NameEN":"Stantler",
+  "NameJP":"オドシシ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -6001,7 +6247,8 @@
   },
   {
   "No":235,
-  "Name":"Smeargle",
+  "NameEN":"Smeargle",
+  "NameJP":"ドーブル",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -6025,7 +6272,8 @@
   },
   {
   "No":236,
-  "Name":"Tyrogue",
+  "NameEN":"Tyrogue",
+  "NameJP":"バルキー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -6049,7 +6297,8 @@
   },
   {
   "No":237,
-  "Name":"Hitmontop",
+  "NameEN":"Hitmontop",
+  "NameJP":"カポエラー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -6073,7 +6322,8 @@
   },
   {
   "No":238,
-  "Name":"Smoochum",
+  "NameEN":"Smoochum",
+  "NameJP":"ムチュール",
   "Type 1":"Ice",
   "Type 2":"Psychic",
   "Normal":1,
@@ -6097,7 +6347,8 @@
   },
   {
   "No":239,
-  "Name":"Elekid",
+  "NameEN":"Elekid",
+  "NameJP":"エレキッド",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -6121,7 +6372,8 @@
   },
   {
   "No":240,
-  "Name":"Magby",
+  "NameEN":"Magby",
+  "NameJP":"ブビィ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -6145,7 +6397,8 @@
   },
   {
   "No":241,
-  "Name":"Miltank",
+  "NameEN":"Miltank",
+  "NameJP":"ミルタンク",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -6169,7 +6422,8 @@
   },
   {
   "No":242,
-  "Name":"Blissey",
+  "NameEN":"Blissey",
+  "NameJP":"ハピナス",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -6193,7 +6447,8 @@
   },
   {
   "No":243,
-  "Name":"Raikou",
+  "NameEN":"Raikou",
+  "NameJP":"ライコウ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -6217,7 +6472,8 @@
   },
   {
   "No":244,
-  "Name":"Entei",
+  "NameEN":"Entei",
+  "NameJP":"エンテイ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -6241,7 +6497,8 @@
   },
   {
   "No":245,
-  "Name":"Suicune",
+  "NameEN":"Suicune",
+  "NameJP":"スイクン",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -6265,7 +6522,8 @@
   },
   {
   "No":246,
-  "Name":"Larvitar",
+  "NameEN":"Larvitar",
+  "NameJP":"ヨーギラス",
   "Type 1":"Rock",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -6289,7 +6547,8 @@
   },
   {
   "No":247,
-  "Name":"Pupitar",
+  "NameEN":"Pupitar",
+  "NameJP":"サナギラス",
   "Type 1":"Rock",
   "Type 2":"Ground",
   "Normal":0.5,
@@ -6313,7 +6572,8 @@
   },
   {
   "No":248,
-  "Name":"Tyranitar",
+  "NameEN":"Tyranitar",
+  "NameJP":"バンギラス",
   "Type 1":"Rock",
   "Type 2":"Dark",
   "Normal":0.5,
@@ -6337,7 +6597,8 @@
   },
   {
   "No":248,
-  "Name":"Mega Tyranitar",
+  "NameEN":"Mega Tyranitar",
+  "NameJP":"メガバンギラス",
   "Type 1":"Rock",
   "Type 2":"Dark",
   "Normal":0.5,
@@ -6361,7 +6622,8 @@
   },
   {
   "No":249,
-  "Name":"Lugia",
+  "NameEN":"Lugia",
+  "NameJP":"ルギア",
   "Type 1":"Psychic",
   "Type 2":"Flying",
   "Normal":1,
@@ -6385,7 +6647,8 @@
   },
   {
   "No":250,
-  "Name":"Ho-oh",
+  "NameEN":"Ho-oh",
+  "NameJP":"ホウオウ",
   "Type 1":"Fire",
   "Type 2":"Flying",
   "Normal":1,
@@ -6409,7 +6672,8 @@
   },
   {
   "No":251,
-  "Name":"Celebi",
+  "NameEN":"Celebi",
+  "NameJP":"セレビィ",
   "Type 1":"Psychic",
   "Type 2":"Grass",
   "Normal":1,
@@ -6433,7 +6697,8 @@
   },
   {
   "No":252,
-  "Name":"Treecko",
+  "NameEN":"Treecko",
+  "NameJP":"キモリ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -6457,7 +6722,8 @@
   },
   {
   "No":253,
-  "Name":"Grovyle",
+  "NameEN":"Grovyle",
+  "NameJP":"ジュプトル",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -6481,7 +6747,8 @@
   },
   {
   "No":254,
-  "Name":"Sceptile",
+  "NameEN":"Sceptile",
+  "NameJP":"ジュカイン",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -6505,7 +6772,8 @@
   },
   {
   "No":255,
-  "Name":"Torchic",
+  "NameEN":"Torchic",
+  "NameJP":"アチャモ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -6529,7 +6797,8 @@
   },
   {
   "No":256,
-  "Name":"Combusken",
+  "NameEN":"Combusken",
+  "NameJP":"ワカシャモ",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -6553,7 +6822,8 @@
   },
   {
   "No":257,
-  "Name":"Blaziken",
+  "NameEN":"Blaziken",
+  "NameJP":"バシャーモ",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -6577,7 +6847,8 @@
   },
   {
   "No":257,
-  "Name":"Mega Blaziken",
+  "NameEN":"Mega Blaziken",
+  "NameJP":"メガバシャーモ",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -6601,7 +6872,8 @@
   },
   {
   "No":258,
-  "Name":"Mudkip",
+  "NameEN":"Mudkip",
+  "NameJP":"ミズゴロウ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -6625,7 +6897,8 @@
   },
   {
   "No":259,
-  "Name":"Marshtomp",
+  "NameEN":"Marshtomp",
+  "NameJP":"ヌマクロー",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -6649,7 +6922,8 @@
   },
   {
   "No":260,
-  "Name":"Swampert",
+  "NameEN":"Swampert",
+  "NameJP":"ラグラージ",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -6673,7 +6947,8 @@
   },
   {
   "No":261,
-  "Name":"Poochyena",
+  "NameEN":"Poochyena",
+  "NameJP":"ポチエナ",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -6697,7 +6972,8 @@
   },
   {
   "No":262,
-  "Name":"Mightyena",
+  "NameEN":"Mightyena",
+  "NameJP":"グラエナ",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -6721,7 +6997,8 @@
   },
   {
   "No":263,
-  "Name":"Zigzagoon",
+  "NameEN":"Zigzagoon",
+  "NameJP":"ジグザグマ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -6745,7 +7022,8 @@
   },
   {
   "No":264,
-  "Name":"Linoone",
+  "NameEN":"Linoone",
+  "NameJP":"マッスグマ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -6769,7 +7047,8 @@
   },
   {
   "No":265,
-  "Name":"Wurmple",
+  "NameEN":"Wurmple",
+  "NameJP":"ケムッソ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -6793,7 +7072,8 @@
   },
   {
   "No":266,
-  "Name":"Silcoon",
+  "NameEN":"Silcoon",
+  "NameJP":"カラサリス",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -6817,7 +7097,8 @@
   },
   {
   "No":267,
-  "Name":"Beautifly",
+  "NameEN":"Beautifly",
+  "NameJP":"アゲハント",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -6841,7 +7122,8 @@
   },
   {
   "No":268,
-  "Name":"Cascoon",
+  "NameEN":"Cascoon",
+  "NameJP":"マユルド",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -6865,7 +7147,8 @@
   },
   {
   "No":269,
-  "Name":"Dustox",
+  "NameEN":"Dustox",
+  "NameJP":"ドクケイル",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -6889,7 +7172,8 @@
   },
   {
   "No":270,
-  "Name":"Lotad",
+  "NameEN":"Lotad",
+  "NameJP":"ハスボー",
   "Type 1":"Water",
   "Type 2":"Grass",
   "Normal":1,
@@ -6913,7 +7197,8 @@
   },
   {
   "No":271,
-  "Name":"Lombre",
+  "NameEN":"Lombre",
+  "NameJP":"ハスブレロ",
   "Type 1":"Water",
   "Type 2":"Grass",
   "Normal":1,
@@ -6937,7 +7222,8 @@
   },
   {
   "No":272,
-  "Name":"Ludicolo",
+  "NameEN":"Ludicolo",
+  "NameJP":"ルンパッパ",
   "Type 1":"Water",
   "Type 2":"Grass",
   "Normal":1,
@@ -6961,7 +7247,8 @@
   },
   {
   "No":273,
-  "Name":"Seedot",
+  "NameEN":"Seedot",
+  "NameJP":"タネボー",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -6985,7 +7272,8 @@
   },
   {
   "No":274,
-  "Name":"Nuzleaf",
+  "NameEN":"Nuzleaf",
+  "NameJP":"コノハナ",
   "Type 1":"Grass",
   "Type 2":"Dark",
   "Normal":1,
@@ -7009,7 +7297,8 @@
   },
   {
   "No":275,
-  "Name":"Shiftry",
+  "NameEN":"Shiftry",
+  "NameJP":"ダーテング",
   "Type 1":"Grass",
   "Type 2":"Dark",
   "Normal":1,
@@ -7033,7 +7322,8 @@
   },
   {
   "No":276,
-  "Name":"Taillow",
+  "NameEN":"Taillow",
+  "NameJP":"スバメ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -7057,7 +7347,8 @@
   },
   {
   "No":277,
-  "Name":"Swellow",
+  "NameEN":"Swellow",
+  "NameJP":"オオスバメ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -7081,7 +7372,8 @@
   },
   {
   "No":278,
-  "Name":"Wingull",
+  "NameEN":"Wingull",
+  "NameJP":"キャモメ",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -7105,7 +7397,8 @@
   },
   {
   "No":279,
-  "Name":"Pelipper",
+  "NameEN":"Pelipper",
+  "NameJP":"ペリッパー",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -7129,7 +7422,8 @@
   },
   {
   "No":280,
-  "Name":"Ralts",
+  "NameEN":"Ralts",
+  "NameJP":"ラルトス",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -7153,7 +7447,8 @@
   },
   {
   "No":281,
-  "Name":"Kirlia",
+  "NameEN":"Kirlia",
+  "NameJP":"キルリア",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -7177,7 +7472,8 @@
   },
   {
   "No":282,
-  "Name":"Gardevoir",
+  "NameEN":"Gardevoir",
+  "NameJP":"サーナイト",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -7201,7 +7497,8 @@
   },
   {
   "No":282,
-  "Name":"Mega Gardevoir",
+  "NameEN":"Mega Gardevoir",
+  "NameJP":"メガサーナイト",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -7225,7 +7522,8 @@
   },
   {
   "No":283,
-  "Name":"Surskit",
+  "NameEN":"Surskit",
+  "NameJP":"アメタマ",
   "Type 1":"Bug",
   "Type 2":"Water",
   "Normal":1,
@@ -7249,7 +7547,8 @@
   },
   {
   "No":284,
-  "Name":"Masquerain",
+  "NameEN":"Masquerain",
+  "NameJP":"アメモース",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -7273,7 +7572,8 @@
   },
   {
   "No":285,
-  "Name":"Shroomish",
+  "NameEN":"Shroomish",
+  "NameJP":"キノココ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -7297,7 +7597,8 @@
   },
   {
   "No":286,
-  "Name":"Breloom",
+  "NameEN":"Breloom",
+  "NameJP":"キノガッサ",
   "Type 1":"Grass",
   "Type 2":"Fighting",
   "Normal":1,
@@ -7321,7 +7622,8 @@
   },
   {
   "No":287,
-  "Name":"Slakoth",
+  "NameEN":"Slakoth",
+  "NameJP":"ナマケロ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7345,7 +7647,8 @@
   },
   {
   "No":288,
-  "Name":"Vigoroth",
+  "NameEN":"Vigoroth",
+  "NameJP":"ヤルキモノ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7369,7 +7672,8 @@
   },
   {
   "No":289,
-  "Name":"Slaking",
+  "NameEN":"Slaking",
+  "NameJP":"ケッキング",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7393,7 +7697,8 @@
   },
   {
   "No":290,
-  "Name":"Nincada",
+  "NameEN":"Nincada",
+  "NameJP":"ツチニン",
   "Type 1":"Bug",
   "Type 2":"Ground",
   "Normal":1,
@@ -7417,7 +7722,8 @@
   },
   {
   "No":291,
-  "Name":"Ninjask",
+  "NameEN":"Ninjask",
+  "NameJP":"テッカニン",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -7441,7 +7747,8 @@
   },
   {
   "No":292,
-  "Name":"Shedinja",
+  "NameEN":"Shedinja",
+  "NameJP":"ヌケニン",
   "Type 1":"Bug",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -7465,7 +7772,8 @@
   },
   {
   "No":293,
-  "Name":"Whismur",
+  "NameEN":"Whismur",
+  "NameJP":"ゴニョニョ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7489,7 +7797,8 @@
   },
   {
   "No":294,
-  "Name":"Loudred",
+  "NameEN":"Loudred",
+  "NameJP":"ドゴーム",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7513,7 +7822,8 @@
   },
   {
   "No":295,
-  "Name":"Exploud",
+  "NameEN":"Exploud",
+  "NameJP":"バクオング",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7537,7 +7847,8 @@
   },
   {
   "No":296,
-  "Name":"Makuhita",
+  "NameEN":"Makuhita",
+  "NameJP":"マクノシタ",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -7561,7 +7872,8 @@
   },
   {
   "No":297,
-  "Name":"Hariyama",
+  "NameEN":"Hariyama",
+  "NameJP":"ハリテヤマ",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -7585,7 +7897,8 @@
   },
   {
   "No":298,
-  "Name":"Azurill",
+  "NameEN":"Azurill",
+  "NameJP":"ルリリ",
   "Type 1":"Normal",
   "Type 2":"Fairy",
   "Normal":1,
@@ -7609,7 +7922,8 @@
   },
   {
   "No":299,
-  "Name":"Nosepass",
+  "NameEN":"Nosepass",
+  "NameJP":"ノズパス",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -7633,7 +7947,8 @@
   },
   {
   "No":300,
-  "Name":"Skitty",
+  "NameEN":"Skitty",
+  "NameJP":"エネコ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7657,7 +7972,8 @@
   },
   {
   "No":301,
-  "Name":"Delcatty",
+  "NameEN":"Delcatty",
+  "NameJP":"エネコロロ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -7681,7 +7997,8 @@
   },
   {
   "No":302,
-  "Name":"Sableye",
+  "NameEN":"Sableye",
+  "NameJP":"ヤミラミ",
   "Type 1":"Dark",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -7705,7 +8022,8 @@
   },
   {
   "No":303,
-  "Name":"Mawile",
+  "NameEN":"Mawile",
+  "NameJP":"クチート",
   "Type 1":"Steel",
   "Type 2":"Fairy",
   "Normal":0.5,
@@ -7729,7 +8047,8 @@
   },
   {
   "No":303,
-  "Name":"Mega Mawile",
+  "NameEN":"Mega Mawile",
+  "NameJP":"メガクチート",
   "Type 1":"Steel",
   "Type 2":"Fairy",
   "Normal":0.5,
@@ -7753,7 +8072,8 @@
   },
   {
   "No":304,
-  "Name":"Aron",
+  "NameEN":"Aron",
+  "NameJP":"ココドラ",
   "Type 1":"Steel",
   "Type 2":"Rock",
   "Normal":0.25,
@@ -7777,7 +8097,8 @@
   },
   {
   "No":305,
-  "Name":"Lairon",
+  "NameEN":"Lairon",
+  "NameJP":"コドラ",
   "Type 1":"Steel",
   "Type 2":"Rock",
   "Normal":0.25,
@@ -7801,7 +8122,8 @@
   },
   {
   "No":306,
-  "Name":"Aggron",
+  "NameEN":"Aggron",
+  "NameJP":"ボスゴドラ",
   "Type 1":"Steel",
   "Type 2":"Rock",
   "Normal":0.25,
@@ -7825,7 +8147,8 @@
   },
   {
   "No":306,
-  "Name":"Mega Aggron",
+  "NameEN":"Mega Aggron",
+  "NameJP":"メガボスゴドラ",
   "Type 1":"Steel",
   "Type 2":"NULL",
   "Normal":0.25,
@@ -7849,7 +8172,8 @@
   },
   {
   "No":307,
-  "Name":"Meditite",
+  "NameEN":"Meditite",
+  "NameJP":"アサナン",
   "Type 1":"Fighting",
   "Type 2":"Psychic",
   "Normal":1,
@@ -7873,7 +8197,8 @@
   },
   {
   "No":308,
-  "Name":"Medicham",
+  "NameEN":"Medicham",
+  "NameJP":"チャーレム",
   "Type 1":"Fighting",
   "Type 2":"Psychic",
   "Normal":1,
@@ -7897,7 +8222,8 @@
   },
   {
   "No":308,
-  "Name":"Mega Medicham",
+  "NameEN":"Mega Medicham",
+  "NameJP":"メガチャーレム",
   "Type 1":"Fighting",
   "Type 2":"Psychic",
   "Normal":1,
@@ -7921,7 +8247,8 @@
   },
   {
   "No":309,
-  "Name":"Electrike",
+  "NameEN":"Electrike",
+  "NameJP":"ラクライ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -7945,7 +8272,8 @@
   },
   {
   "No":310,
-  "Name":"Manectric",
+  "NameEN":"Manectric",
+  "NameJP":"ライボルト",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -7969,7 +8297,8 @@
   },
   {
   "No":310,
-  "Name":"Mega Manectric",
+  "NameEN":"Mega Manectric",
+  "NameJP":"メガライボルト",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -7993,7 +8322,8 @@
   },
   {
   "No":311,
-  "Name":"Plusle",
+  "NameEN":"Plusle",
+  "NameJP":"プラスル",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -8017,7 +8347,8 @@
   },
   {
   "No":312,
-  "Name":"Minun",
+  "NameEN":"Minun",
+  "NameJP":"マイナン",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -8041,7 +8372,8 @@
   },
   {
   "No":313,
-  "Name":"Volbeat",
+  "NameEN":"Volbeat",
+  "NameJP":"バルビート",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -8065,7 +8397,8 @@
   },
   {
   "No":314,
-  "Name":"Illumise",
+  "NameEN":"Illumise",
+  "NameJP":"イルミーゼ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -8089,7 +8422,8 @@
   },
   {
   "No":315,
-  "Name":"Roselia",
+  "NameEN":"Roselia",
+  "NameJP":"ロゼリア",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -8113,7 +8447,8 @@
   },
   {
   "No":316,
-  "Name":"Gulpin",
+  "NameEN":"Gulpin",
+  "NameJP":"ゴクリン",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -8137,7 +8472,8 @@
   },
   {
   "No":317,
-  "Name":"Swalot",
+  "NameEN":"Swalot",
+  "NameJP":"マルノーム",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -8161,7 +8497,8 @@
   },
   {
   "No":318,
-  "Name":"Carvanha",
+  "NameEN":"Carvanha",
+  "NameJP":"キバニア",
   "Type 1":"Water",
   "Type 2":"Dark",
   "Normal":1,
@@ -8185,7 +8522,8 @@
   },
   {
   "No":319,
-  "Name":"Sharpedo",
+  "NameEN":"Sharpedo",
+  "NameJP":"サメハダー",
   "Type 1":"Water",
   "Type 2":"Dark",
   "Normal":1,
@@ -8209,7 +8547,8 @@
   },
   {
   "No":320,
-  "Name":"Wailmer",
+  "NameEN":"Wailmer",
+  "NameJP":"ホエルコ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -8233,7 +8572,8 @@
   },
   {
   "No":321,
-  "Name":"Wailord",
+  "NameEN":"Wailord",
+  "NameJP":"ホエルオー",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -8257,7 +8597,8 @@
   },
   {
   "No":322,
-  "Name":"Numel",
+  "NameEN":"Numel",
+  "NameJP":"ドンメル",
   "Type 1":"Fire",
   "Type 2":"Ground",
   "Normal":1,
@@ -8281,7 +8622,8 @@
   },
   {
   "No":323,
-  "Name":"Camerupt",
+  "NameEN":"Camerupt",
+  "NameJP":"バクーダ",
   "Type 1":"Fire",
   "Type 2":"Ground",
   "Normal":1,
@@ -8305,7 +8647,8 @@
   },
   {
   "No":324,
-  "Name":"Torkoal",
+  "NameEN":"Torkoal",
+  "NameJP":"コータス",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -8329,7 +8672,8 @@
   },
   {
   "No":325,
-  "Name":"Spoink",
+  "NameEN":"Spoink",
+  "NameJP":"バネブー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -8353,7 +8697,8 @@
   },
   {
   "No":326,
-  "Name":"Grumpig",
+  "NameEN":"Grumpig",
+  "NameJP":"ブーピッグ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -8377,7 +8722,8 @@
   },
   {
   "No":327,
-  "Name":"Spinda",
+  "NameEN":"Spinda",
+  "NameJP":"パッチール",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -8401,7 +8747,8 @@
   },
   {
   "No":328,
-  "Name":"Trapinch",
+  "NameEN":"Trapinch",
+  "NameJP":"ナックラー",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -8425,7 +8772,8 @@
   },
   {
   "No":329,
-  "Name":"Vibrava",
+  "NameEN":"Vibrava",
+  "NameJP":"ビブラーバ",
   "Type 1":"Ground",
   "Type 2":"Dragon",
   "Normal":1,
@@ -8449,7 +8797,8 @@
   },
   {
   "No":330,
-  "Name":"Flygon",
+  "NameEN":"Flygon",
+  "NameJP":"フライゴン",
   "Type 1":"Ground",
   "Type 2":"Dragon",
   "Normal":1,
@@ -8473,7 +8822,8 @@
   },
   {
   "No":331,
-  "Name":"Cacnea",
+  "NameEN":"Cacnea",
+  "NameJP":"サボネア",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -8497,7 +8847,8 @@
   },
   {
   "No":332,
-  "Name":"Cacturne",
+  "NameEN":"Cacturne",
+  "NameJP":"ノクタス",
   "Type 1":"Grass",
   "Type 2":"Dark",
   "Normal":1,
@@ -8521,7 +8872,8 @@
   },
   {
   "No":333,
-  "Name":"Swablu",
+  "NameEN":"Swablu",
+  "NameJP":"チルット",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -8545,7 +8897,8 @@
   },
   {
   "No":334,
-  "Name":"Altaria",
+  "NameEN":"Altaria",
+  "NameJP":"チルタリス",
   "Type 1":"Dragon",
   "Type 2":"Flying",
   "Normal":1,
@@ -8569,7 +8922,8 @@
   },
   {
   "No":335,
-  "Name":"Zangoose",
+  "NameEN":"Zangoose",
+  "NameJP":"ザングース",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -8593,7 +8947,8 @@
   },
   {
   "No":336,
-  "Name":"Seviper",
+  "NameEN":"Seviper",
+  "NameJP":"ハブネーク",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -8617,7 +8972,8 @@
   },
   {
   "No":337,
-  "Name":"Lunatone",
+  "NameEN":"Lunatone",
+  "NameJP":"ルナトーン",
   "Type 1":"Rock",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -8641,7 +8997,8 @@
   },
   {
   "No":338,
-  "Name":"Solrock",
+  "NameEN":"Solrock",
+  "NameJP":"ソルロック",
   "Type 1":"Rock",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -8665,7 +9022,8 @@
   },
   {
   "No":339,
-  "Name":"Barboach",
+  "NameEN":"Barboach",
+  "NameJP":"ドジョッチ",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -8689,7 +9047,8 @@
   },
   {
   "No":340,
-  "Name":"Whiscash",
+  "NameEN":"Whiscash",
+  "NameJP":"ナマズン",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -8713,7 +9072,8 @@
   },
   {
   "No":341,
-  "Name":"Corphish",
+  "NameEN":"Corphish",
+  "NameJP":"ヘイガニ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -8737,7 +9097,8 @@
   },
   {
   "No":342,
-  "Name":"Crawdaunt",
+  "NameEN":"Crawdaunt",
+  "NameJP":"シザリガー",
   "Type 1":"Water",
   "Type 2":"Dark",
   "Normal":1,
@@ -8761,7 +9122,8 @@
   },
   {
   "No":343,
-  "Name":"Baltoy",
+  "NameEN":"Baltoy",
+  "NameJP":"ヤジロン",
   "Type 1":"Ground",
   "Type 2":"Psychic",
   "Normal":1,
@@ -8785,7 +9147,8 @@
   },
   {
   "No":344,
-  "Name":"Claydol",
+  "NameEN":"Claydol",
+  "NameJP":"ネンドール",
   "Type 1":"Ground",
   "Type 2":"Psychic",
   "Normal":1,
@@ -8809,7 +9172,8 @@
   },
   {
   "No":345,
-  "Name":"Lileep",
+  "NameEN":"Lileep",
+  "NameJP":"リリーラ",
   "Type 1":"Rock",
   "Type 2":"Grass",
   "Normal":0.5,
@@ -8833,7 +9197,8 @@
   },
   {
   "No":346,
-  "Name":"Cradily",
+  "NameEN":"Cradily",
+  "NameJP":"ユレイドル",
   "Type 1":"Rock",
   "Type 2":"Grass",
   "Normal":0.5,
@@ -8857,7 +9222,8 @@
   },
   {
   "No":347,
-  "Name":"Anorith",
+  "NameEN":"Anorith",
+  "NameJP":"アノプス",
   "Type 1":"Rock",
   "Type 2":"Bug",
   "Normal":0.5,
@@ -8881,7 +9247,8 @@
   },
   {
   "No":348,
-  "Name":"Armaldo",
+  "NameEN":"Armaldo",
+  "NameJP":"アーマルド",
   "Type 1":"Rock",
   "Type 2":"Bug",
   "Normal":0.5,
@@ -8905,7 +9272,8 @@
   },
   {
   "No":349,
-  "Name":"Feebas",
+  "NameEN":"Feebas",
+  "NameJP":"ヒンバス",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -8929,7 +9297,8 @@
   },
   {
   "No":350,
-  "Name":"Milotic",
+  "NameEN":"Milotic",
+  "NameJP":"ミロカロス",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -8953,7 +9322,8 @@
   },
   {
   "No":351,
-  "Name":"Castform",
+  "NameEN":"Castform",
+  "NameJP":"ポワルン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -8977,7 +9347,8 @@
   },
   {
   "No":352,
-  "Name":"Kecleon",
+  "NameEN":"Kecleon",
+  "NameJP":"カクレオン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -9001,7 +9372,8 @@
   },
   {
   "No":353,
-  "Name":"Shuppet",
+  "NameEN":"Shuppet",
+  "NameJP":"カゲボウズ",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -9025,7 +9397,8 @@
   },
   {
   "No":354,
-  "Name":"Banette",
+  "NameEN":"Banette",
+  "NameJP":"ジュペッタ",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -9049,7 +9422,8 @@
   },
   {
   "No":354,
-  "Name":"Mega Banette",
+  "NameEN":"Mega Banette",
+  "NameJP":"メガジュペッタ",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -9073,7 +9447,8 @@
   },
   {
   "No":355,
-  "Name":"Duskull",
+  "NameEN":"Duskull",
+  "NameJP":"ヨマワル",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -9097,7 +9472,8 @@
   },
   {
   "No":356,
-  "Name":"Dusclops",
+  "NameEN":"Dusclops",
+  "NameJP":"サマヨール",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -9121,7 +9497,8 @@
   },
   {
   "No":357,
-  "Name":"Tropius",
+  "NameEN":"Tropius",
+  "NameJP":"トロピウス",
   "Type 1":"Grass",
   "Type 2":"Flying",
   "Normal":1,
@@ -9145,7 +9522,8 @@
   },
   {
   "No":358,
-  "Name":"Chimecho",
+  "NameEN":"Chimecho",
+  "NameJP":"チリーン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -9169,7 +9547,8 @@
   },
   {
   "No":359,
-  "Name":"Absol",
+  "NameEN":"Absol",
+  "NameJP":"アブソル",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -9193,7 +9572,8 @@
   },
   {
   "No":359,
-  "Name":"Mega Absol",
+  "NameEN":"Mega Absol",
+  "NameJP":"メガアブソル",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -9217,7 +9597,8 @@
   },
   {
   "No":360,
-  "Name":"Wynaut",
+  "NameEN":"Wynaut",
+  "NameJP":"ソーナノ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -9241,7 +9622,8 @@
   },
   {
   "No":361,
-  "Name":"Snorunt",
+  "NameEN":"Snorunt",
+  "NameJP":"ユキワラシ",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -9265,7 +9647,8 @@
   },
   {
   "No":362,
-  "Name":"Glalie",
+  "NameEN":"Glalie",
+  "NameJP":"オニゴーリ",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -9289,7 +9672,8 @@
   },
   {
   "No":363,
-  "Name":"Spheal",
+  "NameEN":"Spheal",
+  "NameJP":"タマザラシ",
   "Type 1":"Ice",
   "Type 2":"Water",
   "Normal":1,
@@ -9313,7 +9697,8 @@
   },
   {
   "No":364,
-  "Name":"Sealeo",
+  "NameEN":"Sealeo",
+  "NameJP":"トドグラー",
   "Type 1":"Ice",
   "Type 2":"Water",
   "Normal":1,
@@ -9337,7 +9722,8 @@
   },
   {
   "No":365,
-  "Name":"Walrein",
+  "NameEN":"Walrein",
+  "NameJP":"トドゼルガ",
   "Type 1":"Ice",
   "Type 2":"Water",
   "Normal":1,
@@ -9361,7 +9747,8 @@
   },
   {
   "No":366,
-  "Name":"Clamperl",
+  "NameEN":"Clamperl",
+  "NameJP":"パールル",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -9385,7 +9772,8 @@
   },
   {
   "No":367,
-  "Name":"Huntail",
+  "NameEN":"Huntail",
+  "NameJP":"ハンテール",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -9409,7 +9797,8 @@
   },
   {
   "No":368,
-  "Name":"Gorebyss",
+  "NameEN":"Gorebyss",
+  "NameJP":"サクラビス",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -9433,7 +9822,8 @@
   },
   {
   "No":369,
-  "Name":"Relicanth",
+  "NameEN":"Relicanth",
+  "NameJP":"ジーランス",
   "Type 1":"Water",
   "Type 2":"Rock",
   "Normal":0.5,
@@ -9457,7 +9847,8 @@
   },
   {
   "No":370,
-  "Name":"Luvdisc",
+  "NameEN":"Luvdisc",
+  "NameJP":"ラブカス",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -9481,7 +9872,8 @@
   },
   {
   "No":371,
-  "Name":"Bagon",
+  "NameEN":"Bagon",
+  "NameJP":"タツベイ",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -9505,7 +9897,8 @@
   },
   {
   "No":372,
-  "Name":"Shelgon",
+  "NameEN":"Shelgon",
+  "NameJP":"コモルー",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -9529,7 +9922,8 @@
   },
   {
   "No":373,
-  "Name":"Salamence",
+  "NameEN":"Salamence",
+  "NameJP":"ボーマンダ",
   "Type 1":"Dragon",
   "Type 2":"Flying",
   "Normal":1,
@@ -9553,7 +9947,8 @@
   },
   {
   "No":374,
-  "Name":"Beldum",
+  "NameEN":"Beldum",
+  "NameJP":"ダンバル",
   "Type 1":"Steel",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -9577,7 +9972,8 @@
   },
   {
   "No":375,
-  "Name":"Metang",
+  "NameEN":"Metang",
+  "NameJP":"メタング",
   "Type 1":"Steel",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -9601,7 +9997,8 @@
   },
   {
   "No":376,
-  "Name":"Metagross",
+  "NameEN":"Metagross",
+  "NameJP":"メタグロス",
   "Type 1":"Steel",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -9625,7 +10022,8 @@
   },
   {
   "No":377,
-  "Name":"Regirock",
+  "NameEN":"Regirock",
+  "NameJP":"レジロック",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -9649,7 +10047,8 @@
   },
   {
   "No":378,
-  "Name":"Regice",
+  "NameEN":"Regice",
+  "NameJP":"レジアイス",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -9673,7 +10072,8 @@
   },
   {
   "No":379,
-  "Name":"Registeel",
+  "NameEN":"Registeel",
+  "NameJP":"レジスチル",
   "Type 1":"Steel",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -9697,7 +10097,8 @@
   },
   {
   "No":380,
-  "Name":"Latias",
+  "NameEN":"Latias",
+  "NameJP":"ラティアス",
   "Type 1":"Dragon",
   "Type 2":"Psychic",
   "Normal":1,
@@ -9721,7 +10122,8 @@
   },
   {
   "No":381,
-  "Name":"Latios",
+  "NameEN":"Latios",
+  "NameJP":"ラティオス",
   "Type 1":"Dragon",
   "Type 2":"Psychic",
   "Normal":1,
@@ -9745,7 +10147,8 @@
   },
   {
   "No":382,
-  "Name":"Kyogre",
+  "NameEN":"Kyogre",
+  "NameJP":"カイオーガ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -9769,7 +10172,8 @@
   },
   {
   "No":383,
-  "Name":"Groudon",
+  "NameEN":"Groudon",
+  "NameJP":"グラードン",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -9793,7 +10197,8 @@
   },
   {
   "No":384,
-  "Name":"Rayquaza",
+  "NameEN":"Rayquaza",
+  "NameJP":"レックウザ",
   "Type 1":"Dragon",
   "Type 2":"Flying",
   "Normal":1,
@@ -9817,7 +10222,8 @@
   },
   {
   "No":385,
-  "Name":"Jirachi",
+  "NameEN":"Jirachi",
+  "NameJP":"ジラーチ",
   "Type 1":"Steel",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -9841,7 +10247,8 @@
   },
   {
   "No":386,
-  "Name":"Deoxys",
+  "NameEN":"Deoxys",
+  "NameJP":"デオキシス",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -9865,7 +10272,8 @@
   },
   {
   "No":387,
-  "Name":"Turtwig",
+  "NameEN":"Turtwig",
+  "NameJP":"ナエトル",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -9889,7 +10297,8 @@
   },
   {
   "No":388,
-  "Name":"Grotle",
+  "NameEN":"Grotle",
+  "NameJP":"ハヤシガメ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -9913,7 +10322,8 @@
   },
   {
   "No":389,
-  "Name":"Torterra",
+  "NameEN":"Torterra",
+  "NameJP":"ドダイトス",
   "Type 1":"Grass",
   "Type 2":"Ground",
   "Normal":1,
@@ -9937,7 +10347,8 @@
   },
   {
   "No":390,
-  "Name":"Chimchar",
+  "NameEN":"Chimchar",
+  "NameJP":"ヒコザル",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -9961,7 +10372,8 @@
   },
   {
   "No":391,
-  "Name":"Monferno",
+  "NameEN":"Monferno",
+  "NameJP":"モウカザル",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -9985,7 +10397,8 @@
   },
   {
   "No":392,
-  "Name":"Infernape",
+  "NameEN":"Infernape",
+  "NameJP":"ゴウカザル",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -10009,7 +10422,8 @@
   },
   {
   "No":393,
-  "Name":"Piplup",
+  "NameEN":"Piplup",
+  "NameJP":"ポッチャマ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -10033,7 +10447,8 @@
   },
   {
   "No":394,
-  "Name":"Prinplup",
+  "NameEN":"Prinplup",
+  "NameJP":"ポッタイシ",
   "Type 1":"Water",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -10057,7 +10472,8 @@
   },
   {
   "No":395,
-  "Name":"Empoleon",
+  "NameEN":"Empoleon",
+  "NameJP":"エンペルト",
   "Type 1":"Water",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -10081,7 +10497,8 @@
   },
   {
   "No":396,
-  "Name":"Starly",
+  "NameEN":"Starly",
+  "NameJP":"ムックル",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -10105,7 +10522,8 @@
   },
   {
   "No":397,
-  "Name":"Staravia",
+  "NameEN":"Staravia",
+  "NameJP":"ムクバード",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -10129,7 +10547,8 @@
   },
   {
   "No":398,
-  "Name":"Staraptor",
+  "NameEN":"Staraptor",
+  "NameJP":"ムクホーク",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -10153,7 +10572,8 @@
   },
   {
   "No":399,
-  "Name":"Bidoof",
+  "NameEN":"Bidoof",
+  "NameJP":"ビッパ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -10177,7 +10597,8 @@
   },
   {
   "No":400,
-  "Name":"Bibarel",
+  "NameEN":"Bibarel",
+  "NameJP":"ビーダル",
   "Type 1":"Normal",
   "Type 2":"Water",
   "Normal":1,
@@ -10201,7 +10622,8 @@
   },
   {
   "No":401,
-  "Name":"Kricketot",
+  "NameEN":"Kricketot",
+  "NameJP":"コロボーシ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -10225,7 +10647,8 @@
   },
   {
   "No":402,
-  "Name":"Kricketune",
+  "NameEN":"Kricketune",
+  "NameJP":"コロトック",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -10249,7 +10672,8 @@
   },
   {
   "No":403,
-  "Name":"Shinx",
+  "NameEN":"Shinx",
+  "NameJP":"コリンク",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -10273,7 +10697,8 @@
   },
   {
   "No":404,
-  "Name":"Luxio",
+  "NameEN":"Luxio",
+  "NameJP":"ルクシオ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -10297,7 +10722,8 @@
   },
   {
   "No":405,
-  "Name":"Luxray",
+  "NameEN":"Luxray",
+  "NameJP":"レントラー",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -10321,7 +10747,8 @@
   },
   {
   "No":406,
-  "Name":"Budew",
+  "NameEN":"Budew",
+  "NameJP":"スボミー",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -10345,7 +10772,8 @@
   },
   {
   "No":407,
-  "Name":"Roserade",
+  "NameEN":"Roserade",
+  "NameJP":"ロズレイド",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -10369,7 +10797,8 @@
   },
   {
   "No":408,
-  "Name":"Cranidos",
+  "NameEN":"Cranidos",
+  "NameJP":"ズガイドス",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -10393,7 +10822,8 @@
   },
   {
   "No":409,
-  "Name":"Rampardos",
+  "NameEN":"Rampardos",
+  "NameJP":"ラムパルド",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -10417,7 +10847,8 @@
   },
   {
   "No":410,
-  "Name":"Shieldon",
+  "NameEN":"Shieldon",
+  "NameJP":"タテトプス",
   "Type 1":"Rock",
   "Type 2":"Steel",
   "Normal":0.25,
@@ -10441,7 +10872,8 @@
   },
   {
   "No":411,
-  "Name":"Bastiodon",
+  "NameEN":"Bastiodon",
+  "NameJP":"トリテプス",
   "Type 1":"Rock",
   "Type 2":"Steel",
   "Normal":0.25,
@@ -10465,7 +10897,8 @@
   },
   {
   "No":412,
-  "Name":"Burmy",
+  "NameEN":"Burmy",
+  "NameJP":"ミノムッチ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -10489,7 +10922,8 @@
   },
   {
   "No":413,
-  "Name":"Wormadam-Ground",
+  "NameEN":"Wormadam-Ground",
+  "NameJP":"ミノマダム-Ground",
   "Type 1":"Bug",
   "Type 2":"Ground",
   "Normal":1,
@@ -10513,7 +10947,8 @@
   },
   {
   "No":413,
-  "Name":"Wormadam-Steel",
+  "NameEN":"Wormadam-Steel",
+  "NameJP":"ミノマダム-Steel",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -10537,7 +10972,8 @@
   },
   {
   "No":413,
-  "Name":"Wormadam-Grass",
+  "NameEN":"Wormadam-Grass",
+  "NameJP":"ミノマダム-Grass",
   "Type 1":"Bug",
   "Type 2":"Grass",
   "Normal":1,
@@ -10561,7 +10997,8 @@
   },
   {
   "No":414,
-  "Name":"Mothim",
+  "NameEN":"Mothim",
+  "NameJP":"ガーメイル",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -10585,7 +11022,8 @@
   },
   {
   "No":415,
-  "Name":"Combee",
+  "NameEN":"Combee",
+  "NameJP":"ミツハニー",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -10609,7 +11047,8 @@
   },
   {
   "No":416,
-  "Name":"Vespiquen",
+  "NameEN":"Vespiquen",
+  "NameJP":"ビークイン",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -10633,7 +11072,8 @@
   },
   {
   "No":417,
-  "Name":"Pachirisu",
+  "NameEN":"Pachirisu",
+  "NameJP":"パチリス",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -10657,7 +11097,8 @@
   },
   {
   "No":418,
-  "Name":"Buizel",
+  "NameEN":"Buizel",
+  "NameJP":"ブイゼル",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -10681,7 +11122,8 @@
   },
   {
   "No":419,
-  "Name":"Floatzel",
+  "NameEN":"Floatzel",
+  "NameJP":"フローゼル",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -10705,7 +11147,8 @@
   },
   {
   "No":420,
-  "Name":"Cherubi",
+  "NameEN":"Cherubi",
+  "NameJP":"チェリンボ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -10729,7 +11172,8 @@
   },
   {
   "No":421,
-  "Name":"Cherrim",
+  "NameEN":"Cherrim",
+  "NameJP":"チェリム",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -10753,7 +11197,8 @@
   },
   {
   "No":422,
-  "Name":"Shellos",
+  "NameEN":"Shellos",
+  "NameJP":"カラナクシ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -10777,7 +11222,8 @@
   },
   {
   "No":423,
-  "Name":"Gastrodon",
+  "NameEN":"Gastrodon",
+  "NameJP":"トリトドン",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -10801,7 +11247,8 @@
   },
   {
   "No":424,
-  "Name":"Ambipom",
+  "NameEN":"Ambipom",
+  "NameJP":"エテボース",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -10825,7 +11272,8 @@
   },
   {
   "No":425,
-  "Name":"Drifloon",
+  "NameEN":"Drifloon",
+  "NameJP":"フワンテ",
   "Type 1":"Ghost",
   "Type 2":"Flying",
   "Normal":"x",
@@ -10849,7 +11297,8 @@
   },
   {
   "No":426,
-  "Name":"Drifblim",
+  "NameEN":"Drifblim",
+  "NameJP":"フワライド",
   "Type 1":"Ghost",
   "Type 2":"Flying",
   "Normal":"x",
@@ -10873,7 +11322,8 @@
   },
   {
   "No":427,
-  "Name":"Buneary",
+  "NameEN":"Buneary",
+  "NameJP":"ミミロル",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -10897,7 +11347,8 @@
   },
   {
   "No":428,
-  "Name":"Lopunny",
+  "NameEN":"Lopunny",
+  "NameJP":"ミミロップ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -10921,7 +11372,8 @@
   },
   {
   "No":429,
-  "Name":"Mismagius",
+  "NameEN":"Mismagius",
+  "NameJP":"ムウマージ",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -10945,7 +11397,8 @@
   },
   {
   "No":430,
-  "Name":"Honchkrow",
+  "NameEN":"Honchkrow",
+  "NameJP":"ドンカラス",
   "Type 1":"Dark",
   "Type 2":"Flying",
   "Normal":1,
@@ -10969,7 +11422,8 @@
   },
   {
   "No":431,
-  "Name":"Glameow",
+  "NameEN":"Glameow",
+  "NameJP":"ニャルマー",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -10993,7 +11447,8 @@
   },
   {
   "No":432,
-  "Name":"Purugly",
+  "NameEN":"Purugly",
+  "NameJP":"ブニャット",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -11017,7 +11472,8 @@
   },
   {
   "No":433,
-  "Name":"Chingling",
+  "NameEN":"Chingling",
+  "NameJP":"リーシャン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -11041,7 +11497,8 @@
   },
   {
   "No":434,
-  "Name":"Stunky",
+  "NameEN":"Stunky",
+  "NameJP":"スカンプー",
   "Type 1":"Poison",
   "Type 2":"Dark",
   "Normal":1,
@@ -11065,7 +11522,8 @@
   },
   {
   "No":435,
-  "Name":"Skuntank",
+  "NameEN":"Skuntank",
+  "NameJP":"スカタンク",
   "Type 1":"Poison",
   "Type 2":"Dark",
   "Normal":1,
@@ -11089,7 +11547,8 @@
   },
   {
   "No":436,
-  "Name":"Bronzor",
+  "NameEN":"Bronzor",
+  "NameJP":"ドーミラー",
   "Type 1":"Steel",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -11113,7 +11572,8 @@
   },
   {
   "No":437,
-  "Name":"Bronzong",
+  "NameEN":"Bronzong",
+  "NameJP":"ドータクン",
   "Type 1":"Steel",
   "Type 2":"Psychic",
   "Normal":0.5,
@@ -11137,7 +11597,8 @@
   },
   {
   "No":438,
-  "Name":"Bonsly",
+  "NameEN":"Bonsly",
+  "NameJP":"ウソハチ",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -11161,7 +11622,8 @@
   },
   {
   "No":439,
-  "Name":"Mime Jr",
+  "NameEN":"Mime Jr",
+  "NameJP":"マネネ",
   "Type 1":"Psychic",
   "Type 2":"Fairy",
   "Normal":1,
@@ -11185,7 +11647,8 @@
   },
   {
   "No":440,
-  "Name":"Happiny",
+  "NameEN":"Happiny",
+  "NameJP":"ピンプク",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -11209,7 +11672,8 @@
   },
   {
   "No":441,
-  "Name":"Chatot",
+  "NameEN":"Chatot",
+  "NameJP":"ペラップ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -11233,7 +11697,8 @@
   },
   {
   "No":442,
-  "Name":"Spiritomb",
+  "NameEN":"Spiritomb",
+  "NameJP":"ミカルゲ",
   "Type 1":"Ghost",
   "Type 2":"Dark",
   "Normal":"x",
@@ -11257,7 +11722,8 @@
   },
   {
   "No":443,
-  "Name":"Gible",
+  "NameEN":"Gible",
+  "NameJP":"フカマル",
   "Type 1":"Dragon",
   "Type 2":"Ground",
   "Normal":1,
@@ -11281,7 +11747,8 @@
   },
   {
   "No":444,
-  "Name":"Gabite",
+  "NameEN":"Gabite",
+  "NameJP":"ガバイト",
   "Type 1":"Dragon",
   "Type 2":"Ground",
   "Normal":1,
@@ -11305,7 +11772,8 @@
   },
   {
   "No":445,
-  "Name":"Garchomp",
+  "NameEN":"Garchomp",
+  "NameJP":"ガブリアス",
   "Type 1":"Dragon",
   "Type 2":"Ground",
   "Normal":1,
@@ -11329,7 +11797,8 @@
   },
   {
   "No":445,
-  "Name":"Mega Garchomp",
+  "NameEN":"Mega Garchomp",
+  "NameJP":"メガガブリアス",
   "Type 1":"Dragon",
   "Type 2":"Ground",
   "Normal":1,
@@ -11353,7 +11822,8 @@
   },
   {
   "No":446,
-  "Name":"Munchlax",
+  "NameEN":"Munchlax",
+  "NameJP":"ゴンベ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -11377,7 +11847,8 @@
   },
   {
   "No":447,
-  "Name":"Riolu",
+  "NameEN":"Riolu",
+  "NameJP":"リオル",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -11401,7 +11872,8 @@
   },
   {
   "No":448,
-  "Name":"Lucario",
+  "NameEN":"Lucario",
+  "NameJP":"ルカリオ",
   "Type 1":"Fighting",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -11425,7 +11897,8 @@
   },
   {
   "No":448,
-  "Name":"Mega Lucario",
+  "NameEN":"Mega Lucario",
+  "NameJP":"メガルカリオ",
   "Type 1":"Fighting",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -11449,7 +11922,8 @@
   },
   {
   "No":449,
-  "Name":"Hippopotas",
+  "NameEN":"Hippopotas",
+  "NameJP":"ヒポポタス",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -11473,7 +11947,8 @@
   },
   {
   "No":450,
-  "Name":"Hippowdon",
+  "NameEN":"Hippowdon",
+  "NameJP":"カバルドン",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -11497,7 +11972,8 @@
   },
   {
   "No":451,
-  "Name":"Skorupi",
+  "NameEN":"Skorupi",
+  "NameJP":"スコルピ",
   "Type 1":"Poison",
   "Type 2":"Bug",
   "Normal":1,
@@ -11521,7 +11997,8 @@
   },
   {
   "No":452,
-  "Name":"Drapion",
+  "NameEN":"Drapion",
+  "NameJP":"ドラピオン",
   "Type 1":"Poison",
   "Type 2":"Dark",
   "Normal":1,
@@ -11545,7 +12022,8 @@
   },
   {
   "No":453,
-  "Name":"Croagunk",
+  "NameEN":"Croagunk",
+  "NameJP":"グレッグル",
   "Type 1":"Poison",
   "Type 2":"Fighting",
   "Normal":1,
@@ -11569,7 +12047,8 @@
   },
   {
   "No":454,
-  "Name":"Toxicroak",
+  "NameEN":"Toxicroak",
+  "NameJP":"ドクロッグ",
   "Type 1":"Poison",
   "Type 2":"Fighting",
   "Normal":1,
@@ -11593,7 +12072,8 @@
   },
   {
   "No":455,
-  "Name":"Carnivine",
+  "NameEN":"Carnivine",
+  "NameJP":"マスキッパ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -11617,7 +12097,8 @@
   },
   {
   "No":456,
-  "Name":"Finneon",
+  "NameEN":"Finneon",
+  "NameJP":"ケイコウオ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -11641,7 +12122,8 @@
   },
   {
   "No":457,
-  "Name":"Lumineon",
+  "NameEN":"Lumineon",
+  "NameJP":"ネオラント",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -11665,7 +12147,8 @@
   },
   {
   "No":458,
-  "Name":"Mantyke",
+  "NameEN":"Mantyke",
+  "NameJP":"タマンタ",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -11689,7 +12172,8 @@
   },
   {
   "No":459,
-  "Name":"Snover",
+  "NameEN":"Snover",
+  "NameJP":"ユキカブリ",
   "Type 1":"Grass",
   "Type 2":"Ice",
   "Normal":1,
@@ -11713,7 +12197,8 @@
   },
   {
   "No":460,
-  "Name":"Abomasnow",
+  "NameEN":"Abomasnow",
+  "NameJP":"ユキノオー",
   "Type 1":"Grass",
   "Type 2":"Ice",
   "Normal":1,
@@ -11736,8 +12221,9 @@
   "Fairy":1
   },
   {
-  "No":450,
-  "Name":"Mega Abomasnow",
+  "No":460,
+  "NameEN":"Mega Abomasnow",
+  "NameJP":"メガユキノオー",
   "Type 1":"Grass",
   "Type 2":"Ice",
   "Normal":1,
@@ -11761,7 +12247,8 @@
   },
   {
   "No":461,
-  "Name":"Weavile",
+  "NameEN":"Weavile",
+  "NameJP":"マニューラ",
   "Type 1":"Dark",
   "Type 2":"Ice",
   "Normal":1,
@@ -11785,7 +12272,8 @@
   },
   {
   "No":462,
-  "Name":"Magnezone",
+  "NameEN":"Magnezone",
+  "NameJP":"ジバコイル",
   "Type 1":"Electric",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -11809,7 +12297,8 @@
   },
   {
   "No":463,
-  "Name":"Lickilicky",
+  "NameEN":"Lickilicky",
+  "NameJP":"ベロベルト",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -11833,7 +12322,8 @@
   },
   {
   "No":464,
-  "Name":"Rhyperior",
+  "NameEN":"Rhyperior",
+  "NameJP":"ドサイドン",
   "Type 1":"Ground",
   "Type 2":"Rock",
   "Normal":0.5,
@@ -11857,7 +12347,8 @@
   },
   {
   "No":465,
-  "Name":"Tangrowth",
+  "NameEN":"Tangrowth",
+  "NameJP":"モジャンボ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -11881,7 +12372,8 @@
   },
   {
   "No":466,
-  "Name":"Electivire",
+  "NameEN":"Electivire",
+  "NameJP":"エレキブル",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -11905,7 +12397,8 @@
   },
   {
   "No":467,
-  "Name":"Magmortar",
+  "NameEN":"Magmortar",
+  "NameJP":"ブーバーン",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -11929,7 +12422,8 @@
   },
   {
   "No":468,
-  "Name":"Togekiss",
+  "NameEN":"Togekiss",
+  "NameJP":"トゲキッス",
   "Type 1":"Fairy",
   "Type 2":"Flying",
   "Normal":1,
@@ -11953,7 +12447,8 @@
   },
   {
   "No":469,
-  "Name":"Yanmega",
+  "NameEN":"Yanmega",
+  "NameJP":"メガヤンマ",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -11977,7 +12472,8 @@
   },
   {
   "No":470,
-  "Name":"Leafeon",
+  "NameEN":"Leafeon",
+  "NameJP":"リーフィア",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -12001,7 +12497,8 @@
   },
   {
   "No":471,
-  "Name":"Glaceon",
+  "NameEN":"Glaceon",
+  "NameJP":"グレイシア",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -12025,7 +12522,8 @@
   },
   {
   "No":472,
-  "Name":"Gliscor",
+  "NameEN":"Gliscor",
+  "NameJP":"グライオン",
   "Type 1":"Ground",
   "Type 2":"Flying",
   "Normal":1,
@@ -12049,7 +12547,8 @@
   },
   {
   "No":473,
-  "Name":"Mamoswine",
+  "NameEN":"Mamoswine",
+  "NameJP":"マンムー",
   "Type 1":"Ice",
   "Type 2":"Ground",
   "Normal":1,
@@ -12073,7 +12572,8 @@
   },
   {
   "No":474,
-  "Name":"Porygon-Z",
+  "NameEN":"Porygon-Z",
+  "NameJP":"ポリゴンＺ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -12097,7 +12597,8 @@
   },
   {
   "No":475,
-  "Name":"Gallade",
+  "NameEN":"Gallade",
+  "NameJP":"エルレイド",
   "Type 1":"Psychic",
   "Type 2":"Fighting",
   "Normal":1,
@@ -12121,7 +12622,8 @@
   },
   {
   "No":476,
-  "Name":"Probopass",
+  "NameEN":"Probopass",
+  "NameJP":"ダイノーズ",
   "Type 1":"Rock",
   "Type 2":"Steel",
   "Normal":0.25,
@@ -12145,7 +12647,8 @@
   },
   {
   "No":477,
-  "Name":"Dusknoir",
+  "NameEN":"Dusknoir",
+  "NameJP":"ヨノワール",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -12169,7 +12672,8 @@
   },
   {
   "No":478,
-  "Name":"Froslass",
+  "NameEN":"Froslass",
+  "NameJP":"ユキメノコ",
   "Type 1":"Ice",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -12193,7 +12697,8 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Fan",
+  "NameEN":"Rotom-Fan",
+  "NameJP":"ロトム-Fan",
   "Type 1":"Flying",
   "Type 2":"Electric",
   "Normal":1,
@@ -12217,7 +12722,8 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Frost",
+  "NameEN":"Rotom-Frost",
+  "NameJP":"ロトム-Frost",
   "Type 1":"Ice",
   "Type 2":"Electric",
   "Normal":1,
@@ -12241,7 +12747,8 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Heat",
+  "NameEN":"Rotom-Heat",
+  "NameJP":"ロトム-Heat",
   "Type 1":"Fire",
   "Type 2":"Electric",
   "Normal":1,
@@ -12265,7 +12772,8 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Mow",
+  "NameEN":"Rotom-Mow",
+  "NameJP":"ロトム-Mow",
   "Type 1":"Grass",
   "Type 2":"Electric",
   "Normal":1,
@@ -12289,7 +12797,8 @@
   },
   {
   "No":479,
-  "Name":"Rotom-Wash",
+  "NameEN":"Rotom-Wash",
+  "NameJP":"ロトム-Wash",
   "Type 1":"Water",
   "Type 2":"Electric",
   "Normal":1,
@@ -12313,7 +12822,8 @@
   },
   {
   "No":479,
-  "Name":"Rotom",
+  "NameEN":"Rotom",
+  "NameJP":"ロトム",
   "Type 1":"Ghost",
   "Type 2":"Electric",
   "Normal":"x",
@@ -12337,7 +12847,8 @@
   },
   {
   "No":480,
-  "Name":"Uxie",
+  "NameEN":"Uxie",
+  "NameJP":"ユクシー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -12361,7 +12872,8 @@
   },
   {
   "No":481,
-  "Name":"Mesprit",
+  "NameEN":"Mesprit",
+  "NameJP":"エムリット",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -12385,7 +12897,8 @@
   },
   {
   "No":482,
-  "Name":"Azelf",
+  "NameEN":"Azelf",
+  "NameJP":"アグノム",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -12409,7 +12922,8 @@
   },
   {
   "No":483,
-  "Name":"Dialga",
+  "NameEN":"Dialga",
+  "NameJP":"ディアルガ",
   "Type 1":"Steel",
   "Type 2":"Dragon",
   "Normal":0.5,
@@ -12433,7 +12947,8 @@
   },
   {
   "No":484,
-  "Name":"Palkia",
+  "NameEN":"Palkia",
+  "NameJP":"パルキア",
   "Type 1":"Water",
   "Type 2":"Dragon",
   "Normal":1,
@@ -12457,7 +12972,8 @@
   },
   {
   "No":485,
-  "Name":"Heatran",
+  "NameEN":"Heatran",
+  "NameJP":"ヒードラン",
   "Type 1":"Fire",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -12481,7 +12997,8 @@
   },
   {
   "No":486,
-  "Name":"Regigigas",
+  "NameEN":"Regigigas",
+  "NameJP":"レジギガス",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -12505,7 +13022,8 @@
   },
   {
   "No":487,
-  "Name":"Giratina",
+  "NameEN":"Giratina",
+  "NameJP":"ギラティナ",
   "Type 1":"Ghost",
   "Type 2":"Dragon",
   "Normal":"x",
@@ -12529,7 +13047,8 @@
   },
   {
   "No":488,
-  "Name":"Cresselia",
+  "NameEN":"Cresselia",
+  "NameJP":"クレセリア",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -12553,7 +13072,8 @@
   },
   {
   "No":489,
-  "Name":"Phione",
+  "NameEN":"Phione",
+  "NameJP":"フィオネ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -12577,7 +13097,8 @@
   },
   {
   "No":490,
-  "Name":"Manaphy",
+  "NameEN":"Manaphy",
+  "NameJP":"マナフィ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -12601,7 +13122,8 @@
   },
   {
   "No":491,
-  "Name":"Darkrai",
+  "NameEN":"Darkrai",
+  "NameJP":"ダークライ",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -12625,7 +13147,8 @@
   },
   {
   "No":492,
-  "Name":"Shaymin",
+  "NameEN":"Shaymin",
+  "NameJP":"シェイミ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -12649,7 +13172,8 @@
   },
   {
   "No":492,
-  "Name":"Shaymin-Sky",
+  "NameEN":"Shaymin-Sky",
+  "NameJP":"シェイミ-Sky",
   "Type 1":"Grass",
   "Type 2":"Flying",
   "Normal":1,
@@ -12673,7 +13197,8 @@
   },
   {
   "No":493,
-  "Name":"Arceus",
+  "NameEN":"Arceus",
+  "NameJP":"アルセウス",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -12697,7 +13222,8 @@
   },
   {
   "No":494,
-  "Name":"Victini",
+  "NameEN":"Victini",
+  "NameJP":"ビクティニ",
   "Type 1":"Fire",
   "Type 2":"Psychic",
   "Normal":1,
@@ -12721,7 +13247,8 @@
   },
   {
   "No":495,
-  "Name":"Snivy",
+  "NameEN":"Snivy",
+  "NameJP":"ツタージャ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -12745,7 +13272,8 @@
   },
   {
   "No":496,
-  "Name":"Servine",
+  "NameEN":"Servine",
+  "NameJP":"ジャノビー",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -12769,7 +13297,8 @@
   },
   {
   "No":497,
-  "Name":"Serperior",
+  "NameEN":"Serperior",
+  "NameJP":"ジャローダ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -12793,7 +13322,8 @@
   },
   {
   "No":498,
-  "Name":"Tepig",
+  "NameEN":"Tepig",
+  "NameJP":"ポカブ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -12817,7 +13347,8 @@
   },
   {
   "No":499,
-  "Name":"Pignite",
+  "NameEN":"Pignite",
+  "NameJP":"チャオブー",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -12841,7 +13372,8 @@
   },
   {
   "No":500,
-  "Name":"Emboar",
+  "NameEN":"Emboar",
+  "NameJP":"エンブオー",
   "Type 1":"Fire",
   "Type 2":"Fighting",
   "Normal":1,
@@ -12865,7 +13397,8 @@
   },
   {
   "No":501,
-  "Name":"Oshawott",
+  "NameEN":"Oshawott",
+  "NameJP":"ミジュマル",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -12889,7 +13422,8 @@
   },
   {
   "No":502,
-  "Name":"Dewott",
+  "NameEN":"Dewott",
+  "NameJP":"フタチマル",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -12913,7 +13447,8 @@
   },
   {
   "No":503,
-  "Name":"Samurott",
+  "NameEN":"Samurott",
+  "NameJP":"ダイケンキ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -12937,7 +13472,8 @@
   },
   {
   "No":504,
-  "Name":"Patrat",
+  "NameEN":"Patrat",
+  "NameJP":"ミネズミ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -12961,7 +13497,8 @@
   },
   {
   "No":505,
-  "Name":"Watchog",
+  "NameEN":"Watchog",
+  "NameJP":"ミルホッグ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -12985,7 +13522,8 @@
   },
   {
   "No":506,
-  "Name":"Lillipup",
+  "NameEN":"Lillipup",
+  "NameJP":"ヨーテリー",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -13009,7 +13547,8 @@
   },
   {
   "No":507,
-  "Name":"Herdier",
+  "NameEN":"Herdier",
+  "NameJP":"ハーデリア",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -13033,7 +13572,8 @@
   },
   {
   "No":508,
-  "Name":"Stoutland",
+  "NameEN":"Stoutland",
+  "NameJP":"ムーランド",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -13057,7 +13597,8 @@
   },
   {
   "No":509,
-  "Name":"Purrloin",
+  "NameEN":"Purrloin",
+  "NameJP":"チョロネコ",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -13081,7 +13622,8 @@
   },
   {
   "No":510,
-  "Name":"Liepard",
+  "NameEN":"Liepard",
+  "NameJP":"レパルダス",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -13105,7 +13647,8 @@
   },
   {
   "No":511,
-  "Name":"Pansage",
+  "NameEN":"Pansage",
+  "NameJP":"ヤナップ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -13129,7 +13672,8 @@
   },
   {
   "No":512,
-  "Name":"Simisage",
+  "NameEN":"Simisage",
+  "NameJP":"ヤナッキー",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -13153,7 +13697,8 @@
   },
   {
   "No":513,
-  "Name":"Pansear",
+  "NameEN":"Pansear",
+  "NameJP":"バオップ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -13177,7 +13722,8 @@
   },
   {
   "No":514,
-  "Name":"Simisear",
+  "NameEN":"Simisear",
+  "NameJP":"バオッキー",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -13201,7 +13747,8 @@
   },
   {
   "No":515,
-  "Name":"Panpour",
+  "NameEN":"Panpour",
+  "NameJP":"ヒヤップ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -13225,7 +13772,8 @@
   },
   {
   "No":516,
-  "Name":"Simipour",
+  "NameEN":"Simipour",
+  "NameJP":"ヒヤッキー",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -13249,7 +13797,8 @@
   },
   {
   "No":517,
-  "Name":"Munna",
+  "NameEN":"Munna",
+  "NameJP":"ムンナ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -13273,7 +13822,8 @@
   },
   {
   "No":518,
-  "Name":"Musharna",
+  "NameEN":"Musharna",
+  "NameJP":"ムシャーナ",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -13297,7 +13847,8 @@
   },
   {
   "No":519,
-  "Name":"Pidove",
+  "NameEN":"Pidove",
+  "NameJP":"マメパト",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -13321,7 +13872,8 @@
   },
   {
   "No":520,
-  "Name":"Tranquill",
+  "NameEN":"Tranquill",
+  "NameJP":"ハトーボー",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -13345,7 +13897,8 @@
   },
   {
   "No":521,
-  "Name":"Unfezant",
+  "NameEN":"Unfezant",
+  "NameJP":"ケンホロウ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -13369,7 +13922,8 @@
   },
   {
   "No":522,
-  "Name":"Blitzle",
+  "NameEN":"Blitzle",
+  "NameJP":"シママ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -13393,7 +13947,8 @@
   },
   {
   "No":523,
-  "Name":"Zebstrika",
+  "NameEN":"Zebstrika",
+  "NameJP":"ゼブライカ",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -13417,7 +13972,8 @@
   },
   {
   "No":524,
-  "Name":"Roggenrola",
+  "NameEN":"Roggenrola",
+  "NameJP":"ダンゴロ",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -13441,7 +13997,8 @@
   },
   {
   "No":525,
-  "Name":"Boldore",
+  "NameEN":"Boldore",
+  "NameJP":"ガントル",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -13465,7 +14022,8 @@
   },
   {
   "No":526,
-  "Name":"Gigalith",
+  "NameEN":"Gigalith",
+  "NameJP":"ギガイアス",
   "Type 1":"Rock",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -13489,7 +14047,8 @@
   },
   {
   "No":527,
-  "Name":"Woobat",
+  "NameEN":"Woobat",
+  "NameJP":"コロモリ",
   "Type 1":"Psychic",
   "Type 2":"Flying",
   "Normal":1,
@@ -13513,7 +14072,8 @@
   },
   {
   "No":528,
-  "Name":"Swoobat",
+  "NameEN":"Swoobat",
+  "NameJP":"ココロモリ",
   "Type 1":"Psychic",
   "Type 2":"Flying",
   "Normal":1,
@@ -13537,7 +14097,8 @@
   },
   {
   "No":529,
-  "Name":"Drilbur",
+  "NameEN":"Drilbur",
+  "NameJP":"モグリュー",
   "Type 1":"Ground",
   "Type 2":"NULL",
   "Normal":1,
@@ -13561,7 +14122,8 @@
   },
   {
   "No":530,
-  "Name":"Excadrill",
+  "NameEN":"Excadrill",
+  "NameJP":"ドリュウズ",
   "Type 1":"Ground",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -13585,7 +14147,8 @@
   },
   {
   "No":531,
-  "Name":"Audino",
+  "NameEN":"Audino",
+  "NameJP":"タブンネ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -13609,7 +14172,8 @@
   },
   {
   "No":532,
-  "Name":"Timburr",
+  "NameEN":"Timburr",
+  "NameJP":"ドッコラー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -13633,7 +14197,8 @@
   },
   {
   "No":533,
-  "Name":"Gurdurr",
+  "NameEN":"Gurdurr",
+  "NameJP":"ドテッコツ",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -13657,7 +14222,8 @@
   },
   {
   "No":534,
-  "Name":"Conkeldurr",
+  "NameEN":"Conkeldurr",
+  "NameJP":"ローブシン",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -13681,7 +14247,8 @@
   },
   {
   "No":535,
-  "Name":"Tympole",
+  "NameEN":"Tympole",
+  "NameJP":"オタマロ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -13705,7 +14272,8 @@
   },
   {
   "No":536,
-  "Name":"Palpitoad",
+  "NameEN":"Palpitoad",
+  "NameJP":"ガマガル",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -13729,7 +14297,8 @@
   },
   {
   "No":537,
-  "Name":"Seismitoad",
+  "NameEN":"Seismitoad",
+  "NameJP":"ガマゲロゲ",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -13753,7 +14322,8 @@
   },
   {
   "No":538,
-  "Name":"Throh",
+  "NameEN":"Throh",
+  "NameJP":"ナゲキ",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -13777,7 +14347,8 @@
   },
   {
   "No":539,
-  "Name":"Sawk",
+  "NameEN":"Sawk",
+  "NameJP":"ダゲキ",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -13801,7 +14372,8 @@
   },
   {
   "No":540,
-  "Name":"Sewaddle",
+  "NameEN":"Sewaddle",
+  "NameJP":"クルミル",
   "Type 1":"Bug",
   "Type 2":"Grass",
   "Normal":1,
@@ -13825,7 +14397,8 @@
   },
   {
   "No":541,
-  "Name":"Swadloon",
+  "NameEN":"Swadloon",
+  "NameJP":"クルマユ",
   "Type 1":"Bug",
   "Type 2":"Grass",
   "Normal":1,
@@ -13849,7 +14422,8 @@
   },
   {
   "No":542,
-  "Name":"Leavanny",
+  "NameEN":"Leavanny",
+  "NameJP":"ハハコモリ",
   "Type 1":"Bug",
   "Type 2":"Grass",
   "Normal":1,
@@ -13873,7 +14447,8 @@
   },
   {
   "No":543,
-  "Name":"Venipede",
+  "NameEN":"Venipede",
+  "NameJP":"フシデ",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -13897,7 +14472,8 @@
   },
   {
   "No":544,
-  "Name":"Whirlipede",
+  "NameEN":"Whirlipede",
+  "NameJP":"ホイーガ",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -13921,7 +14497,8 @@
   },
   {
   "No":545,
-  "Name":"Scolipede",
+  "NameEN":"Scolipede",
+  "NameJP":"ペンドラー",
   "Type 1":"Bug",
   "Type 2":"Poison",
   "Normal":1,
@@ -13945,7 +14522,8 @@
   },
   {
   "No":546,
-  "Name":"Cottonee",
+  "NameEN":"Cottonee",
+  "NameJP":"モンメン",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -13969,7 +14547,8 @@
   },
   {
   "No":547,
-  "Name":"Whimsicott",
+  "NameEN":"Whimsicott",
+  "NameJP":"エルフーン",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -13993,7 +14572,8 @@
   },
   {
   "No":548,
-  "Name":"Petilil",
+  "NameEN":"Petilil",
+  "NameJP":"チュリネ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -14017,7 +14597,8 @@
   },
   {
   "No":549,
-  "Name":"Lilligant",
+  "NameEN":"Lilligant",
+  "NameJP":"ドレディア",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -14041,7 +14622,8 @@
   },
   {
   "No":550,
-  "Name":"Basculin",
+  "NameEN":"Basculin",
+  "NameJP":"バスラオ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -14065,7 +14647,8 @@
   },
   {
   "No":551,
-  "Name":"Sandile",
+  "NameEN":"Sandile",
+  "NameJP":"メグロコ",
   "Type 1":"Ground",
   "Type 2":"Dark",
   "Normal":1,
@@ -14089,7 +14672,8 @@
   },
   {
   "No":552,
-  "Name":"Krokorok",
+  "NameEN":"Krokorok",
+  "NameJP":"ワルビル",
   "Type 1":"Ground",
   "Type 2":"Dark",
   "Normal":1,
@@ -14113,7 +14697,8 @@
   },
   {
   "No":553,
-  "Name":"Krookodile",
+  "NameEN":"Krookodile",
+  "NameJP":"ワルビアル",
   "Type 1":"Ground",
   "Type 2":"Dark",
   "Normal":1,
@@ -14137,7 +14722,8 @@
   },
   {
   "No":554,
-  "Name":"Darumaka",
+  "NameEN":"Darumaka",
+  "NameJP":"ダルマッカ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -14161,7 +14747,8 @@
   },
   {
   "No":555,
-  "Name":"Darmanitan",
+  "NameEN":"Darmanitan",
+  "NameJP":"ヒヒダルマ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -14185,7 +14772,8 @@
   },
   {
   "No":555,
-  "Name":"Darmanitan-Zen",
+  "NameEN":"Darmanitan-Zen",
+  "NameJP":"ヒヒダルマ-Zen",
   "Type 1":"Fire",
   "Type 2":"Psychic",
   "Normal":1,
@@ -14209,7 +14797,8 @@
   },
   {
   "No":556,
-  "Name":"Maractus",
+  "NameEN":"Maractus",
+  "NameJP":"マラカッチ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -14233,7 +14822,8 @@
   },
   {
   "No":557,
-  "Name":"Dwebble",
+  "NameEN":"Dwebble",
+  "NameJP":"イシズマイ",
   "Type 1":"Bug",
   "Type 2":"Ground",
   "Normal":1,
@@ -14257,7 +14847,8 @@
   },
   {
   "No":558,
-  "Name":"Crustle",
+  "NameEN":"Crustle",
+  "NameJP":"イワパレス",
   "Type 1":"Bug",
   "Type 2":"Ground",
   "Normal":1,
@@ -14281,7 +14872,8 @@
   },
   {
   "No":559,
-  "Name":"Scraggy",
+  "NameEN":"Scraggy",
+  "NameJP":"ズルッグ",
   "Type 1":"Dark",
   "Type 2":"Fighting",
   "Normal":1,
@@ -14305,7 +14897,8 @@
   },
   {
   "No":560,
-  "Name":"Scrafty",
+  "NameEN":"Scrafty",
+  "NameJP":"ズルズキン",
   "Type 1":"Dark",
   "Type 2":"Fighting",
   "Normal":1,
@@ -14329,7 +14922,8 @@
   },
   {
   "No":561,
-  "Name":"Sigilyph",
+  "NameEN":"Sigilyph",
+  "NameJP":"シンボラー",
   "Type 1":"Psychic",
   "Type 2":"Flying",
   "Normal":1,
@@ -14353,7 +14947,8 @@
   },
   {
   "No":562,
-  "Name":"Yamask",
+  "NameEN":"Yamask",
+  "NameJP":"デスマス",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -14377,7 +14972,8 @@
   },
   {
   "No":563,
-  "Name":"Cofagrigus",
+  "NameEN":"Cofagrigus",
+  "NameJP":"デスカーン",
   "Type 1":"Ghost",
   "Type 2":"NULL",
   "Normal":"x",
@@ -14401,7 +14997,8 @@
   },
   {
   "No":564,
-  "Name":"Tirtouga",
+  "NameEN":"Tirtouga",
+  "NameJP":"プロトーガ",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -14425,7 +15022,8 @@
   },
   {
   "No":565,
-  "Name":"Carracosta",
+  "NameEN":"Carracosta",
+  "NameJP":"アバゴーラ",
   "Type 1":"Water",
   "Type 2":"Ground",
   "Normal":1,
@@ -14449,7 +15047,8 @@
   },
   {
   "No":566,
-  "Name":"Archen",
+  "NameEN":"Archen",
+  "NameJP":"アーケン",
   "Type 1":"Rock",
   "Type 2":"Flying",
   "Normal":0.5,
@@ -14473,7 +15072,8 @@
   },
   {
   "No":567,
-  "Name":"Archeops",
+  "NameEN":"Archeops",
+  "NameJP":"アーケオス",
   "Type 1":"Rock",
   "Type 2":"Flying",
   "Normal":0.5,
@@ -14497,7 +15097,8 @@
   },
   {
   "No":568,
-  "Name":"Trubbish",
+  "NameEN":"Trubbish",
+  "NameJP":"ヤブクロン",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -14521,7 +15122,8 @@
   },
   {
   "No":569,
-  "Name":"Garbodor",
+  "NameEN":"Garbodor",
+  "NameJP":"ダストダス",
   "Type 1":"Poison",
   "Type 2":"NULL",
   "Normal":1,
@@ -14545,7 +15147,8 @@
   },
   {
   "No":570,
-  "Name":"Zorua",
+  "NameEN":"Zorua",
+  "NameJP":"ゾロア",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -14569,7 +15172,8 @@
   },
   {
   "No":571,
-  "Name":"Zoroark",
+  "NameEN":"Zoroark",
+  "NameJP":"ゾロアーク",
   "Type 1":"Dark",
   "Type 2":"NULL",
   "Normal":1,
@@ -14593,7 +15197,8 @@
   },
   {
   "No":572,
-  "Name":"Minccino",
+  "NameEN":"Minccino",
+  "NameJP":"チラーミィ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -14617,7 +15222,8 @@
   },
   {
   "No":573,
-  "Name":"Cinccino",
+  "NameEN":"Cinccino",
+  "NameJP":"チラチーノ",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -14641,7 +15247,8 @@
   },
   {
   "No":574,
-  "Name":"Gothita",
+  "NameEN":"Gothita",
+  "NameJP":"ゴチム",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -14665,7 +15272,8 @@
   },
   {
   "No":575,
-  "Name":"Gothorita",
+  "NameEN":"Gothorita",
+  "NameJP":"ゴチミル",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -14689,7 +15297,8 @@
   },
   {
   "No":576,
-  "Name":"Gothitelle",
+  "NameEN":"Gothitelle",
+  "NameJP":"ゴチルゼル",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -14713,7 +15322,8 @@
   },
   {
   "No":577,
-  "Name":"Solosis",
+  "NameEN":"Solosis",
+  "NameJP":"ユニラン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -14737,7 +15347,8 @@
   },
   {
   "No":578,
-  "Name":"Duosion",
+  "NameEN":"Duosion",
+  "NameJP":"ダブラン",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -14761,7 +15372,8 @@
   },
   {
   "No":579,
-  "Name":"Reuniclus",
+  "NameEN":"Reuniclus",
+  "NameJP":"ランクルス",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -14785,7 +15397,8 @@
   },
   {
   "No":580,
-  "Name":"Ducklett",
+  "NameEN":"Ducklett",
+  "NameJP":"コアルヒー",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -14809,7 +15422,8 @@
   },
   {
   "No":581,
-  "Name":"Swanna",
+  "NameEN":"Swanna",
+  "NameJP":"スワンナ",
   "Type 1":"Water",
   "Type 2":"Flying",
   "Normal":1,
@@ -14833,7 +15447,8 @@
   },
   {
   "No":582,
-  "Name":"Vanillite",
+  "NameEN":"Vanillite",
+  "NameJP":"バニプッチ",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -14857,7 +15472,8 @@
   },
   {
   "No":583,
-  "Name":"Vanillish",
+  "NameEN":"Vanillish",
+  "NameJP":"バニリッチ",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -14881,7 +15497,8 @@
   },
   {
   "No":584,
-  "Name":"Vanilluxe",
+  "NameEN":"Vanilluxe",
+  "NameJP":"バイバニラ",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -14905,7 +15522,8 @@
   },
   {
   "No":585,
-  "Name":"Deerling",
+  "NameEN":"Deerling",
+  "NameJP":"シキジカ",
   "Type 1":"Normal",
   "Type 2":"Grass",
   "Normal":1,
@@ -14929,7 +15547,8 @@
   },
   {
   "No":586,
-  "Name":"Sawsbuck",
+  "NameEN":"Sawsbuck",
+  "NameJP":"メブキジカ",
   "Type 1":"Normal",
   "Type 2":"Grass",
   "Normal":1,
@@ -14953,7 +15572,8 @@
   },
   {
   "No":587,
-  "Name":"Emolga",
+  "NameEN":"Emolga",
+  "NameJP":"エモンガ",
   "Type 1":"Electric",
   "Type 2":"Flying",
   "Normal":1,
@@ -14977,7 +15597,8 @@
   },
   {
   "No":588,
-  "Name":"Karrablast",
+  "NameEN":"Karrablast",
+  "NameJP":"カブルモ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -15001,7 +15622,8 @@
   },
   {
   "No":589,
-  "Name":"Escavalier",
+  "NameEN":"Escavalier",
+  "NameJP":"シュバルゴ",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -15025,7 +15647,8 @@
   },
   {
   "No":590,
-  "Name":"Foongus",
+  "NameEN":"Foongus",
+  "NameJP":"タマゲタケ",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -15049,7 +15672,8 @@
   },
   {
   "No":591,
-  "Name":"Amoonguss",
+  "NameEN":"Amoonguss",
+  "NameJP":"モロバレル",
   "Type 1":"Grass",
   "Type 2":"Poison",
   "Normal":1,
@@ -15073,7 +15697,8 @@
   },
   {
   "No":592,
-  "Name":"Frillish",
+  "NameEN":"Frillish",
+  "NameJP":"プルリル",
   "Type 1":"Water",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -15097,7 +15722,8 @@
   },
   {
   "No":593,
-  "Name":"Jellicent",
+  "NameEN":"Jellicent",
+  "NameJP":"ブルンゲル",
   "Type 1":"Water",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -15121,7 +15747,8 @@
   },
   {
   "No":594,
-  "Name":"Alomomola",
+  "NameEN":"Alomomola",
+  "NameJP":"ママンボウ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -15145,7 +15772,8 @@
   },
   {
   "No":595,
-  "Name":"Joltik",
+  "NameEN":"Joltik",
+  "NameJP":"バチュル",
   "Type 1":"Bug",
   "Type 2":"Electric",
   "Normal":1,
@@ -15169,7 +15797,8 @@
   },
   {
   "No":596,
-  "Name":"Galvantula",
+  "NameEN":"Galvantula",
+  "NameJP":"デンチュラ",
   "Type 1":"Bug",
   "Type 2":"Electric",
   "Normal":1,
@@ -15193,7 +15822,8 @@
   },
   {
   "No":597,
-  "Name":"Ferroseed",
+  "NameEN":"Ferroseed",
+  "NameJP":"テッシード",
   "Type 1":"Grass",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -15217,7 +15847,8 @@
   },
   {
   "No":598,
-  "Name":"Ferrothorn",
+  "NameEN":"Ferrothorn",
+  "NameJP":"ナットレイ",
   "Type 1":"Grass",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -15241,7 +15872,8 @@
   },
   {
   "No":599,
-  "Name":"Klink",
+  "NameEN":"Klink",
+  "NameJP":"ギアル",
   "Type 1":"Steel",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -15265,7 +15897,8 @@
   },
   {
   "No":600,
-  "Name":"Klang",
+  "NameEN":"Klang",
+  "NameJP":"ギギアル",
   "Type 1":"Steel",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -15289,7 +15922,8 @@
   },
   {
   "No":601,
-  "Name":"Klinklang",
+  "NameEN":"Klinklang",
+  "NameJP":"ギギギアル",
   "Type 1":"Steel",
   "Type 2":"NULL",
   "Normal":0.5,
@@ -15313,7 +15947,8 @@
   },
   {
   "No":602,
-  "Name":"Tynamo",
+  "NameEN":"Tynamo",
+  "NameJP":"シビシラス",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -15337,7 +15972,8 @@
   },
   {
   "No":603,
-  "Name":"Eelektrik",
+  "NameEN":"Eelektrik",
+  "NameJP":"シビビール",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -15361,7 +15997,8 @@
   },
   {
   "No":604,
-  "Name":"Eelektross",
+  "NameEN":"Eelektross",
+  "NameJP":"シビルドン",
   "Type 1":"Electric",
   "Type 2":"NULL",
   "Normal":1,
@@ -15385,7 +16022,8 @@
   },
   {
   "No":605,
-  "Name":"Elgyem",
+  "NameEN":"Elgyem",
+  "NameJP":"リグレー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -15409,7 +16047,8 @@
   },
   {
   "No":606,
-  "Name":"Beheeyem",
+  "NameEN":"Beheeyem",
+  "NameJP":"オーベム",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -15433,7 +16072,8 @@
   },
   {
   "No":607,
-  "Name":"Litwick",
+  "NameEN":"Litwick",
+  "NameJP":"ヒトモシ",
   "Type 1":"Ghost",
   "Type 2":"Fire",
   "Normal":"x",
@@ -15457,7 +16097,8 @@
   },
   {
   "No":608,
-  "Name":"Lampent",
+  "NameEN":"Lampent",
+  "NameJP":"ランプラー",
   "Type 1":"Ghost",
   "Type 2":"Fire",
   "Normal":"x",
@@ -15481,7 +16122,8 @@
   },
   {
   "No":609,
-  "Name":"Chandelure",
+  "NameEN":"Chandelure",
+  "NameJP":"シャンデラ",
   "Type 1":"Ghost",
   "Type 2":"Fire",
   "Normal":"x",
@@ -15505,7 +16147,8 @@
   },
   {
   "No":610,
-  "Name":"Axew",
+  "NameEN":"Axew",
+  "NameJP":"キバゴ",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -15529,7 +16172,8 @@
   },
   {
   "No":611,
-  "Name":"Fraxure",
+  "NameEN":"Fraxure",
+  "NameJP":"オノンド",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -15553,7 +16197,8 @@
   },
   {
   "No":612,
-  "Name":"Haxorus",
+  "NameEN":"Haxorus",
+  "NameJP":"オノノクス",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -15577,7 +16222,8 @@
   },
   {
   "No":613,
-  "Name":"Cubchoo",
+  "NameEN":"Cubchoo",
+  "NameJP":"クマシュン",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -15601,7 +16247,8 @@
   },
   {
   "No":614,
-  "Name":"Beartic",
+  "NameEN":"Beartic",
+  "NameJP":"ツンベアー",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -15625,7 +16272,8 @@
   },
   {
   "No":615,
-  "Name":"Cryogonal",
+  "NameEN":"Cryogonal",
+  "NameJP":"フリージオ",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -15649,7 +16297,8 @@
   },
   {
   "No":616,
-  "Name":"Shelmet",
+  "NameEN":"Shelmet",
+  "NameJP":"チョボマキ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -15673,7 +16322,8 @@
   },
   {
   "No":617,
-  "Name":"Accelgor",
+  "NameEN":"Accelgor",
+  "NameJP":"アギルダー",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -15697,7 +16347,8 @@
   },
   {
   "No":618,
-  "Name":"Stunfisk",
+  "NameEN":"Stunfisk",
+  "NameJP":"マッギョ",
   "Type 1":"Electric",
   "Type 2":"Ground",
   "Normal":1,
@@ -15721,7 +16372,8 @@
   },
   {
   "No":619,
-  "Name":"Mienfoo",
+  "NameEN":"Mienfoo",
+  "NameJP":"コジョフー",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -15745,7 +16397,8 @@
   },
   {
   "No":620,
-  "Name":"Mienshao",
+  "NameEN":"Mienshao",
+  "NameJP":"コジョンド",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -15769,7 +16422,8 @@
   },
   {
   "No":621,
-  "Name":"Druddigon",
+  "NameEN":"Druddigon",
+  "NameJP":"クリムガン",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -15793,7 +16447,8 @@
   },
   {
   "No":622,
-  "Name":"Golett",
+  "NameEN":"Golett",
+  "NameJP":"ゴビット",
   "Type 1":"Ground",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -15817,7 +16472,8 @@
   },
   {
   "No":623,
-  "Name":"Golurk",
+  "NameEN":"Golurk",
+  "NameJP":"ゴルーグ",
   "Type 1":"Ground",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -15841,7 +16497,8 @@
   },
   {
   "No":624,
-  "Name":"Pawniard",
+  "NameEN":"Pawniard",
+  "NameJP":"コマタナ",
   "Type 1":"Dark",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -15865,7 +16522,8 @@
   },
   {
   "No":625,
-  "Name":"Bisharp",
+  "NameEN":"Bisharp",
+  "NameJP":"キリキザン",
   "Type 1":"Dark",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -15889,7 +16547,8 @@
   },
   {
   "No":626,
-  "Name":"Bouffalant",
+  "NameEN":"Bouffalant",
+  "NameJP":"バッフロン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -15913,7 +16572,8 @@
   },
   {
   "No":627,
-  "Name":"Rufflet",
+  "NameEN":"Rufflet",
+
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -15937,7 +16597,8 @@
   },
   {
   "No":628,
-  "Name":"Braviary",
+  "NameEN":"Braviary",
+  "NameJP":"ワシボン",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -15961,7 +16622,8 @@
   },
   {
   "No":629,
-  "Name":"Vullaby",
+  "NameEN":"Vullaby",
+  "NameJP":"ウォーグル",
   "Type 1":"Dark",
   "Type 2":"Flying",
   "Normal":1,
@@ -15985,7 +16647,8 @@
   },
   {
   "No":630,
-  "Name":"Mandibuzz",
+  "NameEN":"Mandibuzz",
+  "NameJP":"バルジーナ",
   "Type 1":"Dark",
   "Type 2":"Flying",
   "Normal":1,
@@ -16009,7 +16672,8 @@
   },
   {
   "No":631,
-  "Name":"Heatmor",
+  "NameEN":"Heatmor",
+  "NameJP":"クイタラン",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -16033,7 +16697,8 @@
   },
   {
   "No":632,
-  "Name":"Durant",
+  "NameEN":"Durant",
+  "NameJP":"アイアント",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -16057,7 +16722,8 @@
   },
   {
   "No":633,
-  "Name":"Deino",
+  "NameEN":"Deino",
+  "NameJP":"モノズ",
   "Type 1":"Dark",
   "Type 2":"Dragon",
   "Normal":1,
@@ -16081,7 +16747,8 @@
   },
   {
   "No":634,
-  "Name":"Zweilous",
+  "NameEN":"Zweilous",
+  "NameJP":"ジヘッド",
   "Type 1":"Dark",
   "Type 2":"Dragon",
   "Normal":1,
@@ -16105,7 +16772,8 @@
   },
   {
   "No":635,
-  "Name":"Hydreigon",
+  "NameEN":"Hydreigon",
+  "NameJP":"サザンドラ",
   "Type 1":"Dark",
   "Type 2":"Dragon",
   "Normal":1,
@@ -16129,7 +16797,8 @@
   },
   {
   "No":636,
-  "Name":"Larvesta",
+  "NameEN":"Larvesta",
+  "NameJP":"メラルバ",
   "Type 1":"Bug",
   "Type 2":"Fire",
   "Normal":1,
@@ -16153,7 +16822,8 @@
   },
   {
   "No":637,
-  "Name":"Volcarona",
+  "NameEN":"Volcarona",
+  "NameJP":"ウルガモス",
   "Type 1":"Bug",
   "Type 2":"Fire",
   "Normal":1,
@@ -16177,7 +16847,8 @@
   },
   {
   "No":638,
-  "Name":"Cobalion",
+  "NameEN":"Cobalion",
+  "NameJP":"コバルオン",
   "Type 1":"Steel",
   "Type 2":"Fighting",
   "Normal":0.5,
@@ -16201,7 +16872,8 @@
   },
   {
   "No":639,
-  "Name":"Terrakion",
+  "NameEN":"Terrakion",
+  "NameJP":"テラキオン",
   "Type 1":"Rock",
   "Type 2":"Fighting",
   "Normal":0.5,
@@ -16225,7 +16897,8 @@
   },
   {
   "No":640,
-  "Name":"Virizion",
+  "NameEN":"Virizion",
+  "NameJP":"ビリジオン",
   "Type 1":"Grass",
   "Type 2":"Fighting",
   "Normal":1,
@@ -16249,7 +16922,8 @@
   },
   {
   "No":641,
-  "Name":"Tornadus",
+  "NameEN":"Tornadus",
+  "NameJP":"トルネロス",
   "Type 1":"Flying",
   "Type 2":"NULL",
   "Normal":1,
@@ -16273,7 +16947,8 @@
   },
   {
   "No":642,
-  "Name":"Thundurus",
+  "NameEN":"Thundurus",
+  "NameJP":"ボルトロス",
   "Type 1":"Flying",
   "Type 2":"Electric",
   "Normal":1,
@@ -16297,7 +16972,8 @@
   },
   {
   "No":643,
-  "Name":"Reshiram",
+  "NameEN":"Reshiram",
+  "NameJP":"レシラム",
   "Type 1":"Dragon",
   "Type 2":"Fire",
   "Normal":1,
@@ -16321,7 +16997,8 @@
   },
   {
   "No":644,
-  "Name":"Zekrom",
+  "NameEN":"Zekrom",
+  "NameJP":"ゼクロム",
   "Type 1":"Dragon",
   "Type 2":"Electric",
   "Normal":1,
@@ -16345,7 +17022,8 @@
   },
   {
   "No":645,
-  "Name":"Landorus",
+  "NameEN":"Landorus",
+  "NameJP":"ランドロス",
   "Type 1":"Ground",
   "Type 2":"Flying",
   "Normal":1,
@@ -16369,7 +17047,8 @@
   },
   {
   "No":646,
-  "Name":"Kyurem",
+  "NameEN":"Kyurem",
+  "NameJP":"キュレム",
   "Type 1":"Dragon",
   "Type 2":"Ice",
   "Normal":1,
@@ -16393,7 +17072,8 @@
   },
   {
   "No":647,
-  "Name":"Keldeo",
+  "NameEN":"Keldeo",
+  "NameJP":"ケルディオ",
   "Type 1":"Water",
   "Type 2":"Fighting",
   "Normal":1,
@@ -16417,7 +17097,8 @@
   },
   {
   "No":648,
-  "Name":"Meloetta-Aria",
+  "NameEN":"Meloetta-Aria",
+  "NameJP":"メロエッタ-Aria",
   "Type 1":"Normal",
   "Type 2":"Psychic",
   "Normal":1,
@@ -16441,7 +17122,8 @@
   },
   {
   "No":648,
-  "Name":"Meloetta-Pirouette",
+  "NameEN":"Meloetta-Pirouette",
+  "NameJP":"メロエッタ-Pirouette",
   "Type 1":"Normal",
   "Type 2":"Fighting",
   "Normal":1,
@@ -16465,7 +17147,8 @@
   },
   {
   "No":649,
-  "Name":"Genesect",
+  "NameEN":"Genesect",
+  "NameJP":"ゲノセクト",
   "Type 1":"Bug",
   "Type 2":"Steel",
   "Normal":0.5,
@@ -16489,7 +17172,8 @@
   },
   {
   "No":650,
-  "Name":"Chespin",
+  "NameEN":"Chespin",
+  "NameJP":"ハリマロン",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -16513,7 +17197,8 @@
   },
   {
   "No":651,
-  "Name":"Quilladin",
+  "NameEN":"Quilladin",
+  "NameJP":"ハリボーグ",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -16537,7 +17222,8 @@
   },
   {
   "No":652,
-  "Name":"Chesnaught",
+  "NameEN":"Chesnaught",
+  "NameJP":"ブリガロン",
   "Type 1":"Grass",
   "Type 2":"Fighting",
   "Normal":1,
@@ -16561,7 +17247,8 @@
   },
   {
   "No":653,
-  "Name":"Fennekin",
+  "NameEN":"Fennekin",
+  "NameJP":"フォッコ",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -16585,7 +17272,8 @@
   },
   {
   "No":654,
-  "Name":"Braixen",
+  "NameEN":"Braixen",
+  "NameJP":"テールナー",
   "Type 1":"Fire",
   "Type 2":"NULL",
   "Normal":1,
@@ -16609,7 +17297,8 @@
   },
   {
   "No":655,
-  "Name":"Delphox",
+  "NameEN":"Delphox",
+  "NameJP":"マフォクシー",
   "Type 1":"Fire",
   "Type 2":"Psychic",
   "Normal":1,
@@ -16633,7 +17322,8 @@
   },
   {
   "No":656,
-  "Name":"Froakie",
+  "NameEN":"Froakie",
+  "NameJP":"ケロマツ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -16657,7 +17347,8 @@
   },
   {
   "No":657,
-  "Name":"Frogadier",
+  "NameEN":"Frogadier",
+  "NameJP":"ゲコガシラ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -16681,7 +17372,8 @@
   },
   {
   "No":658,
-  "Name":"Greninja",
+  "NameEN":"Greninja",
+  "NameJP":"ゲッコウガ",
   "Type 1":"Water",
   "Type 2":"Dark",
   "Normal":1,
@@ -16705,7 +17397,8 @@
   },
   {
   "No":659,
-  "Name":"Bunnelby",
+  "NameEN":"Bunnelby",
+  "NameJP":"ホルビー",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -16729,7 +17422,8 @@
   },
   {
   "No":660,
-  "Name":"Diggersby",
+  "NameEN":"Diggersby",
+  "NameJP":"ホルード",
   "Type 1":"Normal",
   "Type 2":"Ground",
   "Normal":1,
@@ -16753,7 +17447,8 @@
   },
   {
   "No":661,
-  "Name":"Fletchling",
+  "NameEN":"Fletchling",
+  "NameJP":"ヤヤコマ",
   "Type 1":"Normal",
   "Type 2":"Flying",
   "Normal":1,
@@ -16777,7 +17472,8 @@
   },
   {
   "No":662,
-  "Name":"Fletchinder",
+  "NameEN":"Fletchinder",
+  "NameJP":"ヒノヤコマ",
   "Type 1":"Fire",
   "Type 2":"Flying",
   "Normal":1,
@@ -16801,7 +17497,8 @@
   },
   {
   "No":663,
-  "Name":"Talonflame",
+  "NameEN":"Talonflame",
+  "NameJP":"ファイアロー",
   "Type 1":"Fire",
   "Type 2":"Flying",
   "Normal":1,
@@ -16825,7 +17522,8 @@
   },
   {
   "No":664,
-  "Name":"Scatterbug",
+  "NameEN":"Scatterbug",
+  "NameJP":"コフキムシ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -16849,7 +17547,8 @@
   },
   {
   "No":665,
-  "Name":"Spewpa",
+  "NameEN":"Spewpa",
+  "NameJP":"コフーライ",
   "Type 1":"Bug",
   "Type 2":"NULL",
   "Normal":1,
@@ -16873,7 +17572,8 @@
   },
   {
   "No":666,
-  "Name":"Vivillon",
+  "NameEN":"Vivillon",
+  "NameJP":"ビビヨン",
   "Type 1":"Bug",
   "Type 2":"Flying",
   "Normal":1,
@@ -16897,7 +17597,8 @@
   },
   {
   "No":667,
-  "Name":"Litleo",
+  "NameEN":"Litleo",
+  "NameJP":"シシコ",
   "Type 1":"Fire",
   "Type 2":"Normal",
   "Normal":1,
@@ -16921,7 +17622,8 @@
   },
   {
   "No":668,
-  "Name":"Pyroar",
+  "NameEN":"Pyroar",
+  "NameJP":"カエンジシ",
   "Type 1":"Fire",
   "Type 2":"Normal",
   "Normal":1,
@@ -16945,7 +17647,8 @@
   },
   {
   "No":669,
-  "Name":"Flabebe",
+  "NameEN":"Flabebe",
+  "NameJP":"フラベベ",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -16969,7 +17672,8 @@
   },
   {
   "No":670,
-  "Name":"Floette",
+  "NameEN":"Floette",
+  "NameJP":"フラエッテ",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -16993,7 +17697,8 @@
   },
   {
   "No":671,
-  "Name":"Florges",
+  "NameEN":"Florges",
+  "NameJP":"フラージェス",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -17017,7 +17722,8 @@
   },
   {
   "No":672,
-  "Name":"Skiddo",
+  "NameEN":"Skiddo",
+  "NameJP":"メェークル",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -17041,7 +17747,8 @@
   },
   {
   "No":673,
-  "Name":"Gogoat",
+  "NameEN":"Gogoat",
+  "NameJP":"ゴーゴート",
   "Type 1":"Grass",
   "Type 2":"NULL",
   "Normal":1,
@@ -17065,7 +17772,8 @@
   },
   {
   "No":674,
-  "Name":"Pancham",
+  "NameEN":"Pancham",
+  "NameJP":"ヤンチャム",
   "Type 1":"Fighting",
   "Type 2":"NULL",
   "Normal":1,
@@ -17089,7 +17797,8 @@
   },
   {
   "No":675,
-  "Name":"Pangoro",
+  "NameEN":"Pangoro",
+  "NameJP":"ゴロンダ",
   "Type 1":"Fighting",
   "Type 2":"Dark",
   "Normal":1,
@@ -17113,7 +17822,8 @@
   },
   {
   "No":676,
-  "Name":"Furfrou",
+  "NameEN":"Furfrou",
+  "NameJP":"トリミアン",
   "Type 1":"Normal",
   "Type 2":"NULL",
   "Normal":1,
@@ -17137,7 +17847,8 @@
   },
   {
   "No":677,
-  "Name":"Espurr",
+  "NameEN":"Espurr",
+  "NameJP":"ニャスパー",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -17161,7 +17872,8 @@
   },
   {
   "No":678,
-  "Name":"Meowstic",
+  "NameEN":"Meowstic",
+  "NameJP":"ニャオニクス",
   "Type 1":"Psychic",
   "Type 2":"NULL",
   "Normal":1,
@@ -17185,7 +17897,8 @@
   },
   {
   "No":679,
-  "Name":"Honedge",
+  "NameEN":"Honedge",
+  "NameJP":"ヒトツキ",
   "Type 1":"Steel",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -17209,7 +17922,8 @@
   },
   {
   "No":680,
-  "Name":"Doublade",
+  "NameEN":"Doublade",
+  "NameJP":"ニダンギル",
   "Type 1":"Steel",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -17233,7 +17947,8 @@
   },
   {
   "No":681,
-  "Name":"Aegislash",
+  "NameEN":"Aegislash",
+  "NameJP":"ギルガルド",
   "Type 1":"Steel",
   "Type 2":"Ghost",
   "Normal":"x",
@@ -17257,7 +17972,8 @@
   },
   {
   "No":682,
-  "Name":"Spritzee",
+  "NameEN":"Spritzee",
+  "NameJP":"シュシュプ",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -17281,7 +17997,8 @@
   },
   {
   "No":683,
-  "Name":"Aromatisse",
+  "NameEN":"Aromatisse",
+  "NameJP":"フレフワン",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -17305,7 +18022,8 @@
   },
   {
   "No":684,
-  "Name":"Swirlix",
+  "NameEN":"Swirlix",
+  "NameJP":"ペロッパフ",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -17329,7 +18047,8 @@
   },
   {
   "No":685,
-  "Name":"Slurpuff",
+  "NameEN":"Slurpuff",
+  "NameJP":"ペロリーム",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -17353,7 +18072,8 @@
   },
   {
   "No":686,
-  "Name":"Inkay",
+  "NameEN":"Inkay",
+  "NameJP":"マーイーカ",
   "Type 1":"Dark",
   "Type 2":"Psychic",
   "Normal":1,
@@ -17377,7 +18097,8 @@
   },
   {
   "No":687,
-  "Name":"Malamar",
+  "NameEN":"Malamar",
+  "NameJP":"カラマネロ",
   "Type 1":"Dark",
   "Type 2":"Psychic",
   "Normal":1,
@@ -17401,7 +18122,8 @@
   },
   {
   "No":688,
-  "Name":"Binacle",
+  "NameEN":"Binacle",
+  "NameJP":"カメテテ",
   "Type 1":"Rock",
   "Type 2":"Water",
   "Normal":0.5,
@@ -17425,7 +18147,8 @@
   },
   {
   "No":689,
-  "Name":"Barbaracle",
+  "NameEN":"Barbaracle",
+  "NameJP":"ガメノデス",
   "Type 1":"Rock",
   "Type 2":"Water",
   "Normal":0.5,
@@ -17449,7 +18172,8 @@
   },
   {
   "No":690,
-  "Name":"Skrelp",
+  "NameEN":"Skrelp",
+  "NameJP":"クズモー",
   "Type 1":"Poison",
   "Type 2":"Water",
   "Normal":1,
@@ -17473,7 +18197,8 @@
   },
   {
   "No":691,
-  "Name":"Dragalge",
+  "NameEN":"Dragalge",
+  "NameJP":"ドラミドロ",
   "Type 1":"Poison",
   "Type 2":"Dragon",
   "Normal":1,
@@ -17497,7 +18222,8 @@
   },
   {
   "No":692,
-  "Name":"Clauncher",
+  "NameEN":"Clauncher",
+  "NameJP":"ウデッポウ",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -17521,7 +18247,8 @@
   },
   {
   "No":693,
-  "Name":"Clawitzer",
+  "NameEN":"Clawitzer",
+  "NameJP":"ブロスター",
   "Type 1":"Water",
   "Type 2":"NULL",
   "Normal":1,
@@ -17545,7 +18272,8 @@
   },
   {
   "No":694,
-  "Name":"Helioptile",
+  "NameEN":"Helioptile",
+  "NameJP":"エリキテル",
   "Type 1":"Electric",
   "Type 2":"Normal",
   "Normal":1,
@@ -17569,7 +18297,8 @@
   },
   {
   "No":695,
-  "Name":"Heliolisk",
+  "NameEN":"Heliolisk",
+  "NameJP":"エレザード",
   "Type 1":"Electric",
   "Type 2":"Normal",
   "Normal":1,
@@ -17593,7 +18322,8 @@
   },
   {
   "No":696,
-  "Name":"Tyrunt",
+  "NameEN":"Tyrunt",
+  "NameJP":"チゴラス",
   "Type 1":"Rock",
   "Type 2":"Dragon",
   "Normal":0.5,
@@ -17617,7 +18347,8 @@
   },
   {
   "No":697,
-  "Name":"Tyrantrum",
+  "NameEN":"Tyrantrum",
+  "NameJP":"ガチゴラス",
   "Type 1":"Rock",
   "Type 2":"Dragon",
   "Normal":0.5,
@@ -17641,7 +18372,8 @@
   },
   {
   "No":698,
-  "Name":"Amaura",
+  "NameEN":"Amaura",
+  "NameJP":"アマルス",
   "Type 1":"Rock",
   "Type 2":"Ice",
   "Normal":0.5,
@@ -17665,7 +18397,8 @@
   },
   {
   "No":699,
-  "Name":"Aurorus",
+  "NameEN":"Aurorus",
+  "NameJP":"アマルルガ",
   "Type 1":"Rock",
   "Type 2":"Ice",
   "Normal":0.5,
@@ -17689,7 +18422,8 @@
   },
   {
   "No":700,
-  "Name":"Sylveon",
+  "NameEN":"Sylveon",
+  "NameJP":"ニンフィア",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -17713,7 +18447,8 @@
   },
   {
   "No":701,
-  "Name":"Hawlucha",
+  "NameEN":"Hawlucha",
+  "NameJP":"ルチャブル",
   "Type 1":"Fighting",
   "Type 2":"Flying",
   "Normal":1,
@@ -17737,7 +18472,8 @@
   },
   {
   "No":702,
-  "Name":"Dedenne",
+  "NameEN":"Dedenne",
+  "NameJP":"デデンネ",
   "Type 1":"Electric",
   "Type 2":"Fairy",
   "Normal":1,
@@ -17761,7 +18497,8 @@
   },
   {
   "No":703,
-  "Name":"Carbink",
+  "NameEN":"Carbink",
+  "NameJP":"メレシー",
   "Type 1":"Rock",
   "Type 2":"Fairy",
   "Normal":0.5,
@@ -17785,7 +18522,8 @@
   },
   {
   "No":704,
-  "Name":"Goomy",
+  "NameEN":"Goomy",
+  "NameJP":"ヌメラ",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -17809,7 +18547,8 @@
   },
   {
   "No":705,
-  "Name":"Sliggoo",
+  "NameEN":"Sliggoo",
+  "NameJP":"ヌメイル",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -17833,7 +18572,8 @@
   },
   {
   "No":706,
-  "Name":"Goodra",
+  "NameEN":"Goodra",
+  "NameJP":"ヌメルゴン",
   "Type 1":"Dragon",
   "Type 2":"NULL",
   "Normal":1,
@@ -17857,7 +18597,8 @@
   },
   {
   "No":707,
-  "Name":"Klefki",
+  "NameEN":"Klefki",
+  "NameJP":"クレッフィ",
   "Type 1":"Steel",
   "Type 2":"Fairy",
   "Normal":0.5,
@@ -17881,7 +18622,8 @@
   },
   {
   "No":708,
-  "Name":"Phantump",
+  "NameEN":"Phantump",
+  "NameJP":"ボクレー",
   "Type 1":"Ghost",
   "Type 2":"Grass",
   "Normal":"x",
@@ -17905,7 +18647,8 @@
   },
   {
   "No":709,
-  "Name":"Trevenant",
+  "NameEN":"Trevenant",
+  "NameJP":"オーロット",
   "Type 1":"Ghost",
   "Type 2":"Grass",
   "Normal":"x",
@@ -17929,7 +18672,8 @@
   },
   {
   "No":710,
-  "Name":"Pumpkaboo",
+  "NameEN":"Pumpkaboo",
+  "NameJP":"バケッチャ",
   "Type 1":"Ghost",
   "Type 2":"Grass",
   "Normal":"x",
@@ -17953,7 +18697,8 @@
   },
   {
   "No":711,
-  "Name":"Gourgeist",
+  "NameEN":"Gourgeist",
+  "NameJP":"パンプジン",
   "Type 1":"Ghost",
   "Type 2":"Grass",
   "Normal":"x",
@@ -17977,7 +18722,8 @@
   },
   {
   "No":712,
-  "Name":"Bergmite",
+  "NameEN":"Bergmite",
+  "NameJP":"カチコール",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -18001,7 +18747,8 @@
   },
   {
   "No":713,
-  "Name":"Avalugg",
+  "NameEN":"Avalugg",
+  "NameJP":"クレベース",
   "Type 1":"Ice",
   "Type 2":"NULL",
   "Normal":1,
@@ -18025,7 +18772,8 @@
   },
   {
   "No":714,
-  "Name":"Noibat",
+  "NameEN":"Noibat",
+  "NameJP":"オンバット",
   "Type 1":"Flying",
   "Type 2":"Dragon",
   "Normal":1,
@@ -18049,7 +18797,8 @@
   },
   {
   "No":715,
-  "Name":"Noivern",
+  "NameEN":"Noivern",
+  "NameJP":"オンバーン",
   "Type 1":"Flying",
   "Type 2":"Dragon",
   "Normal":1,
@@ -18073,7 +18822,8 @@
   },
   {
   "No":716,
-  "Name":"Xerneas",
+  "NameEN":"Xerneas",
+  "NameJP":"ゼルネアス",
   "Type 1":"Fairy",
   "Type 2":"NULL",
   "Normal":1,
@@ -18097,7 +18847,8 @@
   },
   {
   "No":717,
-  "Name":"Yveltal",
+  "NameEN":"Yveltal",
+  "NameJP":"イベルタル",
   "Type 1":"Dark",
   "Type 2":"Flying",
   "Normal":1,
@@ -18121,7 +18872,8 @@
   },
   {
   "No":718,
-  "Name":"Zygarde",
+  "NameEN":"Zygarde",
+  "NameJP":"ジガルデ",
   "Type 1":"Dragon",
   "Type 2":"Ground",
   "Normal":1,
