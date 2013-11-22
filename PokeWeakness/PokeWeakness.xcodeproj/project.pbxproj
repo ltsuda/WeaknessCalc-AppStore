@@ -78,9 +78,9 @@
 		AA396FB21831D3FB00B0A34D /* PokemonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonDetailsViewController.m; sourceTree = "<group>"; };
 		AA9D86CC183D4B4B00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA9D86CD183D4B4B00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA9D86D4183D4FC300DBC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		AA9D86D6183D4FCA00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = file; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		AA9D86D7183D4FCF00DBC14C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA9D86D4183D4FC300DBC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA9D86D6183D4FCA00DBC14C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA9D86D7183D4FCF00DBC14C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA9D86D8183D665C00DBC14C /* SectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDataSource.h; sourceTree = "<group>"; };
 		AA9D86D9183D665C00DBC14C /* SectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDataSource.m; sourceTree = "<group>"; };
 		AADDFFF21829A05000A02825 /* PokemonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonObject.h; sourceTree = "<group>"; };
@@ -301,7 +301,7 @@
 				ORGANIZATIONNAME = "Leonardo Tsuda";
 				TargetAttributes = {
 					99EA667D181A9CEA0009259B = {
-						DevelopmentTeam = DC7P966WU6;
+						DevelopmentTeam = H7US45YQ9L;
 					};
 					99EA669E181A9CEA0009259B = {
 						TestTargetID = 99EA667D181A9CEA0009259B;
@@ -516,6 +516,7 @@
 				INFOPLIST_FILE = "PokeWeakness/PokeWeakness-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -531,6 +532,7 @@
 				INFOPLIST_FILE = "PokeWeakness/PokeWeakness-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
