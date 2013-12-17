@@ -29,6 +29,7 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    
     self.numberLabel.text = [NSString stringWithFormat:@"#%ld", (long)self.pokemon.objectID];
     self.firstTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.firstType];
     self.secondTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.secondType];
