@@ -30,6 +30,10 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
 	// Do any additional setup after loading the view.
     
     
+    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"poison.png"]];
+    [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
+    
+    
     self.numberLabel.text = [NSString stringWithFormat:@"#%ld", (long)self.pokemon.objectID];
     self.firstTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.firstType];
     self.secondTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.secondType];
@@ -37,7 +41,7 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     self.title = self.pokemon.name;
     
     self.datasource = [[SectionDataSource alloc] initWithCellIdentifier:kSkillCellIdentifier
-                                                     configureCellBlock:^(UITableViewCell *cell, PokemonSkill *item) {                                                         
+                                                     configureCellBlock:^(UITableViewCell *cell, PokemonSkill *item) {
                                                          if (item.value)
                                                          {
                                                              cell.textLabel.text = [NSString stringWithFormat:@"%@ : %.2f", item.localizedName, item.value];

@@ -48,10 +48,12 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     self.textField.delegate = self;
 }
 
+
 -               (BOOL)textField:(UITextField *)textField
   shouldChangeCharactersInRange:(NSRange)range
               replacementString:(NSString *)string
 {
+    
     NSString *searchString = [textField.text stringByReplacingCharactersInRange:range
                                                                      withString:string];
     
@@ -66,6 +68,7 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
                      animations:^{
                          self.tableView.alpha = 1.0f;
     }];
+
     [self.tableView reloadData];
     
     return YES;
