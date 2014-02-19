@@ -30,7 +30,15 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
 	// Do any additional setup after loading the view.
     
     
-    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"poison.png"]];
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    
+
+    [[UIImage imageNamed:@"electric.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
     [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
     
     
@@ -40,6 +48,7 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     self.thumbImageView.image = [UIImage imageNamed:self.pokemon.nameEN];
     self.title = self.pokemon.name;
     
+
     self.datasource = [[SectionDataSource alloc] initWithCellIdentifier:kSkillCellIdentifier
                                                      configureCellBlock:^(UITableViewCell *cell, PokemonSkill *item) {
                                                          if (item.value)
