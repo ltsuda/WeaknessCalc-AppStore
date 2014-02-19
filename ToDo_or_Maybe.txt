@@ -1,7 +1,0 @@
-- Arrumar quando clivamos no RETURN button porque ele some a lista de pokemon;
-- Colocar as cores no fundo quando escolhermos o pokemon, utilizar cores do arquivo RGB.txt como teste para ver se as cores ficaram boas. Depois podemos fazer cada cor uma imagem, fazendo com alguns efeitos, talvez “estampas” do desenho de cada tipo, iguais as pokebolas da splashscreen.
-
-
-*** Se achar necessário ou se achar que fica legal ***
-
-- Colocar type 1 e 2 embaixo do nome do pokemon na table view onde procuramos pelo pokemon
