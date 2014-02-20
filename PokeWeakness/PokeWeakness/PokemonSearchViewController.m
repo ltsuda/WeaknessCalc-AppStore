@@ -39,9 +39,19 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    
+    //add background search image
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"search.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+    
     self.tapGesture.cancelsTouchesInView = NO;
     self.dataSource = [[BlockDataSource alloc] initWithCellIdentifier:kCellIdentifier configureCellBlock:^(UITableViewCell *cell, PokemonObject *item) {
-        cell.textLabel.text = item.name;
+        cell.textLabel.text = item.name;        
     }];
     
     self.tableView.dataSource = self.dataSource;

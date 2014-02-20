@@ -31,14 +31,13 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     
     
     UIGraphicsBeginImageContext(self.view.frame.size);
-    
-
     [[UIImage imageNamed:@"electric.png"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     
+    
+    //change TableViewHeader color
     [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
     
     
