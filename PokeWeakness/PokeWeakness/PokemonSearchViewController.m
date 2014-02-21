@@ -59,6 +59,12 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     self.textField.delegate = self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField endEditing:YES];
