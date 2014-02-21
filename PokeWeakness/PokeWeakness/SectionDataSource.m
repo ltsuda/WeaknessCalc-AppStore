@@ -31,19 +31,24 @@
 titleForHeaderInSection:(NSInteger)section
 {
     NSString *title = nil;
-    switch (section)
+    NSInteger rows = [self tableView:tableView
+               numberOfRowsInSection:section];
+    if (rows)
     {
-        case 0:
-            title = @"Not Affected By:";
-            break;
-            
-        case 1:
-            title = @"Weak Against:";
-            break;
-            
-        case 2:
-            title = @"Resistant Against:";
-            break;
+        switch (section)
+        {
+            case 0:
+                title = @"Not Affected By:";
+                break;
+                
+            case 1:
+                title = @"Weak Against:";
+                break;
+                
+            case 2:
+                title = @"Resistant Against:";
+                break;
+        }
     }
     return title;
 }

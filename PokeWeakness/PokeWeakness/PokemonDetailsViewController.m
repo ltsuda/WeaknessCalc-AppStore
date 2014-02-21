@@ -65,4 +65,10 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     [self.skillsTableView reloadData];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [self.skillsTableView flashScrollIndicators];
+    [super viewDidAppear:animated];
+}
+
 @end
