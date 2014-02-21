@@ -11,6 +11,7 @@
 #import "PokemonCache.h"
 #import "PokemonObject.h"
 #import "PokemonDetailsViewController.h"
+#import "PokemonListCell.h"
 
 @interface PokemonSearchViewController () <UITextFieldDelegate>
 
@@ -50,14 +51,19 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     
     
     self.tapGesture.cancelsTouchesInView = NO;
-    self.dataSource = [[BlockDataSource alloc] initWithCellIdentifier:kCellIdentifier configureCellBlock:^(UITableViewCell *cell, PokemonObject *item) {
-        cell.textLabel.text = item.name;        
+    self.dataSource = [[BlockDataSource alloc] initWithCellIdentifier:kCellIdentifier configureCellBlock:^(PokemonListCell *cell, PokemonObject *item) {
+        [cell configureForPokemon:item];
     }];
     
     self.tableView.dataSource = self.dataSource;
     self.textField.delegate = self;
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField endEditing:YES];
+    return YES;
+}
 
 -               (BOOL)textField:(UITextField *)textField
   shouldChangeCharactersInRange:(NSRange)range
@@ -66,6 +72,7 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     
     NSString *searchString = [textField.text stringByReplacingCharactersInRange:range
                                                                      withString:string];
+    searchString = [searchString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
     
     NSPredicate *firstPredicate = [NSPredicate predicateWithFormat:@"nameEN contains[cd] %@", searchString];
     NSPredicate *secondPredicate = [NSPredicate predicateWithFormat:@"nameJP contains[cd] %@", searchString];

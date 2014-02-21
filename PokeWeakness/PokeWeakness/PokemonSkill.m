@@ -91,7 +91,22 @@
 
 + (NSString *)localizedStringFromSkillType:(PokemonSkillType)type
 {
-    NSString *skillString = nil;
+    NSString *localizedString = [self stringForType:type
+                                          localized:YES];
+    return localizedString;
+}
+
++ (NSString *)stringFromSkillType:(PokemonSkillType)type
+{
+    NSString *skillName = [self stringForType:type
+                                    localized:NO];
+    return skillName;
+}
+
++ (NSString *)stringForType:(PokemonSkillType)type
+                  localized:(BOOL)localized
+{
+    NSString *skillString = nil, *englishString = nil;
     switch (type)
     {
         case PokemonTypeNone:
@@ -99,77 +114,78 @@
             break;
             
         case PokemonTypeNormal:
-            skillString = NSLocalizedString(@"Normal", @"");
+            englishString = @"Normal";
             break;
             
         case PokemonTypeFire:
-            skillString = NSLocalizedString(@"Fire", @"");
+            englishString = @"Fire";
             break;
             
         case PokemonTypeWater:
-            skillString = NSLocalizedString(@"Water", @"");
+            englishString = @"Water";
             break;
             
         case PokemonTypeElectric:
-            skillString = NSLocalizedString(@"Electric", @"");
+            englishString = @"Electric";
             break;
             
         case PokemonTypeGrass:
-            skillString = NSLocalizedString(@"Grass", @"");
+            englishString = @"Grass";
             break;
             
         case PokemonTypeIce:
-            skillString = NSLocalizedString(@"Ice", @"");
+            englishString = @"Ice";
             break;
             
         case PokemonTypeFighting:
-            skillString = NSLocalizedString(@"Fighting", @"");
+            englishString = @"Fighting";
             break;
             
         case PokemonTypePoison:
-            skillString = NSLocalizedString(@"Poison", @"");
+            englishString = @"Poison";
             break;
             
         case PokemonTypeGround:
-            skillString = NSLocalizedString(@"Ground", @"");
+            englishString = @"Ground";
             break;
             
         case PokemonTypeFlying:
-            skillString = NSLocalizedString(@"Flying", @"");
+            englishString = @"Flying";
             break;
             
         case PokemonTypePsychic:
-            skillString = NSLocalizedString(@"Psychic", @"");
+            englishString = @"Psychic";
             break;
             
         case PokemonTypeBug:
-            skillString = NSLocalizedString(@"Bug", @"");
+            englishString = @"Bug";
             break;
             
         case PokemonTypeRock:
-            skillString = NSLocalizedString(@"Rock", @"");
+            englishString = @"Rock";
             break;
             
         case PokemonTypeGhost:
-            skillString = NSLocalizedString(@"Ghost", @"");
+            englishString = @"Ghost";
             break;
             
         case PokemonTypeDark:
-            skillString = NSLocalizedString(@"Dark", @"");
+            englishString = @"Dark";
             break;
             
         case PokemonTypeSteel:
-            skillString = NSLocalizedString(@"Steel", @"");
+            englishString = @"Steel";
             break;
             
         case PokemonTypeFairy:
-            skillString = NSLocalizedString(@"Fairy", @"");
+            englishString = @"Fairy";
             break;
             
         case PokemonTypeDragon:
-            skillString = NSLocalizedString(@"Dragon", @"");
+            englishString = @"Dragon";
             break;
     }
+    skillString = localized ? NSLocalizedString(englishString, @"") : englishString;
     return skillString;
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AA4B4918B6E41A009C7A81 /* PokemonListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4B4818B6E41A009C7A81 /* PokemonListCell.m */; };
 		99EA6682181A9CEA0009259B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6681181A9CEA0009259B /* Foundation.framework */; };
 		99EA6684181A9CEA0009259B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6683181A9CEA0009259B /* CoreGraphics.framework */; };
 		99EA6686181A9CEA0009259B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6685181A9CEA0009259B /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47AA4B4718B6E41A009C7A81 /* PokemonListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonListCell.h; sourceTree = "<group>"; };
+		47AA4B4818B6E41A009C7A81 /* PokemonListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonListCell.m; sourceTree = "<group>"; };
 		99EA667E181A9CEA0009259B /* PokeWeakness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeWeakness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EA6681181A9CEA0009259B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99EA6683181A9CEA0009259B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47AA4B4618B6E402009C7A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47AA4B4718B6E41A009C7A81 /* PokemonListCell.h */,
+				47AA4B4818B6E41A009C7A81 /* PokemonListCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		99EA6675181A9CEA0009259B = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +160,7 @@
 		99EA6687181A9CEA0009259B /* PokeWeakness */ = {
 			isa = PBXGroup;
 			children = (
+				47AA4B4618B6E402009C7A81 /* Views */,
 				AA396FAD1831CC1100B0A34D /* DataSource */,
 				AA396FA91831CB8000B0A34D /* ViewControllers */,
 				AADDFFF11829A03200A02825 /* Model */,
@@ -359,6 +372,7 @@
 			files = (
 				AADDFFF41829A05000A02825 /* PokemonObject.m in Sources */,
 				AA34C157181D616900C2EAE1 /* PokemonCache.m in Sources */,
+				47AA4B4918B6E41A009C7A81 /* PokemonListCell.m in Sources */,
 				AA396FB01831CC8800B0A34D /* BlockDataSource.m in Sources */,
 				AA396FAC1831CBD400B0A34D /* PokemonSearchViewController.m in Sources */,
 				99EA6698181A9CEA0009259B /* ViewController.m in Sources */,

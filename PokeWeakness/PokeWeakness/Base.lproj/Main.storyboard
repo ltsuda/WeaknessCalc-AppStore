@@ -31,15 +31,39 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kPokemonSearchIdentifier" rowHeight="85" id="iRO-Br-I9L">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kPokemonSearchIdentifier" rowHeight="85" id="iRO-Br-I9L" customClass="PokemonListCell">
                                         <rect key="frame" x="0.0" y="22" width="320" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iRO-Br-I9L" id="MzX-Ap-lx9">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="84"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfd-3h-G1t">
+                                                    <rect key="frame" x="178" y="20" width="89" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1b7-HJ-lzQ">
+                                                    <rect key="frame" x="178" y="49" width="89" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lorem ipsum set dolor amet cacilds" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="kNb-iF-9AG">
+                                                    <rect key="frame" x="20" y="20" width="134" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
+                                            <outlet property="firstTypeLabel" destination="nfd-3h-G1t" id="11N-7e-ukw"/>
+                                            <outlet property="nameLabel" destination="kNb-iF-9AG" id="d7I-EW-PA2"/>
+                                            <outlet property="secondTypeLabel" destination="1b7-HJ-lzQ" id="r7K-Oh-Cw3"/>
                                             <segue destination="1jL-sP-iCk" kind="push" id="beX-IX-xaG"/>
                                         </connections>
                                     </tableViewCell>
@@ -80,6 +104,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LUP-24-OoD">
+                                <rect key="frame" x="0.0" y="63" width="330" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQ5-18-Nq8">
                                 <rect key="frame" x="20" y="84" width="88" height="98"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,6 +165,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Cue-iy-diY"/>
                     <connections>
+                        <outlet property="backgroundImageView" destination="LUP-24-OoD" id="lB8-j7-X6k"/>
                         <outlet property="firstTypeLabel" destination="5ra-Hd-cjt" id="DgZ-qe-aNW"/>
                         <outlet property="numberLabel" destination="J0A-Lg-mTA" id="EXF-yx-CMs"/>
                         <outlet property="secondTypeLabel" destination="rGs-cZ-3Ng" id="ybs-zA-FKM"/>

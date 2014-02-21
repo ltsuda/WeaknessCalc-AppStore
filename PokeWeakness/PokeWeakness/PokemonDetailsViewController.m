@@ -12,12 +12,15 @@
 #import "SectionDataSource.h"
 
 @interface PokemonDetailsViewController ()
+
 @property (weak, nonatomic) IBOutlet UIImageView *thumbImageView;
 @property (weak, nonatomic) IBOutlet UILabel *numberLabel;
 @property (weak, nonatomic) IBOutlet UILabel *firstTypeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *secondTypeLabel;
 @property (weak, nonatomic) IBOutlet UITableView *skillsTableView;
 @property (strong, nonatomic) SectionDataSource *datasource;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+
 @end
 
 @implementation PokemonDetailsViewController
@@ -29,12 +32,8 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    
-    UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"electric.png"] drawInRect:self.view.bounds];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    NSString *skillName = [[PokemonSkill stringFromSkillType:self.pokemon.firstType] lowercaseString];
+    self.backgroundImageView.image = [UIImage imageNamed:skillName];
     
     
     //change TableViewHeader color
