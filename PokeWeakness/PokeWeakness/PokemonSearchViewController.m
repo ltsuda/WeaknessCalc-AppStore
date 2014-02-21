@@ -49,6 +49,7 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     UIGraphicsEndImageContext();
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     
+    _textField.placeholder = NSLocalizedString(@"Search a pokemon", @"");
     
     self.tapGesture.cancelsTouchesInView = NO;
     self.dataSource = [[BlockDataSource alloc] initWithCellIdentifier:kCellIdentifier configureCellBlock:^(PokemonListCell *cell, PokemonObject *item) {
