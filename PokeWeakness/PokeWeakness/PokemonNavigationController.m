@@ -8,11 +8,11 @@
 
 #import "PokemonNavigationController.h"
 #import "PokemonSideBar.h"
+#import <Social/Social.h>
 
 @interface PokemonNavigationController () <RNFrostedSidebarDelegate>
 
 @property (nonatomic, strong) PokemonSideBar *callout;
-
 @end
 
 @implementation PokemonNavigationController
@@ -22,8 +22,10 @@
     [super viewDidLoad];
     
     NSArray *buttonImages = @[
-                              [UIImage imageNamed:@"Chespin"],
-                              [UIImage imageNamed:@"Meowth"]
+                              [UIImage imageNamed:@"profile"],
+                              [UIImage imageNamed:@"facebook"],
+                              [UIImage imageNamed:@"twitter"],
+                              [UIImage imageNamed:@"star"],
                               ];
     self.callout = [[PokemonSideBar alloc] initWithImages:buttonImages];
     self.callout.showFromRight = YES;
@@ -34,11 +36,16 @@
     [self.view addGestureRecognizer:gesture];
 }
 
+
+
 - (void)edgeGestureAction:(UIScreenEdgePanGestureRecognizer *)gesture
 {
-    [[UIApplication sharedApplication] setStatusBarHidden:YES
-                                            withAnimation:UIStatusBarAnimationFade];
-    [self.callout show];
+    
+    if  (![UIApplication sharedApplication].statusBarHidden) {
+        [[UIApplication sharedApplication] setStatusBarHidden:YES
+                                                withAnimation:UIStatusBarAnimationFade];
+        [self.callout show];
+    }
 }
 
 
@@ -53,6 +60,35 @@ didTapItemAtIndex:(NSUInteger)index
     }
     else if (index == 1)
     {
+        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
+        {
+            SLComposeViewController *facebookSheet = [SLComposeViewController
+                                                   composeViewControllerForServiceType:SLServiceTypeFacebook];
+            [facebookSheet setInitialText: NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
+            [facebookSheet addImage:[UIImage imageNamed:@"Pikachu"]];
+            [facebookSheet addURL:[NSURL URLWithString:@"http://facebook.com/leonardotsuda"]];
+            
+            [self presentViewController:facebookSheet animated:YES completion:nil];
+        }
+        
+    }
+    else if (index == 2)
+    {
+        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+        {
+            SLComposeViewController *tweetSheet = [SLComposeViewController
+                                                   composeViewControllerForServiceType:SLServiceTypeTwitter];
+            [tweetSheet setInitialText:NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
+            [tweetSheet addImage:[UIImage imageNamed:@"Pikachu"]];
+            [tweetSheet addURL:[NSURL URLWithString:@"http://facebook.com/leonardotsuda"]];
+            
+            [self presentViewController:tweetSheet animated:YES completion:nil];
+        }
+        
+    }
+    else if (index == 3)
+    {
+        
         
     }
 }
