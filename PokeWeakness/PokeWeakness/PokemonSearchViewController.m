@@ -40,7 +40,7 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
+
     
     //add background search image
     UIGraphicsBeginImageContext(self.view.frame.size);
