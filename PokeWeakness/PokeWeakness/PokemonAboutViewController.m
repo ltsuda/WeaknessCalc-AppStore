@@ -11,11 +11,15 @@
 @interface PokemonAboutViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *profileImage;
+@property (weak, nonatomic) IBOutlet UIImageView *profilecImage;
+@property (weak, nonatomic) IBOutlet UIImageView *profilemImage;
+@property (weak, nonatomic) IBOutlet UILabel *devtLabel;
+@property (weak, nonatomic) IBOutlet UILabel *devcLabel;
+@property (weak, nonatomic) IBOutlet UILabel *translatorLabel;
 - (IBAction)gitURLButton:(id)sender;
 - (IBAction)facebookURLButton:(id)sender;
 - (IBAction)facebookTranslatorURLButton:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *developerLabel;
-@property (weak, nonatomic) IBOutlet UILabel *translatorLabel;
+
 
 @end
 
@@ -33,12 +37,16 @@
     UIGraphicsEndImageContext();
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
 
-    self.developerLabel.text = NSLocalizedString(@"Developer", @"");
+    self.profileImage.image = [UIImage imageNamed:@"profilet"];
+    self.profilecImage.image = [UIImage imageNamed:@"profilec"];
+    self.profilemImage.image = [UIImage imageNamed:@"profilem"];
+    
+    self.devtLabel.text = NSLocalizedString(@"Developer", @"");
+    self.devcLabel.text = NSLocalizedString(@"Developer", @"");
     self.translatorLabel.text = NSLocalizedString(@"Translator", @"");
-    self.profileImage.image = [UIImage imageNamed:@"photo"];
     
     UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    doneButton.frame = CGRectMake((self.view.bounds.size.width)/2 - 30, (self.view.bounds.size.height) - 60, 60, 30);
+    doneButton.frame = CGRectMake((self.view.bounds.size.width)/2 - 30, (self.view.bounds.size.height) - 30, 60, 30);
     [doneButton setTitle: NSLocalizedString(@"Done", @"") forState:UIControlStateNormal];
     
     [doneButton addTarget:self action:@selector(doneButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
