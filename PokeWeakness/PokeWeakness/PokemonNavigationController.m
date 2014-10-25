@@ -66,7 +66,6 @@ didTapItemAtIndex:(NSUInteger)index
                                                    composeViewControllerForServiceType:SLServiceTypeFacebook];
             [facebookSheet setInitialText: NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
             [facebookSheet addImage:[UIImage imageNamed:@"search"]];
-            [facebookSheet addURL:[NSURL URLWithString:@"http://facebook.com/leonardotsuda"]];
             
             [self presentViewController:facebookSheet animated:YES completion:nil];
         }
@@ -80,7 +79,6 @@ didTapItemAtIndex:(NSUInteger)index
                                                    composeViewControllerForServiceType:SLServiceTypeTwitter];
             [tweetSheet setInitialText:NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
             [tweetSheet addImage:[UIImage imageNamed:@"search"]];
-            [tweetSheet addURL:[NSURL URLWithString:@"http://facebook.com/leonardotsuda"]];
             
             [self presentViewController:tweetSheet animated:YES completion:nil];
         }
