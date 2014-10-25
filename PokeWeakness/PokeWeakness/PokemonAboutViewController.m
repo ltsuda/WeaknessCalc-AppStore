@@ -66,11 +66,13 @@
 }
 
 - (IBAction)facebookURLButton:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/leonardotsuda"]];
+
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/leonardotsuda"]];
 
 }
 
 - (IBAction)facebookTranslatorURLButton:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/Santos.Maka"]];
+
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/leonardotsuda"]];
 }
 @end
