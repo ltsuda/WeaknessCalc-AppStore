@@ -31,13 +31,15 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
+
+
     NSString *skillName = [[PokemonSkill stringFromSkillType:self.pokemon.firstType] lowercaseString];
     self.backgroundImageView.image = [UIImage imageNamed:skillName];
     
     
     //change TableViewHeader color
     [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
+    
     
     
     self.numberLabel.text = [NSString stringWithFormat:@"#%ld", (long)self.pokemon.objectID];
@@ -68,13 +70,17 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
 - (void)viewDidAppear:(BOOL)animated
 {
     [self.skillsTableView flashScrollIndicators];
+    
     [super viewDidAppear:animated];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+
+    
 }
 
 @end
