@@ -250,7 +250,7 @@
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kSkillCellIdentifier" textLabel="7SZ-kj-2qP" style="IBUITableViewCellStyleDefault" id="lkc-qZ-Hg1" userLabel="kPokemonSearchIdentifier">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kSkillCellIdentifier" textLabel="7SZ-kj-2qP" style="IBUITableViewCellStyleDefault" id="lkc-qZ-Hg1">
                                         <rect key="frame" x="0.0" y="55" width="280" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lkc-qZ-Hg1" id="S0s-pf-Oda">

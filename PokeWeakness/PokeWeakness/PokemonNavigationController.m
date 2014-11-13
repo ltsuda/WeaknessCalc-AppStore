@@ -78,15 +78,6 @@
             
             [self presentViewController:facebookSheet animated:YES completion:nil];
         }
-        else
-        {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Facebook"
-                                                            message:@"Facebook integration is not available.  A Facebook account must be set up on your device."
-                                                           delegate:self
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            [alert show];
-        }
         
     }
     else if (index == 2)
@@ -100,15 +91,7 @@
             
             [self presentViewController:tweetSheet animated:YES completion:nil];
         }
-        else
-        {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Twitter"
-                                                            message:@"Twitter integration is not available.  A Twitter account must be set up on your device."
-                                                           delegate:self
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            [alert show];
-        }
+        
     }
 }
 

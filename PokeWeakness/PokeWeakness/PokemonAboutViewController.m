@@ -73,6 +73,6 @@
 
 - (IBAction)facebookTranslatorURLButton:(id)sender {
 
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/santos.maka"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/leonardotsuda"]];
 }
 @end
