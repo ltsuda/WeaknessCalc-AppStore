@@ -30,12 +30,13 @@
     self.callout = [[PokemonSideBar alloc] initWithImages:buttonImages];
     self.callout.showFromRight = YES;
     self.callout.delegate = self;
-    
+
     UIScreenEdgePanGestureRecognizer *gesture = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(edgeGestureAction:)];
     gesture.edges = UIRectEdgeRight;
     [self.view addGestureRecognizer:gesture];
-}
+  
 
+}
 
 
 - (void)edgeGestureAction:(UIScreenEdgePanGestureRecognizer *)gesture
@@ -51,8 +52,7 @@
 
 #pragma mark RNFrostedSidebarDelegate
 
--   (void)sidebar:(RNFrostedSidebar *)sidebar
-didTapItemAtIndex:(NSUInteger)index
+-   (void)sidebar:(RNFrostedSidebar *)sidebar didTapItemAtIndex:(NSUInteger)index
 {
     if (index == 0)
     {
@@ -60,6 +60,7 @@ didTapItemAtIndex:(NSUInteger)index
     }
     else if (index == 1)
     {
+     
         if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
         {
             SLComposeViewController *facebookSheet = [SLComposeViewController

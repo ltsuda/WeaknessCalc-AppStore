@@ -41,6 +41,7 @@ static NSString *kCellIdentifier = @"kPokemonSearchIdentifier";
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     //add background search image
     UIGraphicsBeginImageContext(self.view.frame.size);
