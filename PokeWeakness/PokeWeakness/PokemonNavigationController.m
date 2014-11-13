@@ -91,6 +91,14 @@
             
             [self presentViewController:tweetSheet animated:YES completion:nil];
         }
+<<<<<<< HEAD
+=======
+        
+    }
+    else if (index == 3)
+    {
+        
+>>>>>>> parent of 69d2ac3... fix social integration
         
     }
 }
