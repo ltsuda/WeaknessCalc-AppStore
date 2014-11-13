@@ -91,8 +91,6 @@
             
             [self presentViewController:tweetSheet animated:YES completion:nil];
         }
-<<<<<<< HEAD
-=======
         
     }
     else if (index == 3)
