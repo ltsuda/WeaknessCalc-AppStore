@@ -30,12 +30,12 @@
     self.callout = [[PokemonSideBar alloc] initWithImages:buttonImages];
     self.callout.showFromRight = YES;
     self.callout.delegate = self;
-
+    
     UIScreenEdgePanGestureRecognizer *gesture = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(edgeGestureAction:)];
     gesture.edges = UIRectEdgeRight;
     [self.view addGestureRecognizer:gesture];
-  
-
+    
+    
 }
 
 
@@ -45,12 +45,20 @@
     if  (![UIApplication sharedApplication].statusBarHidden) {
         [[UIApplication sharedApplication] setStatusBarHidden:YES
                                                 withAnimation:UIStatusBarAnimationFade];
-        [self.callout show];
+        [self.topViewController.navigationItem setHidesBackButton:YES animated:YES];
+        [self.callout showInViewController:self.topViewController animated:YES];
+        self.interactivePopGestureRecognizer.enabled = NO;
+        [self.topViewController.navigationItem setHidesBackButton:YES animated:YES];
     }
 }
 
 
 #pragma mark RNFrostedSidebarDelegate
+
+- (void)sidebar:(RNFrostedSidebar *)sidebar didDismissFromScreenAnimated:(BOOL)animatedYesOrNo {
+    [self.topViewController.navigationItem setHidesBackButton:NO animated:YES];
+    self.interactivePopGestureRecognizer.enabled = YES;
+}
 
 -   (void)sidebar:(RNFrostedSidebar *)sidebar didTapItemAtIndex:(NSUInteger)index
 {
@@ -60,11 +68,11 @@
     }
     else if (index == 1)
     {
-     
+        
         if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
         {
             SLComposeViewController *facebookSheet = [SLComposeViewController
-                                                   composeViewControllerForServiceType:SLServiceTypeFacebook];
+                                                      composeViewControllerForServiceType:SLServiceTypeFacebook];
             [facebookSheet setInitialText: NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
             [facebookSheet addImage:[UIImage imageNamed:@"search"]];
             
@@ -101,11 +109,6 @@
                                                   otherButtonTitles:nil];
             [alert show];
         }
-    }
-    else if (index == 3)
-    {
-        
-        
     }
 }
 
