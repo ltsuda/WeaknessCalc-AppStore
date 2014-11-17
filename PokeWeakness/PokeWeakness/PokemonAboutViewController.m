@@ -64,15 +64,22 @@
 - (IBAction)gitURLButton:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://chrisfsampaio.github.io"]];
 }
-
 - (IBAction)facebookURLButton:(id)sender {
-
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/leonardotsuda"]];
+    NSURL *fanPageURL = [NSURL URLWithString:@"fb://profile/100001710320711"];
+    if (![[UIApplication sharedApplication] canOpenURL:fanPageURL])
+        fanPageURL =   [ NSURL URLWithString:@"https://www.facebook.com/leonardotsuda"];
+    
+    
+    [[UIApplication sharedApplication] openURL:fanPageURL];
 
 }
 
 - (IBAction)facebookTranslatorURLButton:(id)sender {
+    
+    NSURL *fanPageURL = [NSURL URLWithString:@"fb://profile/100001774553338"];
+    if (![[UIApplication sharedApplication] canOpenURL:fanPageURL])
+        fanPageURL =   [ NSURL URLWithString:@"https://www.facebook.com/Santos.Maka"];
+    [[UIApplication sharedApplication] openURL:fanPageURL];
 
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/santos.maka"]];
 }
 @end

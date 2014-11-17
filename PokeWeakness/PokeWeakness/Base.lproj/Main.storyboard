@@ -226,19 +226,19 @@
                                     <constraint firstAttribute="width" constant="88" id="ngu-gK-k6o"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ra-Hd-cjt">
-                                <rect key="frame" x="127" y="115.5" width="173" height="20.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ra-Hd-cjt">
+                                <rect key="frame" x="127" y="115" width="173" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGs-cZ-3Ng">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGs-cZ-3Ng">
                                 <rect key="frame" x="127" y="144" width="173" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="bUs-NQ-ByX">
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="bUs-NQ-ByX">
                                 <rect key="frame" x="20" y="183" width="280" height="348.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -264,7 +264,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0A-Lg-mTA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0A-Lg-mTA">
                                 <rect key="frame" x="127" y="79" width="173" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -277,6 +277,7 @@
                             <constraint firstItem="rGs-cZ-3Ng" firstAttribute="top" secondItem="5ra-Hd-cjt" secondAttribute="bottom" constant="8" symbolic="YES" id="3Ag-59-dmz"/>
                             <constraint firstItem="LUP-24-OoD" firstAttribute="top" secondItem="OnM-U8-dqn" secondAttribute="bottom" constant="-10" id="8VA-re-GVP"/>
                             <constraint firstItem="rGs-cZ-3Ng" firstAttribute="trailing" secondItem="5ra-Hd-cjt" secondAttribute="trailing" id="GgC-EV-9yw"/>
+                            <constraint firstItem="LUP-24-OoD" firstAttribute="leading" secondItem="bUs-NQ-ByX" secondAttribute="trailing" constant="-300" id="Gog-O1-zwf"/>
                             <constraint firstAttribute="bottom" secondItem="bUs-NQ-ByX" secondAttribute="bottom" constant="36" id="JzC-qp-r0T"/>
                             <constraint firstItem="J0A-Lg-mTA" firstAttribute="leading" secondItem="WQ5-18-Nq8" secondAttribute="trailing" constant="19" id="LCt-uC-BGq"/>
                             <constraint firstAttribute="trailing" secondItem="LUP-24-OoD" secondAttribute="trailing" constant="-10" id="LuU-vg-fiT"/>
@@ -289,8 +290,8 @@
                             <constraint firstAttribute="bottom" secondItem="LUP-24-OoD" secondAttribute="bottom" id="fUt-TQ-wsn"/>
                             <constraint firstItem="rGs-cZ-3Ng" firstAttribute="leading" secondItem="5ra-Hd-cjt" secondAttribute="leading" id="glP-R2-mc9"/>
                             <constraint firstItem="5ra-Hd-cjt" firstAttribute="leading" secondItem="J0A-Lg-mTA" secondAttribute="leading" id="mbc-Dc-ugH"/>
-                            <constraint firstItem="J0A-Lg-mTA" firstAttribute="top" secondItem="OnM-U8-dqn" secondAttribute="bottom" constant="18" id="rNV-6p-MKJ"/>
-                            <constraint firstItem="5ra-Hd-cjt" firstAttribute="top" secondItem="J0A-Lg-mTA" secondAttribute="bottom" constant="13" id="wCl-Kb-jgB"/>
+                            <constraint firstItem="J0A-Lg-mTA" firstAttribute="top" secondItem="OnM-U8-dqn" secondAttribute="bottom" constant="15" id="rNV-6p-MKJ"/>
+                            <constraint firstItem="5ra-Hd-cjt" firstAttribute="top" secondItem="J0A-Lg-mTA" secondAttribute="bottom" constant="15.5" id="wCl-Kb-jgB"/>
                             <constraint firstItem="LUP-24-OoD" firstAttribute="leading" secondItem="QnK-Te-NnM" secondAttribute="leading" id="zcV-Kv-zXs"/>
                         </constraints>
                     </view>

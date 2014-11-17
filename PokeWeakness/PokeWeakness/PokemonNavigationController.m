@@ -45,9 +45,10 @@
     if  (![UIApplication sharedApplication].statusBarHidden) {
         [[UIApplication sharedApplication] setStatusBarHidden:YES
                                                 withAnimation:UIStatusBarAnimationFade];
-        [self.topViewController.navigationItem setHidesBackButton:YES animated:YES];
         [self.callout showInViewController:self.topViewController animated:YES];
         self.interactivePopGestureRecognizer.enabled = NO;
+        [self.topViewController.navigationItem setHidesBackButton:YES animated:YES];
+
     }
 }
 
@@ -79,13 +80,12 @@
         }
         else
         {
-            UIAlertView *alertView = [[UIAlertView alloc]
-                                  initWithTitle:@"Sorry"
-                                  message:@"You can't post on Facebook right now, make sure your device has an internet connection and you have at least one Facebook account setup"
-                                  delegate:self
-                                  cancelButtonTitle:@"OK"
-                                  otherButtonTitles:nil];
-            [alertView show];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Facebook"
+                                                            message:@"Facebook integration is not available.  A Facebook account must be set up on your device."
+                                                           delegate:self
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
         }
         
     }
@@ -102,13 +102,12 @@
         }
         else
         {
-            UIAlertView *alertView = [[UIAlertView alloc]
-                                      initWithTitle:@"Sorry"
-                                      message:@"You can't send a tweet right now, make sure your device has an internet connection and you have at least one Twitter account setup"
-                                      delegate:self
-                                      cancelButtonTitle:@"OK"
-                                      otherButtonTitles:nil];
-            [alertView show];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Twitter"
+                                                            message:@"Twitter integration is not available.  A Twitter account must be set up on your device."
+                                                           delegate:self
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
         }
         
     }
