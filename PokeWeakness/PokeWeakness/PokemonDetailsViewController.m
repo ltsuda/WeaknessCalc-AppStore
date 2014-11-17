@@ -35,6 +35,8 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
 
     NSString *skillName = [[PokemonSkill stringFromSkillType:self.pokemon.firstType] lowercaseString];
     self.backgroundImageView.image = [UIImage imageNamed:skillName];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@bg.png", skillName]] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.translucent = NO;
     
     
     //change TableViewHeader color
