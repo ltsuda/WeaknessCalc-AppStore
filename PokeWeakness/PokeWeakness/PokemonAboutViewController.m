@@ -10,9 +10,9 @@
 
 @interface PokemonAboutViewController ()
 
-@property (weak, nonatomic) IBOutlet UIImageView *profileImage;
-@property (weak, nonatomic) IBOutlet UIImageView *profilecImage;
-@property (weak, nonatomic) IBOutlet UIImageView *profilemImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *profileImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *profilecImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *profilemImage;
 @property (weak, nonatomic) IBOutlet UILabel *devtLabel;
 @property (weak, nonatomic) IBOutlet UILabel *devcLabel;
 @property (weak, nonatomic) IBOutlet UILabel *translatorLabel;
@@ -36,10 +36,13 @@
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:NO
+                                            withAnimation:UIStatusBarAnimationFade];
 
-    self.profileImage.image = [UIImage imageNamed:@"profilet"];
-    self.profilecImage.image = [UIImage imageNamed:@"profilec"];
-    self.profilemImage.image = [UIImage imageNamed:@"profilem"];
+//    self.profileImage.image = [UIImage imageNamed:@"profilet"];
+//    self.profilecImage.image = [UIImage imageNamed:@"profilec"];
+//    self.profilemImage.image = [UIImage imageNamed:@"profilem"];
     
     self.devtLabel.text = NSLocalizedString(@"Developer", @"");
     self.devcLabel.text = NSLocalizedString(@"Developer", @"");
@@ -59,6 +62,8 @@
 {
     [self dismissViewControllerAnimated:YES
                              completion:nil];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES
+                                            withAnimation:UIStatusBarAnimationFade];
 }
 
 - (IBAction)gitURLButton:(id)sender {

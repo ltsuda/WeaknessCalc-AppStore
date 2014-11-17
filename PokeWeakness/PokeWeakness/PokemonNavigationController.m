@@ -109,6 +109,9 @@
                                                   otherButtonTitles:nil];
             [alert show];
         }
+    }
+    else if (index == 3)
+    {
         
     }
 }
