@@ -112,7 +112,7 @@
     }
     else if (index == 3)
     {
-        
+        [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"itms-apps://itunes.com/app/id942553605"]];
     }
 }
 
