@@ -13,8 +13,11 @@
 @interface PokemonListCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *firstTypeLabel;
-@property (weak, nonatomic) IBOutlet UILabel *secondTypeLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *secondTypeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *firstTypeImageView;
+
+@property (weak, nonatomic) IBOutlet UIImageView *pokemonImageView;
+
 
 @end
 
@@ -23,8 +26,9 @@
 - (void)configureForPokemon:(PokemonObject *)pokemon
 {
     self.nameLabel.text = pokemon.name;
-    self.firstTypeLabel.text = [PokemonSkill localizedStringFromSkillType:pokemon.firstType];
-    self.secondTypeLabel.text = [PokemonSkill localizedStringFromSkillType:pokemon.secondType];
+    self.firstTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:pokemon.firstType]];
+    self.secondTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:pokemon.secondType]];
+    self.pokemonImageView.image = [UIImage imageNamed:pokemon.name] ?: [UIImage imageNamed:@"star"];
 }
 
 @end

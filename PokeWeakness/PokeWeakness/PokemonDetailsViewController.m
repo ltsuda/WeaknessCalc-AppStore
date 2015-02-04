@@ -10,16 +10,17 @@
 #import "PokemonObject.h"
 #import "PokemonSkill.h"
 #import "SectionDataSource.h"
+#import "PokemonSkillCell.h"
 
 @interface PokemonDetailsViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *thumbImageView;
 @property (weak, nonatomic) IBOutlet UILabel *numberLabel;
-@property (weak, nonatomic) IBOutlet UILabel *firstTypeLabel;
-@property (weak, nonatomic) IBOutlet UILabel *secondTypeLabel;
 @property (weak, nonatomic) IBOutlet UITableView *skillsTableView;
 @property (strong, nonatomic) SectionDataSource *datasource;
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *firstTypeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *secondTypeImageView;
 
 @end
 
@@ -45,22 +46,15 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     
     
     self.numberLabel.text = [NSString stringWithFormat:@"#%ld", (long)self.pokemon.objectID];
-    self.firstTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.firstType];
-    self.secondTypeLabel.text = [PokemonSkill localizedStringFromSkillType:self.pokemon.secondType];
+    self.firstTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:self.pokemon.firstType]];
+    self.secondTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:self.pokemon.secondType]];
     self.thumbImageView.image = [UIImage imageNamed:self.pokemon.nameEN];
     self.title = self.pokemon.name;
     
 
     self.datasource = [[SectionDataSource alloc] initWithCellIdentifier:kSkillCellIdentifier
-                                                     configureCellBlock:^(UITableViewCell *cell, PokemonSkill *item) {
-                                                         if (item.value)
-                                                         {
-                                                             cell.textLabel.text = [NSString stringWithFormat:@"%@ : %.2f", item.localizedName, item.value];
-                                                         }
-                                                         else
-                                                         {
-                                                             cell.textLabel.text = [NSString stringWithFormat:@"%@ : X", item.localizedName];
-                                                         }
+                                                     configureCellBlock:^(PokemonSkillCell *cell, PokemonSkill *item) {
+                                                         [cell prepareWithSkill:item];
                                                      }];
     
     self.datasource.items = @[self.pokemon.neutrals, self.pokemon.weakness, self.pokemon.resistances];

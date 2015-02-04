@@ -28,6 +28,8 @@
 		99EA66A2181A9CEA0009259B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6681181A9CEA0009259B /* Foundation.framework */; };
 		99EA66A3181A9CEA0009259B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EA6685181A9CEA0009259B /* UIKit.framework */; };
 		99EA66AB181A9CEA0009259B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99EA66A9181A9CEA0009259B /* InfoPlist.strings */; };
+		AA2AB8371A818C0D00DA90FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2AB8361A818C0D00DA90FC /* LaunchScreen.xib */; };
+		AA2C7F771A8199FE00BF366C /* PokemonSkillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C7F761A8199FE00BF366C /* PokemonSkillCell.m */; };
 		AA34C153181D612E00C2EAE1 /* pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = AA34C152181D612E00C2EAE1 /* pokedex.json */; };
 		AA34C157181D616900C2EAE1 /* PokemonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34C156181D616900C2EAE1 /* PokemonCache.m */; };
 		AA34C158181D616900C2EAE1 /* PokemonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34C156181D616900C2EAE1 /* PokemonCache.m */; };
@@ -89,6 +91,9 @@
 		99EA66A0181A9CEA0009259B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		99EA66A8181A9CEA0009259B /* PokeWeaknessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokeWeaknessTests-Info.plist"; sourceTree = "<group>"; };
 		99EA66AA181A9CEA0009259B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA2AB8361A818C0D00DA90FC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		AA2C7F751A8199FE00BF366C /* PokemonSkillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonSkillCell.h; sourceTree = "<group>"; };
+		AA2C7F761A8199FE00BF366C /* PokemonSkillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonSkillCell.m; sourceTree = "<group>"; };
 		AA34C152181D612E00C2EAE1 /* pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokedex.json; path = Resources/pokedex.json; sourceTree = "<group>"; };
 		AA34C155181D616900C2EAE1 /* PokemonCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonCache.h; sourceTree = "<group>"; };
 		AA34C156181D616900C2EAE1 /* PokemonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonCache.m; sourceTree = "<group>"; };
@@ -146,6 +151,8 @@
 			children = (
 				47AA4B4718B6E41A009C7A81 /* PokemonListCell.h */,
 				47AA4B4818B6E41A009C7A81 /* PokemonListCell.m */,
+				AA2C7F751A8199FE00BF366C /* PokemonSkillCell.h */,
+				AA2C7F761A8199FE00BF366C /* PokemonSkillCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -208,6 +215,7 @@
 				99EA6691181A9CEA0009259B /* AppDelegate.m */,
 				99EA6693181A9CEA0009259B /* Main.storyboard */,
 				99EA6696181A9CEA0009259B /* ViewController.h */,
+				AA2AB8361A818C0D00DA90FC /* LaunchScreen.xib */,
 				99EA6697181A9CEA0009259B /* ViewController.m */,
 				1B2FE1DE19FC33A30060AE1E /* Images.xcassets */,
 				99EA6688181A9CEA0009259B /* Supporting Files */,
@@ -403,6 +411,7 @@
 				1B2FE1DF19FC33A30060AE1E /* Images.xcassets in Resources */,
 				AA34C153181D612E00C2EAE1 /* pokedex.json in Resources */,
 				99EA668C181A9CEA0009259B /* InfoPlist.strings in Resources */,
+				AA2AB8371A818C0D00DA90FC /* LaunchScreen.xib in Resources */,
 				99EA6695181A9CEA0009259B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +473,7 @@
 				AA396FAC1831CBD400B0A34D /* PokemonSearchViewController.m in Sources */,
 				47B2AC8C18C03D5B001D8481 /* PokemonAboutViewController.m in Sources */,
 				47B2AC8518C0320E001D8481 /* PokemonNavigationController.m in Sources */,
+				AA2C7F771A8199FE00BF366C /* PokemonSkillCell.m in Sources */,
 				99EA6698181A9CEA0009259B /* ViewController.m in Sources */,
 				AADDFFF81829A9F700A02825 /* PokemonSkill.m in Sources */,
 				AA9D86DA183D665C00DBC14C /* SectionDataSource.m in Sources */,
