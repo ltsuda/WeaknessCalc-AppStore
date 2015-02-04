@@ -34,14 +34,16 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
 	// Do any additional setup after loading the view.
 
 
-    NSString *skillName = [[PokemonSkill stringFromSkillType:self.pokemon.firstType] lowercaseString];
+    NSString *skillName = [[PokemonSkill stringFromSkillType:self.pokemon.firstType] uppercaseString];
     self.backgroundImageView.image = [UIImage imageNamed:skillName];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@bg.png", skillName]] forBarMetrics:UIBarMetricsDefault];
-    self.navigationController.navigationBar.translucent = NO;
+    
+    
+    //    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@bg.png", skillName]] forBarMetrics:UIBarMetricsDefault];
+//    self.navigationController.navigationBar.translucent = YES;
     
     
     //change TableViewHeader color
-    [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
+//    [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
     
     
     
