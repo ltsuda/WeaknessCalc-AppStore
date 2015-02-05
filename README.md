@@ -1,4 +1,4 @@
-PokeWeakness - for iOS7
+PokeWeakness - for iOS8
 ============
 The easiest way to calculate Pokemon weaknesses or resistances.
 
