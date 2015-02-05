@@ -32,7 +32,7 @@
     
     //add background search image
     UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"about"] drawInRect:self.view.bounds];
+    [[UIImage imageNamed:@"search"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
@@ -49,6 +49,7 @@
     self.translatorLabel.text = NSLocalizedString(@"Translator", @"");
     
     UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    doneButton.tintColor = [UIColor blackColor];
     doneButton.frame = CGRectMake((self.view.bounds.size.width)/2 - 30, (self.view.bounds.size.height) - 30, 60, 30);
     [doneButton setTitle: NSLocalizedString(@"Done", @"") forState:UIControlStateNormal];
     

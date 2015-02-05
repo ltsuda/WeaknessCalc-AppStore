@@ -11,6 +11,7 @@
 #import "PokemonSkill.h"
 #import "SectionDataSource.h"
 #import "PokemonSkillCell.h"
+#import "QuartzCore/QuartzCore.h"
 
 @interface PokemonDetailsViewController ()
 
@@ -21,6 +22,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *firstTypeImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *secondTypeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *windowImagaView;
+@property (weak, nonatomic) IBOutlet UIImageView *tableViewWindowImageView;
 
 @end
 
@@ -33,26 +36,26 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
-
+    
     NSString *skillName = [[PokemonSkill stringFromSkillType:self.pokemon.firstType] uppercaseString];
     self.backgroundImageView.image = [UIImage imageNamed:skillName];
     
+    self.navigationController.navigationBar.barTintColor = [UIColor lightGrayColor];
+    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+    self.navigationController.navigationBar.translucent = NO;
     
-    //    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@bg.png", skillName]] forBarMetrics:UIBarMetricsDefault];
-//    self.navigationController.navigationBar.translucent = YES;
+    self.windowImagaView.layer.cornerRadius = 7.5f;
+    self.windowImagaView.clipsToBounds = YES;
     
-    
-    //change TableViewHeader color
-//    [[UITableViewHeaderFooterView appearance] setTintColor:[UIColor lightTextColor]];
-    
-    
+    self.tableViewWindowImageView.layer.cornerRadius = 7.5f;
+    self.tableViewWindowImageView.alpha = 0.25f;
+    self.tableViewWindowImageView.clipsToBounds = YES;
     
     self.numberLabel.text = [NSString stringWithFormat:@"#%ld", (long)self.pokemon.objectID];
     self.firstTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:self.pokemon.firstType]];
     self.secondTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:self.pokemon.secondType]];
     self.thumbImageView.image = [UIImage imageNamed:self.pokemon.nameEN];
     self.title = self.pokemon.name;
-    
 
     self.datasource = [[SectionDataSource alloc] initWithCellIdentifier:kSkillCellIdentifier
                                                      configureCellBlock:^(PokemonSkillCell *cell, PokemonSkill *item) {
@@ -62,6 +65,12 @@ static NSString *kSkillCellIdentifier = @"kSkillCellIdentifier";
     self.datasource.items = @[self.pokemon.neutrals, self.pokemon.weakness, self.pokemon.resistances];
     self.skillsTableView.dataSource = self.datasource;
     
+    //set firstTypeImageView position to secondTypeImageView's position
+    if ([PokemonSkill stringFromSkillType:self.pokemon.secondType] == [PokemonSkill stringFromSkillType:PokemonTypeNone]) {
+        self.secondTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:self.pokemon.firstType]];
+        self.firstTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:PokemonTypeNone]];
+    }
+        
     [self.skillsTableView reloadData];
 }
 

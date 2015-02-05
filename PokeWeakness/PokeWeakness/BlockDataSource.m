@@ -54,7 +54,6 @@
                                                             forIndexPath:indexPath];
     id item = [self itemAtIndexPath:indexPath];
     
-    //
     if (self.configureCellBlock) {
         self.configureCellBlock(cell, item);
     }

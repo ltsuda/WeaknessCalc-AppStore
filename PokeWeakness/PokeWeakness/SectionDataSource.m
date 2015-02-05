@@ -33,8 +33,10 @@ titleForHeaderInSection:(NSInteger)section
     NSString *title = nil;
     NSInteger rows = [self tableView:tableView
                numberOfRowsInSection:section];
+    
     if (rows)
     {
+
         switch (section)
         {
             case 0:
@@ -49,8 +51,11 @@ titleForHeaderInSection:(NSInteger)section
                 title = @"Resistant Against:";
                 break;
         }
+        
     }
     return title;
 }
+
+
 
 @end
