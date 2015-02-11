@@ -74,7 +74,7 @@
             SLComposeViewController *facebookSheet = [SLComposeViewController
                                                       composeViewControllerForServiceType:SLServiceTypeFacebook];
             [facebookSheet setInitialText: NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
-            [facebookSheet addImage:[UIImage imageNamed:@"search"]];
+            [facebookSheet addImage:[UIImage imageNamed:@"Main"]];
             
             [self presentViewController:facebookSheet animated:YES completion:nil];
         }
@@ -96,7 +96,7 @@
             SLComposeViewController *tweetSheet = [SLComposeViewController
                                                    composeViewControllerForServiceType:SLServiceTypeTwitter];
             [tweetSheet setInitialText:NSLocalizedString(@"Search Pokemon, prepare your strategy and defeat your friends!", @"")];
-            [tweetSheet addImage:[UIImage imageNamed:@"search"]];
+            [tweetSheet addImage:[UIImage imageNamed:@"Main"]];
             
             [self presentViewController:tweetSheet animated:YES completion:nil];
         }

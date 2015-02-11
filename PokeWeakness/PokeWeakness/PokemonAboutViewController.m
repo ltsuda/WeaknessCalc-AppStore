@@ -51,6 +51,8 @@
     UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     doneButton.tintColor = [UIColor blackColor];
     doneButton.frame = CGRectMake((self.view.bounds.size.width)/2 - 30, (self.view.bounds.size.height) - 30, 60, 30);
+    doneButton.tintColor = [UIColor grayColor];
+    [doneButton.titleLabel setFont:[UIFont boldSystemFontOfSize:[UIFont systemFontSize]]];
     [doneButton setTitle: NSLocalizedString(@"Done", @"") forState:UIControlStateNormal];
     
     [doneButton addTarget:self action:@selector(doneButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
