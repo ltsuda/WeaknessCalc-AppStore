@@ -112,7 +112,10 @@
     }
     else if (index == 3)
     {
-        [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"itms-apps://itunes.com/app/id942553605"]];
+//        [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"itms-apps://itunes.com/app/id966429359"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/br/app/weaknesscalc/id966429359"]];
+        
+
     }
 }
 
