@@ -28,7 +28,7 @@
     self.nameLabel.text = pokemon.name;
     self.firstTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:pokemon.firstType]];
     self.secondTypeImageView.image = [UIImage imageNamed:[PokemonSkill stringFromSkillType:pokemon.secondType]];
-    self.pokemonImageView.image = [UIImage imageNamed:pokemon.name] ?: [UIImage imageNamed:@"star"];
+    self.pokemonImageView.image = [UIImage imageNamed:pokemon.nameEN] ?: [UIImage imageNamed:@"star"];
 }
 
 @end
