@@ -5,6 +5,6 @@ DEPENDENCIES:
   - RNFrostedSidebar
 
 SPEC CHECKSUMS:
-  RNFrostedSidebar: f1d95d9b2627f13cc10e75d36e751a623eec079c
+  RNFrostedSidebar: 9491d8627e5e99b92334d36def432c0faf7ebae4
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.38.2
