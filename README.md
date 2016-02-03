@@ -1,7 +1,12 @@
 PokeWeakness - for iOS8
 ============
-The easiest way to calculate Pokemon weaknesses or resistances.
+Do you play Pokémon on 3DS/2DS? So this app is for YOU!
 
-Do you know what type is your Pokemon's enemy? Just search it and prepare your strategy to win !
+The easiest way to calculate Pokémon weaknesses and resistances.
 
-Get 649 Pokemon for free and if you like this app, buy the newest Kalos Pokemon.
+Do you know what type is your enemy's pokémon? Just search it and prepare your strategy to win!
+
+Get 719 all Pokémon including Mega Evolutions!
+
+
+*The app doesn’t consider any Pokémon ability in the type information, so be aware on the game*
