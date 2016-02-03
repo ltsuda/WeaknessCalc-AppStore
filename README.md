@@ -1,4 +1,4 @@
-PokeWeakness - for iOS8
+WeaknessCalc - for iOS8
 ============
 Do you play Pokémon on 3DS/2DS? So this app is for YOU!
 
